@@ -1,0 +1,6218 @@
+[
+  {
+    "codigo": 2611001,
+    "ocupación": "Abogado"
+  },
+  {
+    "codigo": 2611007,
+    "ocupación": "Abogado con especialidad de derecho civil o procesal"
+  },
+  {
+    "codigo": 2611008,
+    "ocupación": "Abogado con especialidad de derecho internacional público, relaciones internacionales e integración regional"
+  },
+  {
+    "codigo": 2611009,
+    "ocupación": "Abogado con especialidad en derecho civil o procesal civil"
+  },
+  {
+    "codigo": 2611010,
+    "ocupación": "Abogado con especialidad en derecho constitucional"
+  },
+  {
+    "codigo": 2611011,
+    "ocupación": "Abogado con especialidad en derecho de las mujeres, genero y acceso a la justicia"
+  },
+  {
+    "codigo": 2611005,
+    "ocupación": "Abogado con especialidad en derecho de propiedad privada"
+  },
+  {
+    "codigo": 2611012,
+    "ocupación": "Abogado con especialidad en derecho del Trabajo y de la Seguridad Social"
+  },
+  {
+    "codigo": 2611006,
+    "ocupación": "Abogado con especialidad en derecho indígena"
+  },
+  {
+    "codigo": 2611004,
+    "ocupación": "Abogado con especialidad en derecho laboral"
+  },
+  {
+    "codigo": 2611013,
+    "ocupación": "Abogado con especialidad en derecho mercantil"
+  },
+  {
+    "codigo": 2611003,
+    "ocupación": "Abogado con especialidad en derecho penal"
+  },
+  {
+    "codigo": 2611014,
+    "ocupación": "Abogado con especialidad en derechos humanos"
+  },
+  {
+    "codigo": 9624001,
+    "ocupación": "Acarreador de agua y recolectores  de  leña"
+  },
+  {
+    "codigo": 5162003,
+    "ocupación": "Acompañante de personas con minusvalía"
+  },
+  {
+    "codigo": 2659004,
+    "ocupación": "Acróbata"
+  },
+  {
+    "codigo": 2655001,
+    "ocupación": "Actor de cine"
+  },
+  {
+    "codigo": 2655004,
+    "ocupación": "Actor de comedia"
+  },
+  {
+    "codigo": 2655002,
+    "ocupación": "Actor de teatro"
+  },
+  {
+    "codigo": 2655003,
+    "ocupación": "Actor de televisión"
+  },
+  {
+    "codigo": 2120004,
+    "ocupación": "Actuario"
+  },
+  {
+    "codigo": 3230004,
+    "ocupación": "Acupuntor"
+  },
+  {
+    "codigo": 6129003,
+    "ocupación": "Adiestrador de perros"
+  },
+  {
+    "codigo": 5161001,
+    "ocupación": "Adivino"
+  },
+  {
+    "codigo": 2412003,
+    "ocupación": "Administrador aduanero"
+  },
+  {
+    "codigo": 2412004,
+    "ocupación": "Administrador aduanero y comercio internacional"
+  },
+  {
+    "codigo": 5152003,
+    "ocupación": "Administrador de alimentos y bebidas"
+  },
+  {
+    "codigo": 1114007,
+    "ocupación": "Administrador de asociación empresarial"
+  },
+  {
+    "codigo": 2421001,
+    "ocupación": "Administrador de empresa"
+  },
+  {
+    "codigo": 2422001,
+    "ocupación": "Administrador de la calidad"
+  },
+  {
+    "codigo": 1114004,
+    "ocupación": "Administrador de partido político"
+  },
+  {
+    "codigo": 3513003,
+    "ocupación": "Administrador de redes de computadoras"
+  },
+  {
+    "codigo": 2412006,
+    "ocupación": "Administrador de seguros y fianzas"
+  },
+  {
+    "codigo": 2522001,
+    "ocupación": "Administrador de sistemas"
+  },
+  {
+    "codigo": 3333005,
+    "ocupación": "Administrador del recurso humano"
+  },
+  {
+    "codigo": 2351004,
+    "ocupación": "Administrador educativo"
+  },
+  {
+    "codigo": 2421003,
+    "ocupación": "Administrador en formulación y evaluación de proyecto"
+  },
+  {
+    "codigo": 2422002,
+    "ocupación": "Administrador industrial"
+  },
+  {
+    "codigo": 2412007,
+    "ocupación": "Administrador tributarios y de tecnologías de aseguramiento"
+  },
+  {
+    "codigo": 5111001,
+    "ocupación": "Aeromoza (o)"
+  },
+  {
+    "codigo": 7224004,
+    "ocupación": "Afilador de herramientas"
+  },
+  {
+    "codigo": 7224003,
+    "ocupación": "Afilador de herramientas de corte"
+  },
+  {
+    "codigo": 7224001,
+    "ocupación": "Afilador de sierras y cuchillas para madera"
+  },
+  {
+    "codigo": 7312006,
+    "ocupación": "Afinador de instrumentos musicales de cuerdas"
+  },
+  {
+    "codigo": 7312005,
+    "ocupación": "Afinador de instrumentos musicales de percusión"
+  },
+  {
+    "codigo": 7312004,
+    "ocupación": "Afinador de instrumentos musicales de viento"
+  },
+  {
+    "codigo": 3359007,
+    "ocupación": "Agente administrativo de consulados"
+  },
+  {
+    "codigo": 3351001,
+    "ocupación": "Agente de aduanas"
+  },
+  {
+    "codigo": 3311001,
+    "ocupación": "Agente de bolsa"
+  },
+  {
+    "codigo": 3311002,
+    "ocupación": "Agente de cambio"
+  },
+  {
+    "codigo": 3324002,
+    "ocupación": "Agente de compras"
+  },
+  {
+    "codigo": 3333001,
+    "ocupación": "Agente de intermediación laboral"
+  },
+  {
+    "codigo": 3339001,
+    "ocupación": "Agente de publicidad"
+  },
+  {
+    "codigo": 5414003,
+    "ocupación": "Agente de seguridad privada"
+  },
+  {
+    "codigo": 3321001,
+    "ocupación": "Agente de seguros"
+  },
+  {
+    "codigo": 4221002,
+    "ocupación": "Agente de ventas de agencia de viajes"
+  },
+  {
+    "codigo": 4221001,
+    "ocupación": "Agente de viajes"
+  },
+  {
+    "codigo": 3339002,
+    "ocupación": "Agente deportivos"
+  },
+  {
+    "codigo": 3334001,
+    "ocupación": "Agente inmobiliario"
+  },
+  {
+    "codigo": 3339003,
+    "ocupación": "Agente literario"
+  },
+  {
+    "codigo": 3339005,
+    "ocupación": "Agente teatrales"
+  },
+  {
+    "codigo": 6111006,
+    "ocupación": "Agricultor de cultivos extensivos"
+  },
+  {
+    "codigo": 6113010,
+    "ocupación": "Agricultor de huertas, invernaderos, viveros o jardines"
+  },
+  {
+    "codigo": 6112010,
+    "ocupación": "Agricultor de plantaciones de árboles y arbustos"
+  },
+  {
+    "codigo": 2165002,
+    "ocupación": "Agrimensor"
+  },
+  {
+    "codigo": 2132001,
+    "ocupación": "Agrónomo"
+  },
+  {
+    "codigo": 7533004,
+    "ocupación": "Ajustador y reparador de prendas de vestir"
+  },
+  {
+    "codigo": 7112001,
+    "ocupación": "Albañil"
+  },
+  {
+    "codigo": 7123001,
+    "ocupación": "Albañil en acabados "
+  },
+  {
+    "codigo": 1113001,
+    "ocupación": "Alcalde"
+  },
+  {
+    "codigo": 7314001,
+    "ocupación": "Alfarero"
+  },
+  {
+    "codigo": 3359008,
+    "ocupación": "Alguacil"
+  },
+  {
+    "codigo": 5152004,
+    "ocupación": "Ama de llaves"
+  },
+  {
+    "codigo": 2652008,
+    "ocupación": "Ambientador musical"
+  },
+  {
+    "codigo": 2412005,
+    "ocupación": "Analista de crédito"
+  },
+  {
+    "codigo": 2511002,
+    "ocupación": "Analista de sistemas informáticos"
+  },
+  {
+    "codigo": 2413001,
+    "ocupación": "Analista financiero"
+  },
+  {
+    "codigo": 3119001,
+    "ocupación": "Analistas de organización y métodos"
+  },
+  {
+    "codigo": 2636010,
+    "ocupación": "Anciano religioso"
+  },
+  {
+    "codigo": 5113005,
+    "ocupación": "Anfitrion de turismo comunitario"
+  },
+  {
+    "codigo": 5113002,
+    "ocupación": "Animador turístico"
+  },
+  {
+    "codigo": 2632002,
+    "ocupación": "Antropólogo"
+  },
+  {
+    "codigo": 2632003,
+    "ocupación": "Antropólogo con especialidad en medicina forense"
+  },
+  {
+    "codigo": 7535001,
+    "ocupación": "Apelambrador de cuero de animales"
+  },
+  {
+    "codigo": 6123001,
+    "ocupación": "Apicultor"
+  },
+  {
+    "codigo": 7544001,
+    "ocupación": "Aplicador de plaguicidas"
+  },
+  {
+    "codigo": 2636008,
+    "ocupación": "Apóstol y profeta"
+  },
+  {
+    "codigo": 3413001,
+    "ocupación": "Aprendis de pastor"
+  },
+  {
+    "codigo": 3422003,
+    "ocupación": "Árbitro deportivo"
+  },
+  {
+    "codigo": 2621001,
+    "ocupación": "Archivero"
+  },
+  {
+    "codigo": 9311004,
+    "ocupación": "Arenero"
+  },
+  {
+    "codigo": 7111008,
+    "ocupación": "Armador de construcción"
+  },
+  {
+    "codigo": 2632004,
+    "ocupación": "Arqueólogo"
+  },
+  {
+    "codigo": 2161001,
+    "ocupación": "Arquitecto"
+  },
+  {
+    "codigo": 2162001,
+    "ocupación": "Arquitecto paisajistas"
+  },
+  {
+    "codigo": 9212001,
+    "ocupación": "Arriero"
+  },
+  {
+    "codigo": 7318003,
+    "ocupación": "Artesano de artículos de cuero y materiales similares"
+  },
+  {
+    "codigo": 7314004,
+    "ocupación": "Artesano de figuras de yeso (alcancillas)"
+  },
+  {
+    "codigo": 7314003,
+    "ocupación": "Artesano de figuras y mascaras de barro, arcilla y otros"
+  },
+  {
+    "codigo": 7318001,
+    "ocupación": "Artesano de los tejidos"
+  },
+  {
+    "codigo": 7314005,
+    "ocupación": "Artesano en la elaboración de estufas y cocinas de arcilla o barro"
+  },
+  {
+    "codigo": 2636002,
+    "ocupación": "Arzobispo"
+  },
+  {
+    "codigo": 8189000,
+    "ocupación": "Ascensorista"
+  },
+  {
+    "codigo": 3321003,
+    "ocupación": "Asegurador"
+  },
+  {
+    "codigo": 7523002,
+    "ocupación": "Aserrador"
+  },
+  {
+    "codigo": 8172008,
+    "ocupación": "Aserrador u Operador de madera"
+  },
+  {
+    "codigo": 3334002,
+    "ocupación": "Asesor de bienes raíces"
+  },
+  {
+    "codigo": 2351002,
+    "ocupación": "Asesor educativo"
+  },
+  {
+    "codigo": 2619002,
+    "ocupación": "Asesor legal"
+  },
+  {
+    "codigo": 3343002,
+    "ocupación": "Asistente administrativo"
+  },
+  {
+    "codigo": 5152001,
+    "ocupación": "Asistente de ama de llaves"
+  },
+  {
+    "codigo": 3311004,
+    "ocupación": "Asistente de mercadeo"
+  },
+  {
+    "codigo": 4416001,
+    "ocupación": "Asistente de recursos humanos"
+  },
+  {
+    "codigo": 5223001,
+    "ocupación": "Asistente de venta de tiendas y almacenes"
+  },
+  {
+    "codigo": 3213002,
+    "ocupación": "Asistente farmacéutico"
+  },
+  {
+    "codigo": 3256003,
+    "ocupación": "Asistente Médico"
+  },
+  {
+    "codigo": 3240001,
+    "ocupación": "Asistente veterinario"
+  },
+  {
+    "codigo": 5161002,
+    "ocupación": "Astrólogo"
+  },
+  {
+    "codigo": 2111002,
+    "ocupación": "Astrónomo"
+  },
+  {
+    "codigo": 3421001,
+    "ocupación": "Atleta"
+  },
+  {
+    "codigo": 2266001,
+    "ocupación": "Audiólogo y logopeda"
+  },
+  {
+    "codigo": 2511003,
+    "ocupación": "Auditor de sistemas"
+  },
+  {
+    "codigo": 2411002,
+    "ocupación": "Auditor general"
+  },
+  {
+    "codigo": 4321006,
+    "ocupación": "Auxiliar de bodega"
+  },
+  {
+    "codigo": 3411001,
+    "ocupación": "Auxiliar de bufete de Abogado"
+  },
+  {
+    "codigo": 4311001,
+    "ocupación": "Auxiliar de contabilidad"
+  },
+  {
+    "codigo": 2412001,
+    "ocupación": "Auxiliar de créditos"
+  },
+  {
+    "codigo": 3251001,
+    "ocupación": "Auxiliar de dentista"
+  },
+  {
+    "codigo": 5312001,
+    "ocupación": "Auxiliar de Maestro"
+  },
+  {
+    "codigo": 8121001,
+    "ocupación": "Auxiliar de máquina herramientas metalmecánica"
+  },
+  {
+    "codigo": 3311003,
+    "ocupación": "Auxiliar de operaciones financieras"
+  },
+  {
+    "codigo": 9611001,
+    "ocupación": "Auxiliar de recogida de basura"
+  },
+  {
+    "codigo": 9621006,
+    "ocupación": "Auxiliar de reparto"
+  },
+  {
+    "codigo": 9329001,
+    "ocupación": "Auxiliar de soldadura"
+  },
+  {
+    "codigo": 5112004,
+    "ocupación": "Auxiliar de transporte público"
+  },
+  {
+    "codigo": 2120002,
+    "ocupación": "Auxiliar estadístico"
+  },
+  {
+    "codigo": 3412001,
+    "ocupación": "Auxiliar o asistente sociale"
+  },
+  {
+    "codigo": 6122011,
+    "ocupación": "Avicultor  "
+  },
+  {
+    "codigo": 6122010,
+    "ocupación": "Avicultor de cría de aves exóticas"
+  },
+  {
+    "codigo": 5162002,
+    "ocupación": "Ayuda de cámara"
+  },
+  {
+    "codigo": 9211002,
+    "ocupación": "Ayudante agropecuario"
+  },
+  {
+    "codigo": 9211003,
+    "ocupación": "Ayudante de acuicultura"
+  },
+  {
+    "codigo": 9313001,
+    "ocupación": "Ayudante de albañil"
+  },
+  {
+    "codigo": 5322002,
+    "ocupación": "Ayudante de ambulancia"
+  },
+  {
+    "codigo": 3258001,
+    "ocupación": "Ayudante de ambulancia y paramédico"
+  },
+  {
+    "codigo": 6123002,
+    "ocupación": "Ayudante de apiario"
+  },
+  {
+    "codigo": 4321001,
+    "ocupación": "Ayudante de bodega"
+  },
+  {
+    "codigo": 9311001,
+    "ocupación": "Ayudante de bombeo"
+  },
+  {
+    "codigo": 9333003,
+    "ocupación": "Ayudante de camión"
+  },
+  {
+    "codigo": 9311003,
+    "ocupación": "Ayudante de cantera"
+  },
+  {
+    "codigo": 9333001,
+    "ocupación": "Ayudante de carga de mercancías"
+  },
+  {
+    "codigo": 9333002,
+    "ocupación": "Ayudante de carga en empresa de mudanzas"
+  },
+  {
+    "codigo": 9412001,
+    "ocupación": "Ayudante de cocina"
+  },
+  {
+    "codigo": 5322001,
+    "ocupación": "Ayudante de enfermería a domicilio"
+  },
+  {
+    "codigo": 3221001,
+    "ocupación": "Ayudante de enfermería en instituciones"
+  },
+  {
+    "codigo": 7126003,
+    "ocupación": "Ayudante de fontanería"
+  },
+  {
+    "codigo": 9313002,
+    "ocupación": "Ayudante de grúa"
+  },
+  {
+    "codigo": 9313003,
+    "ocupación": "Ayudante de grúa puente"
+  },
+  {
+    "codigo": 9214001,
+    "ocupación": "Ayudante de jardinería y horticultura"
+  },
+  {
+    "codigo": 6224002,
+    "ocupación": "Ayudante de la caza"
+  },
+  {
+    "codigo": 9412002,
+    "ocupación": "Ayudante de la industria de alimentos"
+  },
+  {
+    "codigo": 9329003,
+    "ocupación": "Ayudante de la industria de fabricación de equipos"
+  },
+  {
+    "codigo": 9329007,
+    "ocupación": "Ayudante de la industria de la madera"
+  },
+  {
+    "codigo": 9329008,
+    "ocupación": "Ayudante de la industria de la piel"
+  },
+  {
+    "codigo": 9329009,
+    "ocupación": "Ayudante de la industria del metal"
+  },
+  {
+    "codigo": 9329002,
+    "ocupación": "Ayudante de la industria manufacturera"
+  },
+  {
+    "codigo": 9329004,
+    "ocupación": "Ayudante de la industria pesada"
+  },
+  {
+    "codigo": 9329005,
+    "ocupación": "Ayudante de la industria química"
+  },
+  {
+    "codigo": 9329006,
+    "ocupación": "Ayudante de la industria textil"
+  },
+  {
+    "codigo": 9629001,
+    "ocupación": "Ayudante de la industrias gráficas"
+  },
+  {
+    "codigo": 6222003,
+    "ocupación": "Ayudante de la pesca"
+  },
+  {
+    "codigo": 9312003,
+    "ocupación": "Ayudante de laboratorista de suelos"
+  },
+  {
+    "codigo": 9312002,
+    "ocupación": "Ayudante de mantenimiento de carreteras"
+  },
+  {
+    "codigo": 9329011,
+    "ocupación": "Ayudante de mecánico"
+  },
+  {
+    "codigo": 5131001,
+    "ocupación": "Ayudante de mesero"
+  },
+  {
+    "codigo": 9311002,
+    "ocupación": "Ayudante de minas"
+  },
+  {
+    "codigo": 9329010,
+    "ocupación": "Ayudante de montaje manual"
+  },
+  {
+    "codigo": 9312001,
+    "ocupación": "Ayudante de obras públicas"
+  },
+  {
+    "codigo": 9216001,
+    "ocupación": "Ayudante de pesca y acuicultura"
+  },
+  {
+    "codigo": 6123004,
+    "ocupación": "Ayudante de sericultura"
+  },
+  {
+    "codigo": 9312004,
+    "ocupación": "Ayudante de topógrafo"
+  },
+  {
+    "codigo": 5164001,
+    "ocupación": "Ayudante de veterinario"
+  },
+  {
+    "codigo": 9215001,
+    "ocupación": "Ayudante forestal"
+  },
+  {
+    "codigo": 2653001,
+    "ocupación": "Bailarín"
+  },
+  {
+    "codigo": 2653002,
+    "ocupación": "Bailarín de cabaret"
+  },
+  {
+    "codigo": 9312005,
+    "ocupación": "Banderista (señalización de obras)"
+  },
+  {
+    "codigo": 5141001,
+    "ocupación": "Barbero"
+  },
+  {
+    "codigo": 7132001,
+    "ocupación": "Barnizador de muebles de madera"
+  },
+  {
+    "codigo": 7132002,
+    "ocupación": "Barnizador de muebles de metal"
+  },
+  {
+    "codigo": 9613001,
+    "ocupación": "Barrendero"
+  },
+  {
+    "codigo": 7212002,
+    "ocupación": "Barrenero de minas"
+  },
+  {
+    "codigo": 5132001,
+    "ocupación": "Bartender"
+  },
+  {
+    "codigo": 2622001,
+    "ocupación": "Bibliotecario"
+  },
+  {
+    "codigo": 2131001,
+    "ocupación": "Biólogo"
+  },
+  {
+    "codigo": 3141003,
+    "ocupación": "Bioquímico"
+  },
+  {
+    "codigo": 4321002,
+    "ocupación": "Bodeguero de restaurante"
+  },
+  {
+    "codigo": 5411001,
+    "ocupación": "Bombero"
+  },
+  {
+    "codigo": 7533003,
+    "ocupación": "Bordador"
+  },
+  {
+    "codigo": 2131002,
+    "ocupación": "Botánico"
+  },
+  {
+    "codigo": 9112001,
+    "ocupación": "Botones de hotel"
+  },
+  {
+    "codigo": 7224005,
+    "ocupación": "Bruñidor"
+  },
+  {
+    "codigo": 7541001,
+    "ocupación": "Buzo soldador"
+  },
+  {
+    "codigo": 4211005,
+    "ocupación": "Cajero de banco"
+  },
+  {
+    "codigo": 4211006,
+    "ocupación": "Cajero de restaurante"
+  },
+  {
+    "codigo": 4211003,
+    "ocupación": "Cajero en general"
+  },
+  {
+    "codigo": 5230001,
+    "ocupación": "Cajero y expendedor de billetes"
+  },
+  {
+    "codigo": 3112002,
+    "ocupación": "Calculista de construcción"
+  },
+  {
+    "codigo": 7213004,
+    "ocupación": "Calderero"
+  },
+  {
+    "codigo": 9311005,
+    "ocupación": "Calero"
+  },
+  {
+    "codigo": 7223001,
+    "ocupación": "Calibrador de instrumentos de precisión mecánica"
+  },
+  {
+    "codigo": 9112005,
+    "ocupación": "Camarera de hotel"
+  },
+  {
+    "codigo": 5111002,
+    "ocupación": "Camarero de bus"
+  },
+  {
+    "codigo": 3521002,
+    "ocupación": "Camarógrafo"
+  },
+  {
+    "codigo": 2652009,
+    "ocupación": "Cantante"
+  },
+  {
+    "codigo": 2652010,
+    "ocupación": "Cantautor"
+  },
+  {
+    "codigo": 7113001,
+    "ocupación": "Cantero tallador"
+  },
+  {
+    "codigo": 2352005,
+    "ocupación": "Capacitador a nivel administrativo"
+  },
+  {
+    "codigo": 2352007,
+    "ocupación": "Capacitador a nivel de desarrollo humano"
+  },
+  {
+    "codigo": 2352004,
+    "ocupación": "Capacitador a nivel de mercadeo y ventas"
+  },
+  {
+    "codigo": 2352006,
+    "ocupación": "Capacitador a nivel medio ambiental"
+  },
+  {
+    "codigo": 2424001,
+    "ocupación": "Capacitador de personal"
+  },
+  {
+    "codigo": 8342001,
+    "ocupación": "Capataz de máquina de movimiento de tierras y afines"
+  },
+  {
+    "codigo": 8343001,
+    "ocupación": "Capataz de Operador  de grúas y aparatos elevadores"
+  },
+  {
+    "codigo": 8131010,
+    "ocupación": "Capataz de Operador de instalaciones quebrantadoras, trituradoras y mezcladoras de sustancias químicas"
+  },
+  {
+    "codigo": 3152001,
+    "ocupación": "Capitán de cubierta"
+  },
+  {
+    "codigo": 5131004,
+    "ocupación": "Capitan de meseros"
+  },
+  {
+    "codigo": 3152005,
+    "ocupación": "Capitán de puerto"
+  },
+  {
+    "codigo": 6210002,
+    "ocupación": "Carbonero de carbón vegetal"
+  },
+  {
+    "codigo": 2636001,
+    "ocupación": "Cardenal"
+  },
+  {
+    "codigo": 2659005,
+    "ocupación": "Caricaturista"
+  },
+  {
+    "codigo": 7511001,
+    "ocupación": "Carnicero"
+  },
+  {
+    "codigo": 7115003,
+    "ocupación": "Carpintero  "
+  },
+  {
+    "codigo": 7115004,
+    "ocupación": "Carpintero de armado"
+  },
+  {
+    "codigo": 7115002,
+    "ocupación": "Carpintero de artezón"
+  },
+  {
+    "codigo": 4412001,
+    "ocupación": "Cartero"
+  },
+  {
+    "codigo": 2165001,
+    "ocupación": "Cartógrafo"
+  },
+  {
+    "codigo": 7515001,
+    "ocupación": "Catador de café"
+  },
+  {
+    "codigo": 7515002,
+    "ocupación": "Catador de vinos"
+  },
+  {
+    "codigo": 9331002,
+    "ocupación": "Cayuquero"
+  },
+  {
+    "codigo": 6224001,
+    "ocupación": "Cazador o trampero"
+  },
+  {
+    "codigo": 5311002,
+    "ocupación": "Celadora infantil"
+  },
+  {
+    "codigo": 7314002,
+    "ocupación": "Ceramista"
+  },
+  {
+    "codigo": 7222001,
+    "ocupación": "Cerrajero"
+  },
+  {
+    "codigo": 7317001,
+    "ocupación": "Cestero"
+  },
+  {
+    "codigo": 7317002,
+    "ocupación": "Cestero de muebles de mimbre"
+  },
+  {
+    "codigo": 4412002,
+    "ocupación": "Clasificador de correspondencia"
+  },
+  {
+    "codigo": 9612001,
+    "ocupación": "Clasificador de desechos"
+  },
+  {
+    "codigo": 7514004,
+    "ocupación": "Clasificador de frutas y verduras"
+  },
+  {
+    "codigo": 7543001,
+    "ocupación": "Clasificador y probador de productos (excluyendo alimentos y bebidas)"
+  },
+  {
+    "codigo": 4214001,
+    "ocupación": "Cobrador a pie"
+  },
+  {
+    "codigo": 5112002,
+    "ocupación": "Cobrador de ticket de transporte"
+  },
+  {
+    "codigo": 4214002,
+    "ocupación": "Cobrador en moto"
+  },
+  {
+    "codigo": 4214004,
+    "ocupación": "Cobrador por teléfono"
+  },
+  {
+    "codigo": 5120001,
+    "ocupación": "Cocinero"
+  },
+  {
+    "codigo": 3434004,
+    "ocupación": "Cocinero  doméstico"
+  },
+  {
+    "codigo": 3434002,
+    "ocupación": "Cocinero de alta cocina"
+  },
+  {
+    "codigo": 3434006,
+    "ocupación": "Cocinero de catering"
+  },
+  {
+    "codigo": 9411001,
+    "ocupación": "Cocinero de comidas rápidas"
+  },
+  {
+    "codigo": 4413001,
+    "ocupación": "Codificador  de datos y corrector de pruebas de imprenta y afines."
+  },
+  {
+    "codigo": 3511001,
+    "ocupación": "Codificador de datos"
+  },
+  {
+    "codigo": 2636012,
+    "ocupación": "Cofrade"
+  },
+  {
+    "codigo": 7534002,
+    "ocupación": "Colchonero"
+  },
+  {
+    "codigo": 7111003,
+    "ocupación": "Colocador de piedras naturales (laja, mármol y otras piedras)"
+  },
+  {
+    "codigo": 9334001,
+    "ocupación": "Colocador en estanterías"
+  },
+  {
+    "codigo": 2642002,
+    "ocupación": "Columnista"
+  },
+  {
+    "codigo": 7321008,
+    "ocupación": "Compaginador"
+  },
+  {
+    "codigo": 2652011,
+    "ocupación": "Compositor"
+  },
+  {
+    "codigo": 7512005,
+    "ocupación": "Confitero artesanal"
+  },
+  {
+    "codigo": 5153003,
+    "ocupación": "Conserje de establecimientos religioso"
+  },
+  {
+    "codigo": 5153001,
+    "ocupación": "Conserje de hotel"
+  },
+  {
+    "codigo": 5153002,
+    "ocupación": "Conserje en establecimientos no hoteleros"
+  },
+  {
+    "codigo": 2621003,
+    "ocupación": "Conservador  del patrimonio cultural"
+  },
+  {
+    "codigo": 7111002,
+    "ocupación": "Constructor de bahareque y otros materiales rústicos"
+  },
+  {
+    "codigo": 7312003,
+    "ocupación": "Constructor de instrumentos musicales de cuerdas"
+  },
+  {
+    "codigo": 7312002,
+    "ocupación": "Constructor de instrumentos musicales de percusión"
+  },
+  {
+    "codigo": 7312001,
+    "ocupación": "Constructor de instrumentos musicales de viento"
+  },
+  {
+    "codigo": 7111001,
+    "ocupación": "Constructor de ranchos"
+  },
+  {
+    "codigo": 2132002,
+    "ocupación": "Consultor forestal"
+  },
+  {
+    "codigo": 2411001,
+    "ocupación": "Contador general de empresa"
+  },
+  {
+    "codigo": 3333002,
+    "ocupación": "Contratista de mano de obra"
+  },
+  {
+    "codigo": 3133002,
+    "ocupación": "Controlador de alambique"
+  },
+  {
+    "codigo": 3133009,
+    "ocupación": "Controlador de aparatos de reacción, conversión en productos químicos (excepto petróleo y gas natural)"
+  },
+  {
+    "codigo": 3133012,
+    "ocupación": "Controlador de equipos de destilación y de reacción química"
+  },
+  {
+    "codigo": 3133013,
+    "ocupación": "Controlador de equipos de filtración y separación de sustancias químicas"
+  },
+  {
+    "codigo": 3135008,
+    "ocupación": "Controlador de hornos de minerales y de hornos de primera fusión de metales"
+  },
+  {
+    "codigo": 3135002,
+    "ocupación": "Controlador de hornos de segunda fusión de metales"
+  },
+  {
+    "codigo": 3133001,
+    "ocupación": "Controlador de instalaciones de abono artificial"
+  },
+  {
+    "codigo": 3133003,
+    "ocupación": "Controlador de instalaciones de producción de fibras sintéticas"
+  },
+  {
+    "codigo": 3133004,
+    "ocupación": "Controlador de instalaciones de tratamiento del petróleo crudo"
+  },
+  {
+    "codigo": 3133005,
+    "ocupación": "Controlador de instalaciones de tratamiento químico térmico"
+  },
+  {
+    "codigo": 3135003,
+    "ocupación": "Controlador de instalaciones de tratamiento térmico de metales"
+  },
+  {
+    "codigo": 3133015,
+    "ocupación": "Controlador de instalaciones de tratamientos químicos"
+  },
+  {
+    "codigo": 3133006,
+    "ocupación": "Controlador de instalaciones para la producción de cemento"
+  },
+  {
+    "codigo": 3133007,
+    "ocupación": "Controlador de instalaciones para tratamiento de látex y caucho"
+  },
+  {
+    "codigo": 3135005,
+    "ocupación": "Controlador de laminadoras de metales"
+  },
+  {
+    "codigo": 3133010,
+    "ocupación": "Controlador de máquina de licuefacción de gases"
+  },
+  {
+    "codigo": 3135010,
+    "ocupación": "Controlador de máquina estiradoras de metales"
+  },
+  {
+    "codigo": 3133011,
+    "ocupación": "Controlador de máquina evaporadoras de procesos químicos (excepto petróleo y gas natural)"
+  },
+  {
+    "codigo": 3135009,
+    "ocupación": "Controlador de máquina moldeadora de metales"
+  },
+  {
+    "codigo": 3135006,
+    "ocupación": "Controlador de máquina trefiladoras de metales"
+  },
+  {
+    "codigo": 3133008,
+    "ocupación": "Controlador de maquinas separadoras, centrifugadoras para tratamientos químicos"
+  },
+  {
+    "codigo": 3133014,
+    "ocupación": "Controlador de productos químicos (excepto petróleo)"
+  },
+  {
+    "codigo": 3154001,
+    "ocupación": "Controlador de tráfico aéreo"
+  },
+  {
+    "codigo": 3153002,
+    "ocupación": "Copiloto de avión"
+  },
+  {
+    "codigo": 2653003,
+    "ocupación": "Coreógrafo"
+  },
+  {
+    "codigo": 4413002,
+    "ocupación": "Corrector ortográfico "
+  },
+  {
+    "codigo": 3321002,
+    "ocupación": "Corredor de seguros"
+  },
+  {
+    "codigo": 2642005,
+    "ocupación": "Corresponsal"
+  },
+  {
+    "codigo": 7111004,
+    "ocupación": "Cortador de planchas prefabricadas "
+  },
+  {
+    "codigo": 7532003,
+    "ocupación": "Cortador de tela, cuero y afines"
+  },
+  {
+    "codigo": 7315001,
+    "ocupación": "Cortador de vidrio"
+  },
+  {
+    "codigo": 7536004,
+    "ocupación": "Cortador y cocedor de calzado"
+  },
+  {
+    "codigo": 5142004,
+    "ocupación": "Cosmetólogo"
+  },
+  {
+    "codigo": 7533001,
+    "ocupación": "Costurera"
+  },
+  {
+    "codigo": 2511001,
+    "ocupación": "Creador de sistemas informáticos"
+  },
+  {
+    "codigo": 6129001,
+    "ocupación": "Criador de animales domésticos diversos"
+  },
+  {
+    "codigo": 2619004,
+    "ocupación": "Criminalista"
+  },
+  {
+    "codigo": 2619003,
+    "ocupación": "Criminólogo"
+  },
+  {
+    "codigo": 5164002,
+    "ocupación": "Cuidador de animales en reservas naturales o parques zoológicos"
+  },
+  {
+    "codigo": 5142003,
+    "ocupación": "Cultor de belleza"
+  },
+  {
+    "codigo": 5169001,
+    "ocupación": "Curandero"
+  },
+  {
+    "codigo": 7535003,
+    "ocupación": "Curtidor"
+  },
+  {
+    "codigo": 5162001,
+    "ocupación": "Dama de compañía"
+  },
+  {
+    "codigo": 3331002,
+    "ocupación": "Declarante de aduanas"
+  },
+  {
+    "codigo": 3432002,
+    "ocupación": "Decorador de interiores"
+  },
+  {
+    "codigo": 2163002,
+    "ocupación": "Decorador de teatro"
+  },
+  {
+    "codigo": 2261001,
+    "ocupación": "Dentista"
+  },
+  {
+    "codigo": 5242002,
+    "ocupación": "Dependiente de almacen o demostrador de productos  "
+  },
+  {
+    "codigo": 5246003,
+    "ocupación": "Dependiente de mostrador de alimentos frescos: huevos, lácteos, frutas, verduras"
+  },
+  {
+    "codigo": 5246001,
+    "ocupación": "Dependiente de mostrador de carnes"
+  },
+  {
+    "codigo": 5246002,
+    "ocupación": "Dependiente de mostrador de pescado"
+  },
+  {
+    "codigo": 3421002,
+    "ocupación": "Deportista"
+  },
+  {
+    "codigo": 2513001,
+    "ocupación": "Desarrollador  web y multimedia"
+  },
+  {
+    "codigo": 2512001,
+    "ocupación": "Desarrollador de software"
+  },
+  {
+    "codigo": 2519001,
+    "ocupación": "Desarrollador y analista de software y multimedia no clasificados bajo otros epígrafes"
+  },
+  {
+    "codigo": 5245001,
+    "ocupación": "Despachador de gasolina o diesel"
+  },
+  {
+    "codigo": 7511005,
+    "ocupación": "Destazador o descuartizador"
+  },
+  {
+    "codigo": 3355002,
+    "ocupación": "Detectives privados"
+  },
+  {
+    "codigo": 3413002,
+    "ocupación": "Diácono"
+  },
+  {
+    "codigo": 3118001,
+    "ocupación": "Dibujante de la construcción"
+  },
+  {
+    "codigo": 3118003,
+    "ocupación": "Dibujante en cartografía y topografía"
+  },
+  {
+    "codigo": 3118004,
+    "ocupación": "Dibujante industriales"
+  },
+  {
+    "codigo": 2265001,
+    "ocupación": "Dietista y nutricionista"
+  },
+  {
+    "codigo": 4132001,
+    "ocupación": "Digitador de base de datos"
+  },
+  {
+    "codigo": 7542001,
+    "ocupación": "Dinamitero y pegador"
+  },
+  {
+    "codigo": 1112001,
+    "ocupación": "Directivo de la administración pública"
+  },
+  {
+    "codigo": 1212003,
+    "ocupación": "Director de agencia de colocación"
+  },
+  {
+    "codigo": 2652005,
+    "ocupación": "Director de banda de música y orquesta"
+  },
+  {
+    "codigo": 1223002,
+    "ocupación": "Director de biblioteca"
+  },
+  {
+    "codigo": 2654001,
+    "ocupación": "Director de cine"
+  },
+  {
+    "codigo": 1411004,
+    "ocupación": "Director de contabilidad de hotel"
+  },
+  {
+    "codigo": 1211003,
+    "ocupación": "Director de departamento administrativo"
+  },
+  {
+    "codigo": 1324004,
+    "ocupación": "Director de departamento de abastecimiento"
+  },
+  {
+    "codigo": 1221002,
+    "ocupación": "Director de departamento de comercialización"
+  },
+  {
+    "codigo": 1213001,
+    "ocupación": "Director de departamento de control de calidad"
+  },
+  {
+    "codigo": 1324007,
+    "ocupación": "Director de departamento de distribución"
+  },
+  {
+    "codigo": 1330001,
+    "ocupación": "Director de departamento de informática"
+  },
+  {
+    "codigo": 1223001,
+    "ocupación": "Director de departamento de investigación y desarrollo"
+  },
+  {
+    "codigo": 1219004,
+    "ocupación": "Director de departamento de operación en empresa de servicios de limpieza"
+  },
+  {
+    "codigo": 1324006,
+    "ocupación": "Director de departamento de operaciones en empresa de almacenamientos"
+  },
+  {
+    "codigo": 1420002,
+    "ocupación": "Director de departamento de operaciones en empresa de comercio mayorista y minorista"
+  },
+  {
+    "codigo": 1324009,
+    "ocupación": "Director de departamento de operaciones en empresa de comunicaciones"
+  },
+  {
+    "codigo": 1411005,
+    "ocupación": "Director de departamento de operaciones en empresa de hostelería"
+  },
+  {
+    "codigo": 1212006,
+    "ocupación": "Director de departamento de operaciones en empresa de intermediación"
+  },
+  {
+    "codigo": 1323005,
+    "ocupación": "Director de departamento de operaciones en empresa de la construcción"
+  },
+  {
+    "codigo": 1321010,
+    "ocupación": "Director de departamento de operaciones en empresa de la industria manufacturera"
+  },
+  {
+    "codigo": 1323006,
+    "ocupación": "Director de departamento de operaciones en empresa de obras públicas"
+  },
+  {
+    "codigo": 1412003,
+    "ocupación": "Director de departamento de operaciones en empresa de restaurantes"
+  },
+  {
+    "codigo": 1219006,
+    "ocupación": "Director de departamento de operaciones en empresa de servicios a empresa"
+  },
+  {
+    "codigo": 1219001,
+    "ocupación": "Director de departamento de operaciones en empresa de servicios de cuidados personales"
+  },
+  {
+    "codigo": 1324003,
+    "ocupación": "Director de departamento de operaciones en empresa de transporte"
+  },
+  {
+    "codigo": 1311002,
+    "ocupación": "Director de departamento de operaciones en empresa del sector de la agricultura"
+  },
+  {
+    "codigo": 1311004,
+    "ocupación": "Director de departamento de operaciones en empresa del sector de la silvicultura"
+  },
+  {
+    "codigo": 1212002,
+    "ocupación": "Director de departamento de personal"
+  },
+  {
+    "codigo": 1212005,
+    "ocupación": "Director de departamento de producción en empresa de intermediación"
+  },
+  {
+    "codigo": 1323001,
+    "ocupación": "Director de departamento de producción en empresa de la construcción"
+  },
+  {
+    "codigo": 1321008,
+    "ocupación": "Director de departamento de producción en empresa de la industria manufacturera"
+  },
+  {
+    "codigo": 1323003,
+    "ocupación": "Director de departamento de producción en empresa de obras públicas"
+  },
+  {
+    "codigo": 1412002,
+    "ocupación": "Director de departamento de producción en empresa de restaurantes"
+  },
+  {
+    "codigo": 1219003,
+    "ocupación": "Director de departamento de producción en empresa de servicios a empresa"
+  },
+  {
+    "codigo": 1311001,
+    "ocupación": "Director de departamento de producción en empresa del sector de la agricultura"
+  },
+  {
+    "codigo": 1311003,
+    "ocupación": "Director de departamento de producción en empresa del sector de la silvicultura"
+  },
+  {
+    "codigo": 1222001,
+    "ocupación": "Director de departamento de publicidad"
+  },
+  {
+    "codigo": 1212004,
+    "ocupación": "Director de departamento de relaciones laborales"
+  },
+  {
+    "codigo": 1222002,
+    "ocupación": "Director de departamento de relaciones públicas"
+  },
+  {
+    "codigo": 1221001,
+    "ocupación": "Director de departamento de ventas"
+  },
+  {
+    "codigo": 1211001,
+    "ocupación": "Director de departamento financiero"
+  },
+  {
+    "codigo": 1312001,
+    "ocupación": "Director de empresa de caza"
+  },
+  {
+    "codigo": 1322001,
+    "ocupación": "Director de explotación de minas"
+  },
+  {
+    "codigo": 1411002,
+    "ocupación": "Director de mantenimiento de hotel"
+  },
+  {
+    "codigo": 1411003,
+    "ocupación": "Director de mercadeo de hotel"
+  },
+  {
+    "codigo": 1114001,
+    "ocupación": "Director de organización no gubernamental"
+  },
+  {
+    "codigo": 1311005,
+    "ocupación": "Director de producción agropecuaria y silvicultura"
+  },
+  {
+    "codigo": 1344001,
+    "ocupación": "Director de servicios de bienestar social"
+  },
+  {
+    "codigo": 1343001,
+    "ocupación": "Director de servicios de cuidados de las personas de edad"
+  },
+  {
+    "codigo": 1341001,
+    "ocupación": "Director de servicios de cuidados infantiles"
+  },
+  {
+    "codigo": 1345001,
+    "ocupación": "Director de servicios de educación"
+  },
+  {
+    "codigo": 1342001,
+    "ocupación": "Director de servicios de salud"
+  },
+  {
+    "codigo": 2654002,
+    "ocupación": "Director de teatro"
+  },
+  {
+    "codigo": 2654003,
+    "ocupación": "Director de televisión"
+  },
+  {
+    "codigo": 1321003,
+    "ocupación": "Director del departamento de importación y exportación de la industria de confección"
+  },
+  {
+    "codigo": 1120001,
+    "ocupación": "Director general"
+  },
+  {
+    "codigo": 1211004,
+    "ocupación": "Director Gerente de agencia bancaria"
+  },
+  {
+    "codigo": 1211002,
+    "ocupación": "Director Gerente de empresa de administración y finanzas"
+  },
+  {
+    "codigo": 1324008,
+    "ocupación": "Director gerente de empresa de almacenamiento"
+  },
+  {
+    "codigo": 1324010,
+    "ocupación": "Director gerente de empresa de comunicaciones"
+  },
+  {
+    "codigo": 1221003,
+    "ocupación": "Director gerente de empresa de mercadeo y ventas"
+  },
+  {
+    "codigo": 1312002,
+    "ocupación": "Director gerente de empresa de pesca"
+  },
+  {
+    "codigo": 1219002,
+    "ocupación": "Director gerente de empresa de servicio personal"
+  },
+  {
+    "codigo": 1324005,
+    "ocupación": "Director gerente de empresa de transporte"
+  },
+  {
+    "codigo": 1321009,
+    "ocupación": "Director Gerente de industria manufacturera"
+  },
+  {
+    "codigo": 1349001,
+    "ocupación": "Director y gerente de servicios Profesional no clasificados bajo otros epígrafes"
+  },
+  {
+    "codigo": 1114006,
+    "ocupación": "Dirigente de asociación empresarial"
+  },
+  {
+    "codigo": 1114002,
+    "ocupación": "Dirigente de partido político"
+  },
+  {
+    "codigo": 1114003,
+    "ocupación": "Dirigente de sindicato de trabajadores"
+  },
+  {
+    "codigo": 3432001,
+    "ocupación": "Diseñador de interiores"
+  },
+  {
+    "codigo": 2163003,
+    "ocupación": "Diseñador de joyas"
+  },
+  {
+    "codigo": 2163001,
+    "ocupación": "Diseñador de modas"
+  },
+  {
+    "codigo": 2163004,
+    "ocupación": "Diseñador de muebles"
+  },
+  {
+    "codigo": 2166001,
+    "ocupación": "Diseñador gráfico y multimedia"
+  },
+  {
+    "codigo": 2521001,
+    "ocupación": "Diseñador y Administrador de bases de datos"
+  },
+  {
+    "codigo": 7513003,
+    "ocupación": "Distribuidor de leche fluida"
+  },
+  {
+    "codigo": 2310001,
+    "ocupación": "Docente universitario"
+  },
+  {
+    "codigo": 2622002,
+    "ocupación": "Documentalista"
+  },
+  {
+    "codigo": 6121018,
+    "ocupación": "Domador de caballos"
+  },
+  {
+    "codigo": 7522003,
+    "ocupación": "Ebanista"
+  },
+  {
+    "codigo": 2631001,
+    "ocupación": "Economista"
+  },
+  {
+    "codigo": 2631004,
+    "ocupación": "Economista con especialidad en comercio internacional"
+  },
+  {
+    "codigo": 2631006,
+    "ocupación": "Economista con especialidad en econometría"
+  },
+  {
+    "codigo": 2631003,
+    "ocupación": "Economista con especialidad en finanzas públicas"
+  },
+  {
+    "codigo": 2631002,
+    "ocupación": "Economista con especialidad en moneda y banca"
+  },
+  {
+    "codigo": 2631005,
+    "ocupación": "Economista con especialidad en proyectos de desarrollo"
+  },
+  {
+    "codigo": 5152002,
+    "ocupación": "Ecónomo y mayordomo doméstico"
+  },
+  {
+    "codigo": 5241004,
+    "ocupación": "Edecan"
+  },
+  {
+    "codigo": 2642003,
+    "ocupación": "Editor"
+  },
+  {
+    "codigo": 2352002,
+    "ocupación": "Educador para necesidades especiales."
+  },
+  {
+    "codigo": 2433002,
+    "ocupación": "Ejecutivo de ventas"
+  },
+  {
+    "codigo": 7313004,
+    "ocupación": "Elaborador  de trofeos, medallas, plaquetas conmemorativas y afines."
+  },
+  {
+    "codigo": 7516001,
+    "ocupación": "Elaborador de puros"
+  },
+  {
+    "codigo": 7125002,
+    "ocupación": "Elaborador de vitrales"
+  },
+  {
+    "codigo": 2636016,
+    "ocupación": "Elder"
+  },
+  {
+    "codigo": 7231008,
+    "ocupación": "Electricista automotriz (electromecánico de vehículos)"
+  },
+  {
+    "codigo": 7412001,
+    "ocupación": "Electricista especializado en maquinaria textil"
+  },
+  {
+    "codigo": 7411001,
+    "ocupación": "Electricista instalador domiciliar"
+  },
+  {
+    "codigo": 7411002,
+    "ocupación": "Electricista instalador industrial"
+  },
+  {
+    "codigo": 7411003,
+    "ocupación": "Electricista reparador de electrodomésticos."
+  },
+  {
+    "codigo": 7412002,
+    "ocupación": "Electromecánico"
+  },
+  {
+    "codigo": 7412003,
+    "ocupación": "Electromecánico industrial"
+  },
+  {
+    "codigo": 9321001,
+    "ocupación": "Embalador a mano"
+  },
+  {
+    "codigo": 5163001,
+    "ocupación": "Embalsamador de cadáveres"
+  },
+  {
+    "codigo": 7511002,
+    "ocupación": "Embutidor"
+  },
+  {
+    "codigo": 7511003,
+    "ocupación": "Embutidor (productos porcinos)"
+  },
+  {
+    "codigo": 4221003,
+    "ocupación": "Emisor de billetes aéreos"
+  },
+  {
+    "codigo": 9321004,
+    "ocupación": "Empacador de mármol"
+  },
+  {
+    "codigo": 7215001,
+    "ocupación": "Empalmador de cables"
+  },
+  {
+    "codigo": 9321002,
+    "ocupación": "Empaquetador"
+  },
+  {
+    "codigo": 4415001,
+    "ocupación": "Empleado de archivos"
+  },
+  {
+    "codigo": 4222001,
+    "ocupación": "Empleado de call center ( centro de atención a llamadas )"
+  },
+  {
+    "codigo": 4321003,
+    "ocupación": "Empleado de despacho de mercadería en la empresa"
+  },
+  {
+    "codigo": 4321004,
+    "ocupación": "Empleado de distribución de mercadería a domicilio"
+  },
+  {
+    "codigo": 4211004,
+    "ocupación": "Empleado de emisión de billetes"
+  },
+  {
+    "codigo": 4225001,
+    "ocupación": "Empleado de información"
+  },
+  {
+    "codigo": 9112004,
+    "ocupación": "Empleado de limpieza"
+  },
+  {
+    "codigo": 4322001,
+    "ocupación": "Empleado de servicios de apoyo a la producción"
+  },
+  {
+    "codigo": 4323001,
+    "ocupación": "Empleado de servicios de transporte"
+  },
+  {
+    "codigo": 4312001,
+    "ocupación": "Empleado de servicios estadísticos, financieros y de seguros"
+  },
+  {
+    "codigo": 4313001,
+    "ocupación": "Empleado encargados de las nóminas"
+  },
+  {
+    "codigo": 9112003,
+    "ocupación": "Encargado  de limpieza"
+  },
+  {
+    "codigo": 6111008,
+    "ocupación": "Encargado agrícola de cultivos extensivos"
+  },
+  {
+    "codigo": 6113001,
+    "ocupación": "Encargado agrícola de huertas, invernaderos, viveros o jardines"
+  },
+  {
+    "codigo": 6112011,
+    "ocupación": "Encargado agrícola de plantaciones de árboles y arbustos"
+  },
+  {
+    "codigo": 4321005,
+    "ocupación": "Encargado de bodega"
+  },
+  {
+    "codigo": 3323001,
+    "ocupación": "Encargado de compras"
+  },
+  {
+    "codigo": 3323003,
+    "ocupación": "Encargado de compras de restaurante"
+  },
+  {
+    "codigo": 3324001,
+    "ocupación": "Encargado de costos de restaurante"
+  },
+  {
+    "codigo": 8341003,
+    "ocupación": "Encargado de Operador de maquinaria agrícolas y forestal"
+  },
+  {
+    "codigo": 2421002,
+    "ocupación": "Encargado de proyecto de desarrollo"
+  },
+  {
+    "codigo": 3323004,
+    "ocupación": "Encargado de suministros"
+  },
+  {
+    "codigo": 2263002,
+    "ocupación": "Encargado del control de calidad en alimentación"
+  },
+  {
+    "codigo": 6210001,
+    "ocupación": "Encargado forestal"
+  },
+  {
+    "codigo": 6121001,
+    "ocupación": "Encargado o capataz de ganadería en general"
+  },
+  {
+    "codigo": 7114002,
+    "ocupación": "Encofrador"
+  },
+  {
+    "codigo": 7323001,
+    "ocupación": "Encuadernador"
+  },
+  {
+    "codigo": 4227001,
+    "ocupación": "Encuestador"
+  },
+  {
+    "codigo": 7213001,
+    "ocupación": "Enderezador de carrocerías"
+  },
+  {
+    "codigo": 7213003,
+    "ocupación": "Enderezador y pintor de automóviles"
+  },
+  {
+    "codigo": 3221002,
+    "ocupación": "Enfermero de nivel medio"
+  },
+  {
+    "codigo": 8112002,
+    "ocupación": "Enresinador de sierras cortadoras de mármol"
+  },
+  {
+    "codigo": 7536002,
+    "ocupación": "Ensamblador de calzado"
+  },
+  {
+    "codigo": 7214001,
+    "ocupación": "Ensamblador de estructuras"
+  },
+  {
+    "codigo": 8211001,
+    "ocupación": "Ensamblador de instrumentos de precisión"
+  },
+  {
+    "codigo": 8211002,
+    "ocupación": "Ensamblador de motores de combustión"
+  },
+  {
+    "codigo": 8219001,
+    "ocupación": "Ensamblador de muebles de madera"
+  },
+  {
+    "codigo": 8212001,
+    "ocupación": "Ensamblador de tubos electrónicos"
+  },
+  {
+    "codigo": 8211003,
+    "ocupación": "Ensamblador de vehículos"
+  },
+  {
+    "codigo": 7536003,
+    "ocupación": "Ensuelador de calzado"
+  },
+  {
+    "codigo": 3422001,
+    "ocupación": "Entrenador deportivo"
+  },
+  {
+    "codigo": 7317004,
+    "ocupación": "Escobero y cepillero"
+  },
+  {
+    "codigo": 4414001,
+    "ocupación": "Escribiente públicos y afines."
+  },
+  {
+    "codigo": 2641001,
+    "ocupación": "Escritor"
+  },
+  {
+    "codigo": 2651001,
+    "ocupación": "Escultor"
+  },
+  {
+    "codigo": 2529001,
+    "ocupación": "Especialista en bases de datos y en redes de computadores no clasificados en otros epígrafes"
+  },
+  {
+    "codigo": 2423001,
+    "ocupación": "Especialista en políticas de servicio personal"
+  },
+  {
+    "codigo": 6121016,
+    "ocupación": "Esquilador"
+  },
+  {
+    "codigo": 2120003,
+    "ocupación": "Estadístico"
+  },
+  {
+    "codigo": 7322002,
+    "ocupación": "Estampador a la plancha"
+  },
+  {
+    "codigo": 7322003,
+    "ocupación": "Estampador en textiles"
+  },
+  {
+    "codigo": 7321002,
+    "ocupación": "Estereotipista"
+  },
+  {
+    "codigo": 3315001,
+    "ocupación": "Evaluador"
+  },
+  {
+    "codigo": 2262001,
+    "ocupación": "Farmacéutico y Farmacólogo"
+  },
+  {
+    "codigo": 2643001,
+    "ocupación": "Filólogo"
+  },
+  {
+    "codigo": 2633001,
+    "ocupación": "Filósofo"
+  },
+  {
+    "codigo": 2619001,
+    "ocupación": "Fiscal del Ministerio Publico"
+  },
+  {
+    "codigo": 2111001,
+    "ocupación": "Físico"
+  },
+  {
+    "codigo": 2264001,
+    "ocupación": "Fisioterapeuta"
+  },
+  {
+    "codigo": 7319004,
+    "ocupación": "Florista (elaboración de decoración floral)"
+  },
+  {
+    "codigo": 7126002,
+    "ocupación": "Fontanero"
+  },
+  {
+    "codigo": 7221002,
+    "ocupación": "Forjador de hierro"
+  },
+  {
+    "codigo": 7321005,
+    "ocupación": "Fotograbador"
+  },
+  {
+    "codigo": 3431001,
+    "ocupación": "Fotógrafo "
+  },
+  {
+    "codigo": 7544002,
+    "ocupación": "Fumigador y otro Controlador de plagas y malas hierbas"
+  },
+  {
+    "codigo": 3354001,
+    "ocupación": "Funcionario de expedición de licencias y permisos"
+  },
+  {
+    "codigo": 3353002,
+    "ocupación": "Funcionario de pensiones"
+  },
+  {
+    "codigo": 3354002,
+    "ocupación": "Funcionario de permisos de construcción"
+  },
+  {
+    "codigo": 3353001,
+    "ocupación": "Funcionario de prestaciones de seguridad social"
+  },
+  {
+    "codigo": 3352001,
+    "ocupación": "Funcionario del fisco"
+  },
+  {
+    "codigo": 3359004,
+    "ocupación": "Funcionario y Técnico de registros electorales"
+  },
+  {
+    "codigo": 8122001,
+    "ocupación": "Galvanizador u Operador de máquina"
+  },
+  {
+    "codigo": 7321006,
+    "ocupación": "Galvanotipista"
+  },
+  {
+    "codigo": 2114002,
+    "ocupación": "Geofísico"
+  },
+  {
+    "codigo": 2114001,
+    "ocupación": "Geólogo"
+  },
+  {
+    "codigo": 1324001,
+    "ocupación": "Gerente de agencia de viajes"
+  },
+  {
+    "codigo": 1431001,
+    "ocupación": "Gerente de centro deportivo de esparcimiento y cultural"
+  },
+  {
+    "codigo": 1420001,
+    "ocupación": "Gerente de comercio mayorista y minorista"
+  },
+  {
+    "codigo": 1212001,
+    "ocupación": "Gerente de departamento de personal"
+  },
+  {
+    "codigo": 1311006,
+    "ocupación": "Gerente de empresa de agricultura"
+  },
+  {
+    "codigo": 1323002,
+    "ocupación": "Gerente de empresa de construcción"
+  },
+  {
+    "codigo": 1219005,
+    "ocupación": "Gerente de empresa de limpieza"
+  },
+  {
+    "codigo": 1323004,
+    "ocupación": "Gerente de empresa de obras públicas"
+  },
+  {
+    "codigo": 1311007,
+    "ocupación": "Gerente de empresa de silvicultura"
+  },
+  {
+    "codigo": 1411001,
+    "ocupación": "Gerente de hotel"
+  },
+  {
+    "codigo": 1321012,
+    "ocupación": "Gerente de industria de serigrafía."
+  },
+  {
+    "codigo": 1321011,
+    "ocupación": "Gerente de maquila"
+  },
+  {
+    "codigo": 1321002,
+    "ocupación": "Gerente de planta de industria textil"
+  },
+  {
+    "codigo": 1321001,
+    "ocupación": "Gerente de producción de confección"
+  },
+  {
+    "codigo": 1412001,
+    "ocupación": "Gerente de restaurantes"
+  },
+  {
+    "codigo": 1439001,
+    "ocupación": "Gerente de servicios no clasificados bajo otros epígrafes"
+  },
+  {
+    "codigo": 1346001,
+    "ocupación": "Gerente de sucursales de bancos de servicios financieros y seguros"
+  },
+  {
+    "codigo": 1321006,
+    "ocupación": "Gerente de taller de soldadura"
+  },
+  {
+    "codigo": 1321004,
+    "ocupación": "Gerente de taller metalmecánico"
+  },
+  {
+    "codigo": 1324002,
+    "ocupación": "Gerente financieros de agencia de viajes"
+  },
+  {
+    "codigo": 1120002,
+    "ocupación": "Gerente general"
+  },
+  {
+    "codigo": 3331001,
+    "ocupación": "Gestor de aduanas"
+  },
+  {
+    "codigo": 7321003,
+    "ocupación": "Grabador de imprentas"
+  },
+  {
+    "codigo": 7316001,
+    "ocupación": "Grabador de vidrio"
+  },
+  {
+    "codigo": 5112003,
+    "ocupación": "Guarda de transporte"
+  },
+  {
+    "codigo": 5412004,
+    "ocupación": "Guardabosque"
+  },
+  {
+    "codigo": 5414001,
+    "ocupación": "Guardaespalda"
+  },
+  {
+    "codigo": 8312001,
+    "ocupación": "Guardafrenos, guardagujas y agente de maniobras"
+  },
+  {
+    "codigo": 5413001,
+    "ocupación": "Guardia penitenciario"
+  },
+  {
+    "codigo": 5414005,
+    "ocupación": "Guardian de edificio"
+  },
+  {
+    "codigo": 5113006,
+    "ocupación": "Guía comunitario de turistas"
+  },
+  {
+    "codigo": 5113003,
+    "ocupación": "Guía de museos"
+  },
+  {
+    "codigo": 5113001,
+    "ocupación": "Guía de turismo"
+  },
+  {
+    "codigo": 5113004,
+    "ocupación": "Guía regional de turismo Ruta Maya"
+  },
+  {
+    "codigo": 2636017,
+    "ocupación": "Guías espirituales no clasificados bajo otros epígrafes"
+  },
+  {
+    "codigo": 2641002,
+    "ocupación": "Guionista"
+  },
+  {
+    "codigo": 7221001,
+    "ocupación": "Herrero"
+  },
+  {
+    "codigo": 3251002,
+    "ocupación": "Higienista dental"
+  },
+  {
+    "codigo": 2633002,
+    "ocupación": "Historiador"
+  },
+  {
+    "codigo": 3230006,
+    "ocupación": "Homeópata"
+  },
+  {
+    "codigo": 4229001,
+    "ocupación": "Hosster (anfitriona de bienvenida)"
+  },
+  {
+    "codigo": 2636013,
+    "ocupación": "Imán"
+  },
+  {
+    "codigo": 7322001,
+    "ocupación": "Impresor de serigrafía"
+  },
+  {
+    "codigo": 5242001,
+    "ocupación": "Impulsador de productos"
+  },
+  {
+    "codigo": 5163002,
+    "ocupación": "Incinerador de cadáveres"
+  },
+  {
+    "codigo": 2142001,
+    "ocupación": "Ingeniero civil"
+  },
+  {
+    "codigo": 2142002,
+    "ocupación": "Ingeniero civil  especializado en carreteras"
+  },
+  {
+    "codigo": 2142005,
+    "ocupación": "Ingeniero civil especializado en construcción de edificios"
+  },
+  {
+    "codigo": 2142003,
+    "ocupación": "Ingeniero civil especializado en estructuras"
+  },
+  {
+    "codigo": 2142004,
+    "ocupación": "Ingeniero civil especializado en urbanización"
+  },
+  {
+    "codigo": 2146002,
+    "ocupación": "Ingeniero de metalurgia"
+  },
+  {
+    "codigo": 2146001,
+    "ocupación": "Ingeniero de mina"
+  },
+  {
+    "codigo": 2151001,
+    "ocupación": "Ingeniero electricista"
+  },
+  {
+    "codigo": 2144002,
+    "ocupación": "Ingeniero electromecánico"
+  },
+  {
+    "codigo": 2152001,
+    "ocupación": "Ingeniero electrónico"
+  },
+  {
+    "codigo": 2153001,
+    "ocupación": "Ingeniero en telecomunicaciones"
+  },
+  {
+    "codigo": 2141001,
+    "ocupación": "Ingeniero industrial  y de producción"
+  },
+  {
+    "codigo": 2144001,
+    "ocupación": "Ingeniero mecánico"
+  },
+  {
+    "codigo": 2143001,
+    "ocupación": "Ingeniero medio ambientales."
+  },
+  {
+    "codigo": 2149001,
+    "ocupación": "Ingeniero no clasificados bajo otros epígrafes"
+  },
+  {
+    "codigo": 2145001,
+    "ocupación": "Ingeniero químico"
+  },
+  {
+    "codigo": 2142006,
+    "ocupación": "Ingeniero sanitarios especialista en aguas residuales"
+  },
+  {
+    "codigo": 3359001,
+    "ocupación": "Inspector de control de precios"
+  },
+  {
+    "codigo": 2263001,
+    "ocupación": "Inspector de higiene y seguridad laboral"
+  },
+  {
+    "codigo": 3351003,
+    "ocupación": "Inspector de migración"
+  },
+  {
+    "codigo": 3351002,
+    "ocupación": "Inspector de pasaportes"
+  },
+  {
+    "codigo": 3359002,
+    "ocupación": "Inspector de pesas y medidas"
+  },
+  {
+    "codigo": 3355001,
+    "ocupación": "Inspector de policía"
+  },
+  {
+    "codigo": 3359003,
+    "ocupación": "Inspector de trabajo y salarios"
+  },
+  {
+    "codigo": 7111005,
+    "ocupación": "Instalador de acabados prefabricados no tradicionales"
+  },
+  {
+    "codigo": 8189001,
+    "ocupación": "Instalador de bombas de agua estacionarias e hidroneumáticas"
+  },
+  {
+    "codigo": 7422003,
+    "ocupación": "Instalador de cable de TV."
+  },
+  {
+    "codigo": 7411004,
+    "ocupación": "Instalador de cableado"
+  },
+  {
+    "codigo": 7422002,
+    "ocupación": "Instalador de fibra óptica"
+  },
+  {
+    "codigo": 7413001,
+    "ocupación": "Instalador de líneas eléctricas"
+  },
+  {
+    "codigo": 7422001,
+    "ocupación": "Instalador de líneas Telefónicas"
+  },
+  {
+    "codigo": 7111006,
+    "ocupación": "Instalador de mármol"
+  },
+  {
+    "codigo": 7124001,
+    "ocupación": "Instalador de material aislante y de insonorización"
+  },
+  {
+    "codigo": 7122002,
+    "ocupación": "Instalador de parqué"
+  },
+  {
+    "codigo": 7111010,
+    "ocupación": "Instalador de postes de tendido eléctrico"
+  },
+  {
+    "codigo": 7115001,
+    "ocupación": "Instalador de prefabricados"
+  },
+  {
+    "codigo": 7111009,
+    "ocupación": "Instalador y masillador de tabla yeso"
+  },
+  {
+    "codigo": 3423002,
+    "ocupación": "Instructor  de actividades recreativas"
+  },
+  {
+    "codigo": 5165001,
+    "ocupación": "Instructor de autoescuela"
+  },
+  {
+    "codigo": 3423001,
+    "ocupación": "Instructor de educación física"
+  },
+  {
+    "codigo": 2352001,
+    "ocupación": "Instructor de vuelos"
+  },
+  {
+    "codigo": 3422002,
+    "ocupación": "Instructor deportivo"
+  },
+  {
+    "codigo": 3256004,
+    "ocupación": "Instrumentalista Médico"
+  },
+  {
+    "codigo": 2643010,
+    "ocupación": "Interprete de dialectos mayas"
+  },
+  {
+    "codigo": 2643014,
+    "ocupación": "Interprete de idioma alemán"
+  },
+  {
+    "codigo": 2643013,
+    "ocupación": "Interprete de idioma francés"
+  },
+  {
+    "codigo": 2643012,
+    "ocupación": "Interprete de idioma ingles"
+  },
+  {
+    "codigo": 2643015,
+    "ocupación": "Interprete de idioma italiano"
+  },
+  {
+    "codigo": 2643011,
+    "ocupación": "Interprete de idiomas extranjeros"
+  },
+  {
+    "codigo": 2643016,
+    "ocupación": "Interprete de otros idiomas"
+  },
+  {
+    "codigo": 2421004,
+    "ocupación": "Investigador sociales y económicos"
+  },
+  {
+    "codigo": 6113005,
+    "ocupación": "Jardinero"
+  },
+  {
+    "codigo": 3333003,
+    "ocupación": "Jefe de capacitación del recurso humano"
+  },
+  {
+    "codigo": 3434003,
+    "ocupación": "Jefe de cocina ( Chef )"
+  },
+  {
+    "codigo": 3323002,
+    "ocupación": "Jefe de compras"
+  },
+  {
+    "codigo": 6122005,
+    "ocupación": "Jefe de granja avícola"
+  },
+  {
+    "codigo": 3151001,
+    "ocupación": "Jefe de máquina navales"
+  },
+  {
+    "codigo": 2431003,
+    "ocupación": "Jefe de promociones"
+  },
+  {
+    "codigo": 3333004,
+    "ocupación": "Jefe de reclutamiento y selección del recurso humano"
+  },
+  {
+    "codigo": 1321007,
+    "ocupación": "Jefe de taller de soldadura"
+  },
+  {
+    "codigo": 1321005,
+    "ocupación": "Jefe de taller metalmecánico"
+  },
+  {
+    "codigo": 2433001,
+    "ocupación": "Jefe de zona (ventas)"
+  },
+  {
+    "codigo": 9211001,
+    "ocupación": "Jornalero"
+  },
+  {
+    "codigo": 7313002,
+    "ocupación": "Joyero y orfebre"
+  },
+  {
+    "codigo": 2612002,
+    "ocupación": "Juez  del ramo laboral"
+  },
+  {
+    "codigo": 2612004,
+    "ocupación": "Juez  del ramo penal"
+  },
+  {
+    "codigo": 2612001,
+    "ocupación": "Juez de paz"
+  },
+  {
+    "codigo": 2612003,
+    "ocupación": "Juez del ramo administrativo"
+  },
+  {
+    "codigo": 2612005,
+    "ocupación": "Juez del ramo civil"
+  },
+  {
+    "codigo": 3421003,
+    "ocupación": "Jugador de fútbol profesional"
+  },
+  {
+    "codigo": 3112005,
+    "ocupación": "Laboratorista de suelos"
+  },
+  {
+    "codigo": 6121012,
+    "ocupación": "Laboratorista especializado en la cría de cerdos"
+  },
+  {
+    "codigo": 7315003,
+    "ocupación": "Laminador"
+  },
+  {
+    "codigo": 8350004,
+    "ocupación": "Lanchero o conductor de lancha a motor"
+  },
+  {
+    "codigo": 9122001,
+    "ocupación": "Lavador de vehículos a mano"
+  },
+  {
+    "codigo": 9121003,
+    "ocupación": "Lavandero a mano"
+  },
+  {
+    "codigo": 9121002,
+    "ocupación": "Lavaplato "
+  },
+  {
+    "codigo": 9623003,
+    "ocupación": "Lector de contadores de consumo"
+  },
+  {
+    "codigo": 4131001,
+    "ocupación": "Levantador de texto"
+  },
+  {
+    "codigo": 9312006,
+    "ocupación": "Liguero (pavimentación de carreteras)"
+  },
+  {
+    "codigo": 9510001,
+    "ocupación": "Limpiabotas"
+  },
+  {
+    "codigo": 9112006,
+    "ocupación": "Limpiador de cristales en andamios"
+  },
+  {
+    "codigo": 9123001,
+    "ocupación": "Limpiador de cristales o ventanas"
+  },
+  {
+    "codigo": 7133001,
+    "ocupación": "Limpiador de fachadas  deshollinador"
+  },
+  {
+    "codigo": 3521001,
+    "ocupación": "Locutor"
+  },
+  {
+    "codigo": 2656001,
+    "ocupación": "Locutor de radio"
+  },
+  {
+    "codigo": 2342001,
+    "ocupación": "Maestro de educación preprimaria"
+  },
+  {
+    "codigo": 2341001,
+    "ocupación": "Maestro de educación primaria"
+  },
+  {
+    "codigo": 3123001,
+    "ocupación": "Maestro de obra"
+  },
+  {
+    "codigo": 2351001,
+    "ocupación": "Maestro en educación ambiental"
+  },
+  {
+    "codigo": 2636015,
+    "ocupación": "Maestro mormón"
+  },
+  {
+    "codigo": 2659001,
+    "ocupación": "Mago e ilusionista"
+  },
+  {
+    "codigo": 5131002,
+    "ocupación": "Maître"
+  },
+  {
+    "codigo": 9621005,
+    "ocupación": "Mandadero"
+  },
+  {
+    "codigo": 8311001,
+    "ocupación": "Maquinista de tren"
+  },
+  {
+    "codigo": 2652006,
+    "ocupación": "Marimbista"
+  },
+  {
+    "codigo": 8350001,
+    "ocupación": "Marinero de cubierta"
+  },
+  {
+    "codigo": 8350002,
+    "ocupación": "Marinero de sala de máquina"
+  },
+  {
+    "codigo": 3152003,
+    "ocupación": "Marino mercante"
+  },
+  {
+    "codigo": 7113002,
+    "ocupación": "Marmolista"
+  },
+  {
+    "codigo": 3230003,
+    "ocupación": "Masajista"
+  },
+  {
+    "codigo": 7511004,
+    "ocupación": "Matador o sacrificador"
+  },
+  {
+    "codigo": 2120001,
+    "ocupación": "Matemático"
+  },
+  {
+    "codigo": 7231006,
+    "ocupación": "Mecánico automotriz diesel"
+  },
+  {
+    "codigo": 7231005,
+    "ocupación": "Mecánico automotriz gasolina"
+  },
+  {
+    "codigo": 7231009,
+    "ocupación": "Mecánico con especialidad en motores de inyección"
+  },
+  {
+    "codigo": 7232003,
+    "ocupación": "Mecánico de aviones"
+  },
+  {
+    "codigo": 7231002,
+    "ocupación": "Mecánico de frenos"
+  },
+  {
+    "codigo": 7233006,
+    "ocupación": "Mecánico de mantenimiento de maquinaria industrial"
+  },
+  {
+    "codigo": 7412006,
+    "ocupación": "Mecánico de máquina de coser industrial"
+  },
+  {
+    "codigo": 7233007,
+    "ocupación": "Mecánico de máquina y herramientas"
+  },
+  {
+    "codigo": 7233005,
+    "ocupación": "Mecánico de maquinaria agrícola"
+  },
+  {
+    "codigo": 7233001,
+    "ocupación": "Mecánico de maquinaria de construcción"
+  },
+  {
+    "codigo": 7233004,
+    "ocupación": "Mecánico de maquinaria industrial"
+  },
+  {
+    "codigo": 7231007,
+    "ocupación": "Mecánico de motocicletas"
+  },
+  {
+    "codigo": 7412005,
+    "ocupación": "Mecánico de refrigeración y aire acondicionado"
+  },
+  {
+    "codigo": 7231003,
+    "ocupación": "Mecánico de vehículos pesados (camiones y autobuses)"
+  },
+  {
+    "codigo": 7231004,
+    "ocupación": "Mecánico en alineación"
+  },
+  {
+    "codigo": 7233002,
+    "ocupación": "Mecánico fresadores"
+  },
+  {
+    "codigo": 7233003,
+    "ocupación": "Mecánico torneros"
+  },
+  {
+    "codigo": 7311001,
+    "ocupación": "Mecánico y reparador de instrumentos de precisión"
+  },
+  {
+    "codigo": 7233008,
+    "ocupación": "Mecánico y reparador de máquina agrícola e industrial"
+  },
+  {
+    "codigo": 7127001,
+    "ocupación": "mecánico-montador de instalaciones de refrigeración y climatización"
+  },
+  {
+    "codigo": 2351006,
+    "ocupación": "Mediador pedagógico"
+  },
+  {
+    "codigo": 2212039,
+    "ocupación": "Médico especialista en  epidemiología"
+  },
+  {
+    "codigo": 2212040,
+    "ocupación": "Médico especialista en  vascular"
+  },
+  {
+    "codigo": 2212041,
+    "ocupación": "Médico especialista en administración hospitalaria"
+  },
+  {
+    "codigo": 2212042,
+    "ocupación": "Médico especialista en alergia e inmunología"
+  },
+  {
+    "codigo": 2212044,
+    "ocupación": "Médico especialista en anestesiología"
+  },
+  {
+    "codigo": 2212003,
+    "ocupación": "Médico especialista en cardiología"
+  },
+  {
+    "codigo": 2212023,
+    "ocupación": "Médico especialista en cardiología pediátrica"
+  },
+  {
+    "codigo": 2212002,
+    "ocupación": "Médico especialista en cirugía general"
+  },
+  {
+    "codigo": 2212036,
+    "ocupación": "Médico especialista en cirugía neumológica"
+  },
+  {
+    "codigo": 2212032,
+    "ocupación": "Médico especialista en cirugía oncológica"
+  },
+  {
+    "codigo": 2212022,
+    "ocupación": "Médico especialista en cirugía pediátrica"
+  },
+  {
+    "codigo": 2212004,
+    "ocupación": "Médico especialista en cirugía plástica, estética y reconstrucción"
+  },
+  {
+    "codigo": 2212033,
+    "ocupación": "Médico especialista en cirugía torácica"
+  },
+  {
+    "codigo": 2212035,
+    "ocupación": "Médico especialista en coloproctología"
+  },
+  {
+    "codigo": 2212021,
+    "ocupación": "Médico especialista en cuidados intensivos y pediátricos"
+  },
+  {
+    "codigo": 2212005,
+    "ocupación": "Médico especialista en dermatología"
+  },
+  {
+    "codigo": 2212006,
+    "ocupación": "Médico especialista en endocrinología, metabolismo y nutrición"
+  },
+  {
+    "codigo": 2212007,
+    "ocupación": "Médico especialista en gastroenterología"
+  },
+  {
+    "codigo": 2212008,
+    "ocupación": "Médico especialista en ginecología y obstetricia"
+  },
+  {
+    "codigo": 2212009,
+    "ocupación": "Médico especialista en hematología"
+  },
+  {
+    "codigo": 2212043,
+    "ocupación": "Médico especialista en insectología"
+  },
+  {
+    "codigo": 2212010,
+    "ocupación": "Médico especialista en medicina física y rehabilitación"
+  },
+  {
+    "codigo": 2212011,
+    "ocupación": "Médico especialista en medicina forense"
+  },
+  {
+    "codigo": 2212001,
+    "ocupación": "Médico especialista en medicina interna"
+  },
+  {
+    "codigo": 2212034,
+    "ocupación": "Médico especialista en medicina nuclear"
+  },
+  {
+    "codigo": 2212012,
+    "ocupación": "Médico especialista en nefrología"
+  },
+  {
+    "codigo": 2212025,
+    "ocupación": "Médico especialista en nefrología pediátrica"
+  },
+  {
+    "codigo": 2212013,
+    "ocupación": "Médico especialista en neumología y tisiología"
+  },
+  {
+    "codigo": 2212014,
+    "ocupación": "Médico especialista en neurocirugía"
+  },
+  {
+    "codigo": 2212037,
+    "ocupación": "Médico especialista en neurofisiología clínica"
+  },
+  {
+    "codigo": 2212017,
+    "ocupación": "Médico especialista en neurología"
+  },
+  {
+    "codigo": 2212024,
+    "ocupación": "Médico especialista en neurología pediátrica"
+  },
+  {
+    "codigo": 2212015,
+    "ocupación": "Médico especialista en oftalmología"
+  },
+  {
+    "codigo": 2212031,
+    "ocupación": "Médico especialista en oncología clínica y radioterapia"
+  },
+  {
+    "codigo": 2212016,
+    "ocupación": "Médico especialista en ortopedia y traumatología"
+  },
+  {
+    "codigo": 2212018,
+    "ocupación": "Médico especialista en otorrinolaringología y broncoesofagología"
+  },
+  {
+    "codigo": 2212019,
+    "ocupación": "Médico especialista en patología anatómica y física"
+  },
+  {
+    "codigo": 2212020,
+    "ocupación": "Médico especialista en pediatría"
+  },
+  {
+    "codigo": 2212026,
+    "ocupación": "Médico especialista en perinatología y neonatología"
+  },
+  {
+    "codigo": 2212027,
+    "ocupación": "Médico especialista en psiquiatría"
+  },
+  {
+    "codigo": 2212028,
+    "ocupación": "Médico especialista en radiología"
+  },
+  {
+    "codigo": 2212029,
+    "ocupación": "Médico especialista en reumatología"
+  },
+  {
+    "codigo": 2212038,
+    "ocupación": "Médico especialista en ultrasonografía gineco-obtetrica"
+  },
+  {
+    "codigo": 2212030,
+    "ocupación": "Médico especialista en urología"
+  },
+  {
+    "codigo": 2211001,
+    "ocupación": "Médico general"
+  },
+  {
+    "codigo": 2250001,
+    "ocupación": "Médico veterinario"
+  },
+  {
+    "codigo": 9621003,
+    "ocupación": "Mensajero a pié"
+  },
+  {
+    "codigo": 9621004,
+    "ocupación": "Mensajero de correos"
+  },
+  {
+    "codigo": 9621001,
+    "ocupación": "Mensajero en moto"
+  },
+  {
+    "codigo": 4214003,
+    "ocupación": "Mensajero y cobrador en moto"
+  },
+  {
+    "codigo": 2431001,
+    "ocupación": "Mercadólogo"
+  },
+  {
+    "codigo": 5131003,
+    "ocupación": "Mesero de bar y restaurante"
+  },
+  {
+    "codigo": 2112001,
+    "ocupación": "Meteorólogo"
+  },
+  {
+    "codigo": 1111002,
+    "ocupación": "Miembro de cuerpo legislativo"
+  },
+  {
+    "codigo": 1111001,
+    "ocupación": "Miembro del poder ejecutivo"
+  },
+  {
+    "codigo": 2655005,
+    "ocupación": "Mimo"
+  },
+  {
+    "codigo": 8111001,
+    "ocupación": "Minero y Operador de instalaciones mineras"
+  },
+  {
+    "codigo": 2636009,
+    "ocupación": "Ministro"
+  },
+  {
+    "codigo": 2636007,
+    "ocupación": "Misionero"
+  },
+  {
+    "codigo": 5241002,
+    "ocupación": "Modelo de arte"
+  },
+  {
+    "codigo": 5241003,
+    "ocupación": "Modelo de fotografía"
+  },
+  {
+    "codigo": 5241001,
+    "ocupación": "Modelo de modas"
+  },
+  {
+    "codigo": 7531003,
+    "ocupación": "Modista"
+  },
+  {
+    "codigo": 7211002,
+    "ocupación": "Moldeador de acrílicos"
+  },
+  {
+    "codigo": 7211001,
+    "ocupación": "Moldeador de fibra de vidrio"
+  },
+  {
+    "codigo": 7211003,
+    "ocupación": "Moldeador de metal"
+  },
+  {
+    "codigo": 7315002,
+    "ocupación": "Moldeador de vidrio"
+  },
+  {
+    "codigo": 8160028,
+    "ocupación": "Molinero de cereales y especias"
+  },
+  {
+    "codigo": 2621002,
+    "ocupación": "Museólogo"
+  },
+  {
+    "codigo": 2652007,
+    "ocupación": "Musicalizador"
+  },
+  {
+    "codigo": 2652001,
+    "ocupación": "Músico"
+  },
+  {
+    "codigo": 2652004,
+    "ocupación": "Músico especializado en instrumento de cuerda"
+  },
+  {
+    "codigo": 2652002,
+    "ocupación": "Músico especializado en instrumento de percusión"
+  },
+  {
+    "codigo": 2652003,
+    "ocupación": "Músico especializado en instrumento de viento"
+  },
+  {
+    "codigo": 3230005,
+    "ocupación": "Naturista"
+  },
+  {
+    "codigo": 5311001,
+    "ocupación": "Niñera"
+  },
+  {
+    "codigo": 9312007,
+    "ocupación": "Nivelador de pavimento"
+  },
+  {
+    "codigo": 2611002,
+    "ocupación": "Notario"
+  },
+  {
+    "codigo": 5161004,
+    "ocupación": "Numeromántico"
+  },
+  {
+    "codigo": 2636003,
+    "ocupación": "Obispo"
+  },
+  {
+    "codigo": 3152002,
+    "ocupación": "Oficial de Cubierta"
+  },
+  {
+    "codigo": 3151002,
+    "ocupación": "Oficial de máquina navales"
+  },
+  {
+    "codigo": 3359005,
+    "ocupación": "Oficial de registros civil"
+  },
+  {
+    "codigo": 3411002,
+    "ocupación": "Oficial de sala de tribunales"
+  },
+  {
+    "codigo": 7119001,
+    "ocupación": "Oficial y Operario de la construcción (obra gruesa) y afines no clasificados bajo otros epígrafes"
+  },
+  {
+    "codigo": 7549001,
+    "ocupación": "Oficial, operario y artesano de artes mecánicas y de otros oficios no clasificados bajo otros epígrafes"
+  },
+  {
+    "codigo": 4110001,
+    "ocupación": "Oficinista"
+  },
+  {
+    "codigo": 7223005,
+    "ocupación": "Operador  de taladradora de metales"
+  },
+  {
+    "codigo": 8160019,
+    "ocupación": "Operador aséptico de conservas de alimentos"
+  },
+  {
+    "codigo": 8182006,
+    "ocupación": "Operador de  calderas"
+  },
+  {
+    "codigo": 3132001,
+    "ocupación": "Operador de  instalaciones de tratamiento de agua y afines"
+  },
+  {
+    "codigo": 3211002,
+    "ocupación": "Operador de aparatos de electrocardiologia"
+  },
+  {
+    "codigo": 3211003,
+    "ocupación": "Operador de aparatos de electroencefalografía"
+  },
+  {
+    "codigo": 3211001,
+    "ocupación": "Operador de aparatos radiológicos"
+  },
+  {
+    "codigo": 8344001,
+    "ocupación": "Operador de autoelevadoras"
+  },
+  {
+    "codigo": 8343004,
+    "ocupación": "Operador de bomba concretera"
+  },
+  {
+    "codigo": 3511003,
+    "ocupación": "Operador de cabina de proyección cinematográfica"
+  },
+  {
+    "codigo": 3132002,
+    "ocupación": "Operador de cadenas de montaje automatizadas"
+  },
+  {
+    "codigo": 8182001,
+    "ocupación": "Operador de calderas para secado de madera"
+  },
+  {
+    "codigo": 8332005,
+    "ocupación": "Operador de cargador frontal"
+  },
+  {
+    "codigo": 8160006,
+    "ocupación": "Operador de centrifugadoras de azúcar"
+  },
+  {
+    "codigo": 7223007,
+    "ocupación": "Operador de cepilladora de metales"
+  },
+  {
+    "codigo": 8112004,
+    "ocupación": "Operador de cortadoras de mármol"
+  },
+  {
+    "codigo": 8160004,
+    "ocupación": "Operador de cristalizadores de azúcar (refinación)"
+  },
+  {
+    "codigo": 3131001,
+    "ocupación": "Operador de cuadro de control de generadores"
+  },
+  {
+    "codigo": 3131002,
+    "ocupación": "Operador de cuadro de distribución de central eléctrica"
+  },
+  {
+    "codigo": 3134002,
+    "ocupación": "Operador de destilería e instalaciones de refinación de petróleo y gas natural"
+  },
+  {
+    "codigo": 8160003,
+    "ocupación": "Operador de difusoras de azúcar de remolacha"
+  },
+  {
+    "codigo": 8342009,
+    "ocupación": "Operador de dosificadora"
+  },
+  {
+    "codigo": 8342010,
+    "ocupación": "Operador de draga"
+  },
+  {
+    "codigo": 8160001,
+    "ocupación": "Operador de envasadoras de azúcar"
+  },
+  {
+    "codigo": 3431002,
+    "ocupación": "Operador de equipo de grabación y video"
+  },
+  {
+    "codigo": 3431003,
+    "ocupación": "Operador de equipo de sonido"
+  },
+  {
+    "codigo": 8111002,
+    "ocupación": "Operador de equipos de detección de vetas"
+  },
+  {
+    "codigo": 9112002,
+    "ocupación": "Operador de equipos de limpieza de alfombras y moquetes"
+  },
+  {
+    "codigo": 8112003,
+    "ocupación": "Operador de equipos para taladrar y/o labrar piedra"
+  },
+  {
+    "codigo": 9312008,
+    "ocupación": "Operador de escobas (pavimentado)"
+  },
+  {
+    "codigo": 7223008,
+    "ocupación": "Operador de esmeriladora de metales"
+  },
+  {
+    "codigo": 8160002,
+    "ocupación": "Operador de evaporadores de azúcar"
+  },
+  {
+    "codigo": 8342003,
+    "ocupación": "Operador de excavadora"
+  },
+  {
+    "codigo": 8112001,
+    "ocupación": "Operador de excavadoras de cantera de mármol"
+  },
+  {
+    "codigo": 7223011,
+    "ocupación": "Operador de extrusora de metales"
+  },
+  {
+    "codigo": 7223006,
+    "ocupación": "Operador de fresadora de metales"
+  },
+  {
+    "codigo": 8160038,
+    "ocupación": "Operador de frigoríficos para la conservación de productos lácteos"
+  },
+  {
+    "codigo": 8343002,
+    "ocupación": "Operador de grúa móvil"
+  },
+  {
+    "codigo": 8344002,
+    "ocupación": "Operador de grúa torre"
+  },
+  {
+    "codigo": 8182008,
+    "ocupación": "Operador de hornos de baldosas"
+  },
+  {
+    "codigo": 8182011,
+    "ocupación": "Operador de hornos de cerámica, loza y porcelana"
+  },
+  {
+    "codigo": 8182009,
+    "ocupación": "Operador de hornos de fabricación, fundición o recocido de vidrio"
+  },
+  {
+    "codigo": 8182010,
+    "ocupación": "Operador de hornos de ladrillo y tejas"
+  },
+  {
+    "codigo": 3132003,
+    "ocupación": "Operador de incineradores u hornos de cremación"
+  },
+  {
+    "codigo": 8160029,
+    "ocupación": "Operador de instalaciones de elaboración de vino"
+  },
+  {
+    "codigo": 3131003,
+    "ocupación": "Operador de instalaciones de la central hidroeléctrica o termoeléctrica"
+  },
+  {
+    "codigo": 8121002,
+    "ocupación": "Operador de instalaciones de procesamiento de metales"
+  },
+  {
+    "codigo": 8171001,
+    "ocupación": "Operador de instalaciones para la preparación de pasta para papel y papel"
+  },
+  {
+    "codigo": 8131011,
+    "ocupación": "Operador de instalaciones quebrantadoras, trituradoras y mezcladoras de sustancias químicas"
+  },
+  {
+    "codigo": 8172001,
+    "ocupación": "Operador de lijadora de madera"
+  },
+  {
+    "codigo": 7223009,
+    "ocupación": "Operador de mandriladora de metales"
+  },
+  {
+    "codigo": 8143001,
+    "ocupación": "Operador de máquina  encuadernadora"
+  },
+  {
+    "codigo": 8111004,
+    "ocupación": "Operador de máquina aglomeradoras de piedra pulverizada"
+  },
+  {
+    "codigo": 8342006,
+    "ocupación": "Operador de máquina aplanadora"
+  },
+  {
+    "codigo": 8154001,
+    "ocupación": "Operador de máquina blanqueadora de productos textiles o blanqueador de textiles"
+  },
+  {
+    "codigo": 8122002,
+    "ocupación": "Operador de máquina bobinadora"
+  },
+  {
+    "codigo": 8151001,
+    "ocupación": "Operador de máquina bobinadora de hilo"
+  },
+  {
+    "codigo": 8122003,
+    "ocupación": "Operador de máquina bruñidora de metales"
+  },
+  {
+    "codigo": 8131001,
+    "ocupación": "Operador de máquina capsuladora"
+  },
+  {
+    "codigo": 8172010,
+    "ocupación": "Operador de máquina cepilladora y/o canteadora"
+  },
+  {
+    "codigo": 8160014,
+    "ocupación": "Operador de máquina congeladoras de carne o pescado"
+  },
+  {
+    "codigo": 8160021,
+    "ocupación": "Operador de máquina conservadoras de fruta, legumbres o verduras"
+  },
+  {
+    "codigo": 8155001,
+    "ocupación": "Operador de máquina cortadora de cueros"
+  },
+  {
+    "codigo": 8172009,
+    "ocupación": "Operador de máquina cortadora de madera"
+  },
+  {
+    "codigo": 8172002,
+    "ocupación": "Operador de máquina de acabado de madera"
+  },
+  {
+    "codigo": 8152001,
+    "ocupación": "Operador de máquina de bordar"
+  },
+  {
+    "codigo": 8159005,
+    "ocupación": "Operador de máquina de coser "
+  },
+  {
+    "codigo": 8159009,
+    "ocupación": "Operador de máquina de coser cuero"
+  },
+  {
+    "codigo": 8153003,
+    "ocupación": "Operador de máquina de coser pieles"
+  },
+  {
+    "codigo": 8153004,
+    "ocupación": "Operador de máquina de coser prendas de vestir y otros artículos textiles"
+  },
+  {
+    "codigo": 8153005,
+    "ocupación": "Operador de máquina de coser sombreros"
+  },
+  {
+    "codigo": 8153006,
+    "ocupación": "Operador de máquina de coser tapicería de muebles"
+  },
+  {
+    "codigo": 8159010,
+    "ocupación": "Operador de máquina de curtiduría "
+  },
+  {
+    "codigo": 8122004,
+    "ocupación": "Operador de máquina de curvado  de metales"
+  },
+  {
+    "codigo": 8155002,
+    "ocupación": "Operador de máquina de descarne de cueros"
+  },
+  {
+    "codigo": 8160030,
+    "ocupación": "Operador de máquina de elaboración de bebidas sin alcohol"
+  },
+  {
+    "codigo": 8160041,
+    "ocupación": "Operador de máquina de elaboración de chocolates"
+  },
+  {
+    "codigo": 8160042,
+    "ocupación": "Operador de máquina de elaboración de dulces"
+  },
+  {
+    "codigo": 8160037,
+    "ocupación": "Operador de máquina de elaboración de leche en polvo"
+  },
+  {
+    "codigo": 8160046,
+    "ocupación": "Operador de máquina de elaboración de pastas alimenticias"
+  },
+  {
+    "codigo": 8160039,
+    "ocupación": "Operador de máquina de elaboración de productos lácteos, "
+  },
+  {
+    "codigo": 8160032,
+    "ocupación": "Operador de máquina de elaboración de vinagre"
+  },
+  {
+    "codigo": 8159001,
+    "ocupación": "Operador de máquina de estirado de pieles"
+  },
+  {
+    "codigo": 8160031,
+    "ocupación": "Operador de máquina de extracción o refinación de aceites comestibles"
+  },
+  {
+    "codigo": 8151002,
+    "ocupación": "Operador de máquina de fabricación de alfombras"
+  },
+  {
+    "codigo": 8143002,
+    "ocupación": "Operador de máquina de fabricación de artículos de cartón"
+  },
+  {
+    "codigo": 8143003,
+    "ocupación": "Operador de máquina de fabricación de artículos de papel"
+  },
+  {
+    "codigo": 8181004,
+    "ocupación": "Operador de máquina de fabricación de botellas u otros artículos de vidrio"
+  },
+  {
+    "codigo": 8151003,
+    "ocupación": "Operador de máquina de fabricación de colchones"
+  },
+  {
+    "codigo": 8131002,
+    "ocupación": "Operador de máquina de fabricación de cosméticos"
+  },
+  {
+    "codigo": 8131003,
+    "ocupación": "Operador de máquina de fabricación de detergentes"
+  },
+  {
+    "codigo": 8131004,
+    "ocupación": "Operador de máquina de fabricación de fósforos"
+  },
+  {
+    "codigo": 8181005,
+    "ocupación": "Operador de máquina de fabricación de loza y porcelana"
+  },
+  {
+    "codigo": 8152002,
+    "ocupación": "Operador de máquina de fabricación de mallas o redes"
+  },
+  {
+    "codigo": 8172003,
+    "ocupación": "Operador de máquina de fabricación de muebles"
+  },
+  {
+    "codigo": 8121003,
+    "ocupación": "Operador de máquina de fabricación de municiones"
+  },
+  {
+    "codigo": 8141001,
+    "ocupación": "Operador de máquina de fabricación de neumáticos"
+  },
+  {
+    "codigo": 8172004,
+    "ocupación": "Operador de máquina de fabricación de objetos de madera"
+  },
+  {
+    "codigo": 8155003,
+    "ocupación": "Operador de máquina de fabricación de patrones textiles o de cuero"
+  },
+  {
+    "codigo": 8160015,
+    "ocupación": "Operador de máquina de fabricación de productos de carne o pescado "
+  },
+  {
+    "codigo": 8141002,
+    "ocupación": "Operador de máquina de fabricación de productos de caucho"
+  },
+  {
+    "codigo": 8131005,
+    "ocupación": "Operador de máquina de fabricación de productos de pirotecnia"
+  },
+  {
+    "codigo": 8131006,
+    "ocupación": "Operador de máquina de fabricación de productos farmacéuticos"
+  },
+  {
+    "codigo": 8181006,
+    "ocupación": "Operador de máquina de fabricación o tratamiento de cerámica"
+  },
+  {
+    "codigo": 8160033,
+    "ocupación": "Operador de máquina de fermentación o cocción de malta"
+  },
+  {
+    "codigo": 8160034,
+    "ocupación": "Operador de máquina de germinación o secado de malta"
+  },
+  {
+    "codigo": 7523001,
+    "ocupación": "Operador de máquina de grabado de madera"
+  },
+  {
+    "codigo": 8151012,
+    "ocupación": "Operador de máquina de hilado de fibras sintéticas"
+  },
+  {
+    "codigo": 8151004,
+    "ocupación": "Operador de máquina de hilado de hilo"
+  },
+  {
+    "codigo": 7321001,
+    "ocupación": "Operador de máquina de imprenta (fototipia y offset)"
+  },
+  {
+    "codigo": 7322004,
+    "ocupación": "Operador de máquina de impresión sobre textiles"
+  },
+  {
+    "codigo": 8172005,
+    "ocupación": "Operador de máquina de labrado de madera"
+  },
+  {
+    "codigo": 8131007,
+    "ocupación": "Operador de máquina de limpieza en seco"
+  },
+  {
+    "codigo": 8181007,
+    "ocupación": "Operador de máquina de mezcladora  de  materiales  para producir  vidrio"
+  },
+  {
+    "codigo": 9312009,
+    "ocupación": "Operador de máquina de pintura de carretera"
+  },
+  {
+    "codigo": 8172006,
+    "ocupación": "Operador de máquina de pintura sobre madera"
+  },
+  {
+    "codigo": 8122005,
+    "ocupación": "Operador de máquina de pintura sobre metales"
+  },
+  {
+    "codigo": 8159006,
+    "ocupación": "Operador de máquina de planchado"
+  },
+  {
+    "codigo": 8181009,
+    "ocupación": "Operador de máquina de preparación de esmaltes"
+  },
+  {
+    "codigo": 8160048,
+    "ocupación": "Operador de máquina de procesamiento de granos"
+  },
+  {
+    "codigo": 8172012,
+    "ocupación": "Operador de máquina de procesamiento de madera"
+  },
+  {
+    "codigo": 8160011,
+    "ocupación": "Operador de máquina de producción de azúcar"
+  },
+  {
+    "codigo": 8181008,
+    "ocupación": "Operador de máquina de producción de fibra de vidrio"
+  },
+  {
+    "codigo": 8131008,
+    "ocupación": "Operador de máquina de producción de gas"
+  },
+  {
+    "codigo": 8160025,
+    "ocupación": "Operador de máquina de producción de jugos de frutas o vegetales"
+  },
+  {
+    "codigo": 8160035,
+    "ocupación": "Operador de máquina de producción de licores"
+  },
+  {
+    "codigo": 8160047,
+    "ocupación": "Operador de máquina de productos de tabaco o tabacalero"
+  },
+  {
+    "codigo": 8160045,
+    "ocupación": "Operador de máquina de repostería"
+  },
+  {
+    "codigo": 8132004,
+    "ocupación": "Operador de máquina de revelado o ampliación de películas cinematográficas"
+  },
+  {
+    "codigo": 8132005,
+    "ocupación": "Operador de máquina de revelado o ampliación de películas fotográficas"
+  },
+  {
+    "codigo": 8159002,
+    "ocupación": "Operador de máquina de secado de productos textiles"
+  },
+  {
+    "codigo": 8159003,
+    "ocupación": "Operador de máquina de sombrerería"
+  },
+  {
+    "codigo": 8155004,
+    "ocupación": "Operador de máquina de tintura de cueros"
+  },
+  {
+    "codigo": 8151005,
+    "ocupación": "Operador de máquina de tintura de hilados o prendas de vestir"
+  },
+  {
+    "codigo": 8141003,
+    "ocupación": "Operador de máquina de tratamiento de caucho"
+  },
+  {
+    "codigo": 8153007,
+    "ocupación": "Operador de máquina de urdido"
+  },
+  {
+    "codigo": 8182003,
+    "ocupación": "Operador de máquina de vapor"
+  },
+  {
+    "codigo": 8155005,
+    "ocupación": "Operador de máquina depiladoras de cueros"
+  },
+  {
+    "codigo": 8160050,
+    "ocupación": "Operador de máquina descortezadora de granos"
+  },
+  {
+    "codigo": 8160023,
+    "ocupación": "Operador de máquina deshidratadoras de alimentos"
+  },
+  {
+    "codigo": 8183001,
+    "ocupación": "Operador de máquina embaladoras"
+  },
+  {
+    "codigo": 8183002,
+    "ocupación": "Operador de máquina embotelladoras"
+  },
+  {
+    "codigo": 8122013,
+    "ocupación": "Operador de máquina empalmadora de cabos y cables"
+  },
+  {
+    "codigo": 8160016,
+    "ocupación": "Operador de máquina enlatadoras de carne o pescado"
+  },
+  {
+    "codigo": 8160026,
+    "ocupación": "Operador de máquina enlatadoras de frutas, legumbres o verduras"
+  },
+  {
+    "codigo": 8160017,
+    "ocupación": "Operador de máquina esterilizadoras de carne o pescado"
+  },
+  {
+    "codigo": 8160020,
+    "ocupación": "Operador de máquina esterilizadoras de frutas, legumbres o verduras"
+  },
+  {
+    "codigo": 8183003,
+    "ocupación": "Operador de máquina etiquetadoras, rotuladoras o marcadoras de mercadería"
+  },
+  {
+    "codigo": 8142004,
+    "ocupación": "Operador de máquina extrusora de material plástico"
+  },
+  {
+    "codigo": 8172011,
+    "ocupación": "Operador de máquina fresadora o perforadora de madera"
+  },
+  {
+    "codigo": 8151006,
+    "ocupación": "Operador de máquina impermeabilizadoras de productos textiles o impermeabilizador textil"
+  },
+  {
+    "codigo": 8155006,
+    "ocupación": "Operador de máquina lavadora de cueros"
+  },
+  {
+    "codigo": 8151007,
+    "ocupación": "Operador de máquina lavadora de fibras textiles"
+  },
+  {
+    "codigo": 8183005,
+    "ocupación": "Operador de máquina lavadoras de botellas"
+  },
+  {
+    "codigo": 8160024,
+    "ocupación": "Operador de máquina lavadoras de frutas, legumbres o verduras"
+  },
+  {
+    "codigo": 8159011,
+    "ocupación": "Operador de máquina lavadoras de productos textiles o limpiadores de tintorería"
+  },
+  {
+    "codigo": 8157001,
+    "ocupación": "Operador de máquina lavarropas"
+  },
+  {
+    "codigo": 8342011,
+    "ocupación": "Operador de máquina levantadora de asfalto"
+  },
+  {
+    "codigo": 8122014,
+    "ocupación": "Operador de máquina mandriladora de metales"
+  },
+  {
+    "codigo": 8159004,
+    "ocupación": "Operador de máquina mechera de fibras textiles"
+  },
+  {
+    "codigo": 8151008,
+    "ocupación": "Operador de máquina mezcladora de fibras textiles"
+  },
+  {
+    "codigo": 8160054,
+    "ocupación": "Operador de máquina mezcladoras de café"
+  },
+  {
+    "codigo": 8160052,
+    "ocupación": "Operador de máquina mezcladoras de té"
+  },
+  {
+    "codigo": 8160055,
+    "ocupación": "Operador de máquina moledoras de café"
+  },
+  {
+    "codigo": 8342012,
+    "ocupación": "Operador de máquina moto niveladora"
+  },
+  {
+    "codigo": 8181003,
+    "ocupación": "Operador de máquina para el acabado de vidrio"
+  },
+  {
+    "codigo": 8114001,
+    "ocupación": "Operador de máquina para fabricar cemento y otros productos minerales"
+  },
+  {
+    "codigo": 8142001,
+    "ocupación": "Operador de máquina para fabricar productos de material plástico"
+  },
+  {
+    "codigo": 8131012,
+    "ocupación": "Operador de máquina para fabricar productos químicos"
+  },
+  {
+    "codigo": 8159012,
+    "ocupación": "Operador de máquina para fabricar productos textiles y artículos de piel y cuero "
+  },
+  {
+    "codigo": 8122006,
+    "ocupación": "Operador de máquina para grabados  de metales"
+  },
+  {
+    "codigo": 8151009,
+    "ocupación": "Operador de máquina para la fabricación de artículos de marroquinería"
+  },
+  {
+    "codigo": 8156001,
+    "ocupación": "Operador de máquina para la fabricación de calzado"
+  },
+  {
+    "codigo": 8181002,
+    "ocupación": "Operador de máquina para tratamiento de vidrio"
+  },
+  {
+    "codigo": 8160036,
+    "ocupación": "Operador de máquina pasteurizadoras de leche"
+  },
+  {
+    "codigo": 8342007,
+    "ocupación": "Operador de máquina pavimentadora"
+  },
+  {
+    "codigo": 8151010,
+    "ocupación": "Operador de máquina peinadora de fibras textiles"
+  },
+  {
+    "codigo": 8160013,
+    "ocupación": "Operador de máquina preparadoras de carne o pescado"
+  },
+  {
+    "codigo": 8160018,
+    "ocupación": "Operador de máquina procesadoras de carne o pescado"
+  },
+  {
+    "codigo": 8160022,
+    "ocupación": "Operador de máquina procesadoras de fruta, legumbres o verduras"
+  },
+  {
+    "codigo": 8160009,
+    "ocupación": "Operador de máquina producción de azúcar"
+  },
+  {
+    "codigo": 8342013,
+    "ocupación": "Operador de máquina productora de asfalto"
+  },
+  {
+    "codigo": 8122007,
+    "ocupación": "Operador de máquina pulidora de metales"
+  },
+  {
+    "codigo": 8160012,
+    "ocupación": "Operador de máquina pulverizadoras de azúcar"
+  },
+  {
+    "codigo": 8112005,
+    "ocupación": "Operador de máquina quebrantadoras o pulverizadoras de piedra"
+  },
+  {
+    "codigo": 8122008,
+    "ocupación": "Operador de máquina recubridora de metales"
+  },
+  {
+    "codigo": 8141005,
+    "ocupación": "Operador de máquina reencauchadora de neumáticos"
+  },
+  {
+    "codigo": 8151011,
+    "ocupación": "Operador de máquina retorcedoras de hilo"
+  },
+  {
+    "codigo": 8183004,
+    "ocupación": "Operador de máquina selladoras"
+  },
+  {
+    "codigo": 8122009,
+    "ocupación": "Operador de máquina taladradora o ranuradora de metales"
+  },
+  {
+    "codigo": 8152003,
+    "ocupación": "Operador de máquina tejedora"
+  },
+  {
+    "codigo": 8152007,
+    "ocupación": "Operador de máquina tejedora de calcetería"
+  },
+  {
+    "codigo": 8152004,
+    "ocupación": "Operador de máquina tejedoras de encajes"
+  },
+  {
+    "codigo": 8160057,
+    "ocupación": "Operador de máquina tostadoras de cacao"
+  },
+  {
+    "codigo": 8160056,
+    "ocupación": "Operador de máquina tostadoras de café"
+  },
+  {
+    "codigo": 8189002,
+    "ocupación": "Operador de máquina, carpintería mecánica"
+  },
+  {
+    "codigo": 8182002,
+    "ocupación": "Operador de máquina, montajes de calderas"
+  },
+  {
+    "codigo": 8111003,
+    "ocupación": "Operador de maquinaria de extracción de minerales"
+  },
+  {
+    "codigo": 8160043,
+    "ocupación": "Operador de maquinarias de elaboración de pasteles"
+  },
+  {
+    "codigo": 8160044,
+    "ocupación": "Operador de maquinarias de panadería"
+  },
+  {
+    "codigo": 7512004,
+    "ocupación": "Operador de máquinas amasadoras y refinadoras"
+  },
+  {
+    "codigo": 8112006,
+    "ocupación": "Operador de maquinas aserradoras o cortadoras de piedra"
+  },
+  {
+    "codigo": 8341002,
+    "ocupación": "Operador de maquinas cosechadoras, segadoras y/o trilladoras"
+  },
+  {
+    "codigo": 8112007,
+    "ocupación": "Operador de máquinas trituradoras de arcilla"
+  },
+  {
+    "codigo": 3132004,
+    "ocupación": "Operador de mezcladora"
+  },
+  {
+    "codigo": 8342008,
+    "ocupación": "Operador de mini tractor"
+  },
+  {
+    "codigo": 8160051,
+    "ocupación": "Operador de molinos de arroz"
+  },
+  {
+    "codigo": 8160010,
+    "ocupación": "Operador de molinos de azúcar"
+  },
+  {
+    "codigo": 8160049,
+    "ocupación": "Operador de molinos de cereales"
+  },
+  {
+    "codigo": 8160053,
+    "ocupación": "Operador de molinos de especias"
+  },
+  {
+    "codigo": 8343006,
+    "ocupación": "Operador de montacargas"
+  },
+  {
+    "codigo": 8342005,
+    "ocupación": "Operador de niveladora"
+  },
+  {
+    "codigo": 7223012,
+    "ocupación": "Operador de otras máquina herramientas"
+  },
+  {
+    "codigo": 8342004,
+    "ocupación": "Operador de pala mecánica"
+  },
+  {
+    "codigo": 9211004,
+    "ocupación": "Operador de patio de caña de azúcar"
+  },
+  {
+    "codigo": 8350003,
+    "ocupación": "Operador de pequeñas embarcaciones"
+  },
+  {
+    "codigo": 8342014,
+    "ocupación": "Operador de perforadores de concreto o asfalto"
+  },
+  {
+    "codigo": 8342015,
+    "ocupación": "Operador de piloteadora"
+  },
+  {
+    "codigo": 9312010,
+    "ocupación": "Operador de pipas de agua (pavimentado)"
+  },
+  {
+    "codigo": 7111007,
+    "ocupación": "Operador de placas prefabricadas"
+  },
+  {
+    "codigo": 4222002,
+    "ocupación": "Operador de planta telefónica"
+  },
+  {
+    "codigo": 7223004,
+    "ocupación": "Operador de prensa de metales"
+  },
+  {
+    "codigo": 8211004,
+    "ocupación": "Operador de prensa rotativa"
+  },
+  {
+    "codigo": 8122010,
+    "ocupación": "Operador de proceso de cromado"
+  },
+  {
+    "codigo": 8122011,
+    "ocupación": "Operador de proceso de niquelación"
+  },
+  {
+    "codigo": 3511002,
+    "ocupación": "Operador de radio de navegación aérea"
+  },
+  {
+    "codigo": 3522003,
+    "ocupación": "Operador de radio de Navegación Marítima"
+  },
+  {
+    "codigo": 7223010,
+    "ocupación": "Operador de rectificadora de metales"
+  },
+  {
+    "codigo": 8342016,
+    "ocupación": "Operador de retroexcavadora"
+  },
+  {
+    "codigo": 8159007,
+    "ocupación": "Operador de ribeteador textil"
+  },
+  {
+    "codigo": 8212002,
+    "ocupación": "Operador de robots industriales"
+  },
+  {
+    "codigo": 8160007,
+    "ocupación": "Operador de secadoras de azúcar"
+  },
+  {
+    "codigo": 8160008,
+    "ocupación": "Operador de tachos (tachero)"
+  },
+  {
+    "codigo": 8152005,
+    "ocupación": "Operador de telar circular"
+  },
+  {
+    "codigo": 8152006,
+    "ocupación": "Operador de telar plano"
+  },
+  {
+    "codigo": 7223003,
+    "ocupación": "Operador de torno de metales"
+  },
+  {
+    "codigo": 7223002,
+    "ocupación": "Operador de torno de metalurgia"
+  },
+  {
+    "codigo": 3332002,
+    "ocupación": "Operador de tours"
+  },
+  {
+    "codigo": 3332004,
+    "ocupación": "Operador de turismo"
+  },
+  {
+    "codigo": 3118005,
+    "ocupación": "Operador dibujante en sistemas de diseño asistido por ordenador "
+  },
+  {
+    "codigo": 6113009,
+    "ocupación": "Operador empacador de frutas u hortalizas"
+  },
+  {
+    "codigo": 8211006,
+    "ocupación": "Operador ensamblador de máquina herramientas"
+  },
+  {
+    "codigo": 8211005,
+    "ocupación": "Operador ensamblador de maquinaria de imprenta"
+  },
+  {
+    "codigo": 8219002,
+    "ocupación": "Operador ensamblador de maquinaria textil"
+  },
+  {
+    "codigo": 8219003,
+    "ocupación": "Operador ensamblador de productos de madera"
+  },
+  {
+    "codigo": 8212003,
+    "ocupación": "Operador ensamblador de prótesis auditivas"
+  },
+  {
+    "codigo": 8181001,
+    "ocupación": "Operador Instalador de vidrios"
+  },
+  {
+    "codigo": 8160040,
+    "ocupación": "Operador llenador de tetra pak"
+  },
+  {
+    "codigo": 3131004,
+    "ocupación": "Operador rectificador de energía eléctrica"
+  },
+  {
+    "codigo": 3131005,
+    "ocupación": "Operador repartidor de cargas de energía eléctrica"
+  },
+  {
+    "codigo": 3135001,
+    "ocupación": "Operador, convertidor / acero (procedimiento a oxigeno ld)"
+  },
+  {
+    "codigo": 8159008,
+    "ocupación": "Operario de calandrador textil"
+  },
+  {
+    "codigo": 6122001,
+    "ocupación": "Operario de embandejado de productos avícolas"
+  },
+  {
+    "codigo": 6122007,
+    "ocupación": "Operario de incubación de granja avícola "
+  },
+  {
+    "codigo": 8131009,
+    "ocupación": "Operario de industria farmacéutica."
+  },
+  {
+    "codigo": 8142002,
+    "ocupación": "Operario de la industria de transformación del plástico"
+  },
+  {
+    "codigo": 8153002,
+    "ocupación": "Operario de maquinas de coser industriales especiales"
+  },
+  {
+    "codigo": 8153001,
+    "ocupación": "Operario de máquinas de coser plana y overlock"
+  },
+  {
+    "codigo": 6122002,
+    "ocupación": "Operario de producción de productos avícolas"
+  },
+  {
+    "codigo": 8182007,
+    "ocupación": "Operario de tratamiento térmico"
+  },
+  {
+    "codigo": 7521001,
+    "ocupación": "Operario del tratamiento de la madera"
+  },
+  {
+    "codigo": 7114001,
+    "ocupación": "Operario en cemento armado, enfoscadores y afines"
+  },
+  {
+    "codigo": 8212004,
+    "ocupación": "Operario ensamblador de componentes eléctricos o armador de artefactos eléctricos"
+  },
+  {
+    "codigo": 8212005,
+    "ocupación": "Operario ensamblador de componentes electrónicos"
+  },
+  {
+    "codigo": 8212006,
+    "ocupación": "Operario ensamblador de equipos microelectrónicos"
+  },
+  {
+    "codigo": 8341004,
+    "ocupación": "Operario ensamblador de maquinaria agrícolas"
+  },
+  {
+    "codigo": 8219004,
+    "ocupación": "Operario ensamblador de maquinaria industrial"
+  },
+  {
+    "codigo": 8211007,
+    "ocupación": "Operario ensamblador de maquinaria mecánica"
+  },
+  {
+    "codigo": 8211008,
+    "ocupación": "Operario ensamblador de mecanismos mecánico"
+  },
+  {
+    "codigo": 8219005,
+    "ocupación": "Operario ensamblador de muebles metálicos"
+  },
+  {
+    "codigo": 8141004,
+    "ocupación": "Operario ensamblador de productos de caucho"
+  },
+  {
+    "codigo": 8155007,
+    "ocupación": "Operario ensamblador de productos de cuero"
+  },
+  {
+    "codigo": 8142003,
+    "ocupación": "Operario ensamblador de productos de material plástico"
+  },
+  {
+    "codigo": 8122012,
+    "ocupación": "Operario ensamblador de productos de metal"
+  },
+  {
+    "codigo": 8151013,
+    "ocupación": "Operario ensamblador de productos textiles"
+  },
+  {
+    "codigo": 8212007,
+    "ocupación": "Operario ensamblador de receptores de radio"
+  },
+  {
+    "codigo": 8212008,
+    "ocupación": "Operario ensamblador de receptores de televisión"
+  },
+  {
+    "codigo": 8132001,
+    "ocupación": "Operario laboratorios fotográficos/revelado de películas"
+  },
+  {
+    "codigo": 8160027,
+    "ocupación": "Operario para envasado en planta"
+  },
+  {
+    "codigo": 8143004,
+    "ocupación": "Operarios ensambladores de productos de cartón"
+  },
+  {
+    "codigo": 2267001,
+    "ocupación": "Optometrista"
+  },
+  {
+    "codigo": 3332001,
+    "ocupación": "Organizador de eventos"
+  },
+  {
+    "codigo": 5163003,
+    "ocupación": "Organizador de servicios funerarios"
+  },
+  {
+    "codigo": 3332003,
+    "ocupación": "Organizador de viajes"
+  },
+  {
+    "codigo": 3333006,
+    "ocupación": "Orientador vocacional y laboral"
+  },
+  {
+    "codigo": 9129001,
+    "ocupación": "Otro personal de limpieza"
+  },
+  {
+    "codigo": 3359006,
+    "ocupación": "Otros Inspector de la administración pública"
+  },
+  {
+    "codigo": 3435001,
+    "ocupación": "Otros profesionales de nivel medio en actividades culturales y artísticas"
+  },
+  {
+    "codigo": 2354001,
+    "ocupación": "Otros Profesor de música"
+  },
+  {
+    "codigo": 7512002,
+    "ocupación": "Panadero"
+  },
+  {
+    "codigo": 7512001,
+    "ocupación": "Panadero de restaurante"
+  },
+  {
+    "codigo": 3434005,
+    "ocupación": "Parrillero"
+  },
+  {
+    "codigo": 3222001,
+    "ocupación": "Partera de nivel medio"
+  },
+  {
+    "codigo": 3411004,
+    "ocupación": "Pasante de Abogado"
+  },
+  {
+    "codigo": 6121014,
+    "ocupación": "Pastor (cabras y ovejas)"
+  },
+  {
+    "codigo": 2636005,
+    "ocupación": "Pastor evangélico"
+  },
+  {
+    "codigo": 2212045,
+    "ocupación": "Patólogo"
+  },
+  {
+    "codigo": 2636018,
+    "ocupación": "Patriarca"
+  },
+  {
+    "codigo": 3152004,
+    "ocupación": "Patrón de barco o yate"
+  },
+  {
+    "codigo": 7532002,
+    "ocupación": "Patronista de calzado"
+  },
+  {
+    "codigo": 7532001,
+    "ocupación": "Patronista industrial"
+  },
+  {
+    "codigo": 5414006,
+    "ocupación": "Patrullero particular"
+  },
+  {
+    "codigo": 2659002,
+    "ocupación": "Payaso"
+  },
+  {
+    "codigo": 2351003,
+    "ocupación": "Pedagogo"
+  },
+  {
+    "codigo": 5142005,
+    "ocupación": "Pedicurista y manicurista"
+  },
+  {
+    "codigo": 7531001,
+    "ocupación": "Peletero"
+  },
+  {
+    "codigo": 7535002,
+    "ocupación": "Pellejero"
+  },
+  {
+    "codigo": 5141002,
+    "ocupación": "Peluquero"
+  },
+  {
+    "codigo": 8342002,
+    "ocupación": "Perforador y Operario de Minería de Superficie, Canteras y Construcción"
+  },
+  {
+    "codigo": 8113002,
+    "ocupación": "Perforador y sondista de pozos y afines"
+  },
+  {
+    "codigo": 2642001,
+    "ocupación": "Periodista"
+  },
+  {
+    "codigo": 4311002,
+    "ocupación": "Perito contador"
+  },
+  {
+    "codigo": 3142001,
+    "ocupación": "Peritos agrónomo"
+  },
+  {
+    "codigo": 9622001,
+    "ocupación": "Persona que realiza trabajos varios"
+  },
+  {
+    "codigo": 4419001,
+    "ocupación": "Personal de apoyo y administrativo no clasificado bajo otros epígrafes."
+  },
+  {
+    "codigo": 5411004,
+    "ocupación": "Personal de asistencia a afectados por desastres"
+  },
+  {
+    "codigo": 5419001,
+    "ocupación": "Personal de los servicios de protección no clasificados bajo otros epígrafes"
+  },
+  {
+    "codigo": 5411003,
+    "ocupación": "Personal de prevención de desastres"
+  },
+  {
+    "codigo": 6222001,
+    "ocupación": "Pescador de agua dulce (artesanal)"
+  },
+  {
+    "codigo": 6222002,
+    "ocupación": "Pescador de aguas costeras"
+  },
+  {
+    "codigo": 6223001,
+    "ocupación": "Pescador de alta mar"
+  },
+  {
+    "codigo": 6340001,
+    "ocupación": "Pescador, cazador, trampero y recolector de subsistencia"
+  },
+  {
+    "codigo": 9311006,
+    "ocupación": "Picador de piedra"
+  },
+  {
+    "codigo": 9331001,
+    "ocupación": "Piloto de  bicitaxis"
+  },
+  {
+    "codigo": 8331001,
+    "ocupación": "Piloto de autobuses"
+  },
+  {
+    "codigo": 3153001,
+    "ocupación": "Piloto de avión"
+  },
+  {
+    "codigo": 8331003,
+    "ocupación": "Piloto de buses escolares"
+  },
+  {
+    "codigo": 8332004,
+    "ocupación": "Piloto de cabezal"
+  },
+  {
+    "codigo": 8332003,
+    "ocupación": "Piloto de camión mezclador"
+  },
+  {
+    "codigo": 8332001,
+    "ocupación": "Piloto de camiones"
+  },
+  {
+    "codigo": 9332001,
+    "ocupación": "Piloto de carros de caballos (turismo) "
+  },
+  {
+    "codigo": 8321004,
+    "ocupación": "Piloto de moto taxis"
+  },
+  {
+    "codigo": 8332002,
+    "ocupación": "Piloto de tráiler"
+  },
+  {
+    "codigo": 8331002,
+    "ocupación": "Piloto de transmetro"
+  },
+  {
+    "codigo": 8322001,
+    "ocupación": "Piloto de vehículos livianos repartidores de productos  "
+  },
+  {
+    "codigo": 2651002,
+    "ocupación": "Pintor"
+  },
+  {
+    "codigo": 7213002,
+    "ocupación": "Pintor de carrocerías"
+  },
+  {
+    "codigo": 7131001,
+    "ocupación": "Pintor de edificios"
+  },
+  {
+    "codigo": 7131003,
+    "ocupación": "Pintor de vallas publicitarias"
+  },
+  {
+    "codigo": 7131002,
+    "ocupación": "Pintor de viviendas"
+  },
+  {
+    "codigo": 7316002,
+    "ocupación": "Pintor Decorador de cerámica"
+  },
+  {
+    "codigo": 7122001,
+    "ocupación": "Pisero"
+  },
+  {
+    "codigo": 9121001,
+    "ocupación": "Planchador a mano"
+  },
+  {
+    "codigo": 3112004,
+    "ocupación": "Planillero (obras públicas)"
+  },
+  {
+    "codigo": 7313001,
+    "ocupación": "Platero"
+  },
+  {
+    "codigo": 7533002,
+    "ocupación": "Plegadora"
+  },
+  {
+    "codigo": 7126001,
+    "ocupación": "Plomero"
+  },
+  {
+    "codigo": 6210005,
+    "ocupación": "Podador"
+  },
+  {
+    "codigo": 3230002,
+    "ocupación": "Podólogo"
+  },
+  {
+    "codigo": 5412002,
+    "ocupación": "Policía de caminos"
+  },
+  {
+    "codigo": 5412003,
+    "ocupación": "Policía de tránsito"
+  },
+  {
+    "codigo": 5412005,
+    "ocupación": "Policía de turismo"
+  },
+  {
+    "codigo": 5412001,
+    "ocupación": "Policía nacional civil"
+  },
+  {
+    "codigo": 2633003,
+    "ocupación": "Politólogo"
+  },
+  {
+    "codigo": 5414004,
+    "ocupación": "Portero de discoteca o local recreativo"
+  },
+  {
+    "codigo": 5414007,
+    "ocupación": "Portero de hotel"
+  },
+  {
+    "codigo": 5419002,
+    "ocupación": "Portero de organismo oficial"
+  },
+  {
+    "codigo": 5414002,
+    "ocupación": "Portero de vivienda"
+  },
+  {
+    "codigo": 8113001,
+    "ocupación": "Posero con maquinaria industrial"
+  },
+  {
+    "codigo": 3256001,
+    "ocupación": "Practicante e internista"
+  },
+  {
+    "codigo": 2240001,
+    "ocupación": "Practicante paramédico"
+  },
+  {
+    "codigo": 3413003,
+    "ocupación": "Presbítero"
+  },
+  {
+    "codigo": 2656002,
+    "ocupación": "Presentador televisivo"
+  },
+  {
+    "codigo": 3312001,
+    "ocupación": "Prestamista de créditos"
+  },
+  {
+    "codigo": 4213001,
+    "ocupación": "Prestamista de dinero"
+  },
+  {
+    "codigo": 4213002,
+    "ocupación": "Prestamista de prendas"
+  },
+  {
+    "codigo": 2659003,
+    "ocupación": "Prestidigitador"
+  },
+  {
+    "codigo": 7514003,
+    "ocupación": "Procesador de conservas"
+  },
+  {
+    "codigo": 7514002,
+    "ocupación": "Procesador de mermelada"
+  },
+  {
+    "codigo": 7511006,
+    "ocupación": "Procesador de pescado y mariscos (limpieza y destase)"
+  },
+  {
+    "codigo": 7514001,
+    "ocupación": "Procesador de productos a base de frutas y verduras"
+  },
+  {
+    "codigo": 7513001,
+    "ocupación": "Procesador de productos lácteos"
+  },
+  {
+    "codigo": 2221001,
+    "ocupación": "Profesional de enfermería"
+  },
+  {
+    "codigo": 2359001,
+    "ocupación": "Profesional de la enseñanza no clasificados bajo otros epígrafes"
+  },
+  {
+    "codigo": 2133001,
+    "ocupación": "Profesional de la protección medio ambiental"
+  },
+  {
+    "codigo": 3259001,
+    "ocupación": "Profesional de la salud de nivel medio no clasificados bajo otros epígrafes"
+  },
+  {
+    "codigo": 2269001,
+    "ocupación": "Profesional de la salud no clasificados en otros epígrafes"
+  },
+  {
+    "codigo": 2230001,
+    "ocupación": "Profesional de medicina tradicional y alternativa"
+  },
+  {
+    "codigo": 3314001,
+    "ocupación": "Profesional de nivel medio de servicios estadísticos, matemáticos y afines"
+  },
+  {
+    "codigo": 2222001,
+    "ocupación": "Profesional de partería"
+  },
+  {
+    "codigo": 2523001,
+    "ocupación": "Profesional en redes de computadoras"
+  },
+  {
+    "codigo": 2330001,
+    "ocupación": "Profesor  de Física"
+  },
+  {
+    "codigo": 2330002,
+    "ocupación": "Profesor de agroindustrias "
+  },
+  {
+    "codigo": 2330003,
+    "ocupación": "Profesor de artes industriales"
+  },
+  {
+    "codigo": 2355001,
+    "ocupación": "Profesor de bellas artes"
+  },
+  {
+    "codigo": 2330004,
+    "ocupación": "Profesor de Biología"
+  },
+  {
+    "codigo": 2330005,
+    "ocupación": "Profesor de botánica "
+  },
+  {
+    "codigo": 2330006,
+    "ocupación": "Profesor de calidad de alimentos "
+  },
+  {
+    "codigo": 2330007,
+    "ocupación": "Profesor de cartografía "
+  },
+  {
+    "codigo": 2330008,
+    "ocupación": "Profesor de cuencas hidrográficas"
+  },
+  {
+    "codigo": 2330009,
+    "ocupación": "Profesor de dasometría de la zona"
+  },
+  {
+    "codigo": 2330010,
+    "ocupación": "Profesor de Economía Contable"
+  },
+  {
+    "codigo": 2330011,
+    "ocupación": "Profesor de educación en artes plásticas."
+  },
+  {
+    "codigo": 2352003,
+    "ocupación": "Profesor de educación especial"
+  },
+  {
+    "codigo": 2330012,
+    "ocupación": "Profesor de educación musical"
+  },
+  {
+    "codigo": 2330013,
+    "ocupación": "Profesor de educación para el hogar"
+  },
+  {
+    "codigo": 2330014,
+    "ocupación": "Profesor de entomología "
+  },
+  {
+    "codigo": 2320001,
+    "ocupación": "Profesor de formación profesional"
+  },
+  {
+    "codigo": 2330015,
+    "ocupación": "Profesor de Historia"
+  },
+  {
+    "codigo": 2353005,
+    "ocupación": "Profesor de idioma francés"
+  },
+  {
+    "codigo": 2353006,
+    "ocupación": "Profesor de idioma ingles"
+  },
+  {
+    "codigo": 2356001,
+    "ocupación": "Profesor de informática y computación"
+  },
+  {
+    "codigo": 2330016,
+    "ocupación": "Profesor de manejo y conservación de suelos "
+  },
+  {
+    "codigo": 2330017,
+    "ocupación": "Profesor de Matemática"
+  },
+  {
+    "codigo": 2330018,
+    "ocupación": "Profesor de matemáticas"
+  },
+  {
+    "codigo": 2330019,
+    "ocupación": "Profesor de nutrición vegetal "
+  },
+  {
+    "codigo": 2353008,
+    "ocupación": "Profesor de otros idiomas guatemaltecos"
+  },
+  {
+    "codigo": 2330020,
+    "ocupación": "Profesor de pastos y forrajes "
+  },
+  {
+    "codigo": 2330021,
+    "ocupación": "Profesor de psicología"
+  },
+  {
+    "codigo": 2330022,
+    "ocupación": "Profesor de taxonomía vegetal "
+  },
+  {
+    "codigo": 2330023,
+    "ocupación": "Profesor de topografía"
+  },
+  {
+    "codigo": 2353007,
+    "ocupación": "Profesor del idioma alemán"
+  },
+  {
+    "codigo": 2353001,
+    "ocupación": "Profesor del idioma cackchiquel"
+  },
+  {
+    "codigo": 2353002,
+    "ocupación": "Profesor del idioma k'iche"
+  },
+  {
+    "codigo": 2353003,
+    "ocupación": "Profesor del idioma mam"
+  },
+  {
+    "codigo": 2353004,
+    "ocupación": "Profesor del idioma q'eqchi'"
+  },
+  {
+    "codigo": 2330024,
+    "ocupación": "Profesor en  filosofía"
+  },
+  {
+    "codigo": 2330025,
+    "ocupación": "Profesor en  lengua y literatura clásica"
+  },
+  {
+    "codigo": 2330026,
+    "ocupación": "Profesor en pedagogía y ciencias de la educación"
+  },
+  {
+    "codigo": 2514001,
+    "ocupación": "Programador de aplicaciones"
+  },
+  {
+    "codigo": 2634001,
+    "ocupación": "Psicólogo"
+  },
+  {
+    "codigo": 2634002,
+    "ocupación": "Psicólogo clínico ( psicoterapeuta)"
+  },
+  {
+    "codigo": 2634003,
+    "ocupación": "Psicólogo educativo (psicopedagogo)"
+  },
+  {
+    "codigo": 2634005,
+    "ocupación": "Psicólogo forense"
+  },
+  {
+    "codigo": 2634006,
+    "ocupación": "Psicólogo laboral o industrial"
+  },
+  {
+    "codigo": 2634004,
+    "ocupación": "Psicólogo social"
+  },
+  {
+    "codigo": 2431002,
+    "ocupación": "Publicista"
+  },
+  {
+    "codigo": 7315004,
+    "ocupación": "Pulidor de vidrio"
+  },
+  {
+    "codigo": 7224002,
+    "ocupación": "Pulidor especializado en el tratamiento de metales"
+  },
+  {
+    "codigo": 7315006,
+    "ocupación": "Pulidor y/o tallador de lentes ópticos"
+  },
+  {
+    "codigo": 7513002,
+    "ocupación": "Quesero"
+  },
+  {
+    "codigo": 2113001,
+    "ocupación": "Químico"
+  },
+  {
+    "codigo": 5161003,
+    "ocupación": "Quiromántico"
+  },
+  {
+    "codigo": 3230001,
+    "ocupación": "Quiropráctico"
+  },
+  {
+    "codigo": 2636014,
+    "ocupación": "Rabino"
+  },
+  {
+    "codigo": 9312011,
+    "ocupación": "Rastrillero (pavimentación de carreteras)"
+  },
+  {
+    "codigo": 7412004,
+    "ocupación": "Rebobinador de motores"
+  },
+  {
+    "codigo": 3352002,
+    "ocupación": "Recaudador de impuestos"
+  },
+  {
+    "codigo": 4226001,
+    "ocupación": "Recepcionista de empresa"
+  },
+  {
+    "codigo": 4224001,
+    "ocupación": "Recepcionista de hotel"
+  },
+  {
+    "codigo": 5169002,
+    "ocupación": "Recepcionista y/o acompañante de club nocturno"
+  },
+  {
+    "codigo": 4212001,
+    "ocupación": "Receptor de apuestas"
+  },
+  {
+    "codigo": 4211002,
+    "ocupación": "Receptor pagadores"
+  },
+  {
+    "codigo": 9623002,
+    "ocupación": "Recolector de dinero en aparatos automáticos (no ventas)"
+  },
+  {
+    "codigo": 9623001,
+    "ocupación": "Recolector de dinero en aparatos de venta automática"
+  },
+  {
+    "codigo": 8160005,
+    "ocupación": "Refinador de ingenio azucarero"
+  },
+  {
+    "codigo": 6210003,
+    "ocupación": "Reforestador"
+  },
+  {
+    "codigo": 3143001,
+    "ocupación": "Regente forestal"
+  },
+  {
+    "codigo": 2432001,
+    "ocupación": "Relacionista público"
+  },
+  {
+    "codigo": 7319003,
+    "ocupación": "Relojero"
+  },
+  {
+    "codigo": 3315002,
+    "ocupación": "Rematador de mercancía"
+  },
+  {
+    "codigo": 7422004,
+    "ocupación": "Reparador  de líneas de cable de TV."
+  },
+  {
+    "codigo": 7412008,
+    "ocupación": "Reparador de aparatos electro-domésticos"
+  },
+  {
+    "codigo": 7421001,
+    "ocupación": "Reparador de aparatos electrónicos"
+  },
+  {
+    "codigo": 7234001,
+    "ocupación": "Reparador de bicicletas y afines"
+  },
+  {
+    "codigo": 7536005,
+    "ocupación": "Reparador de calzado"
+  },
+  {
+    "codigo": 7413002,
+    "ocupación": "Reparador de líneas eléctricas"
+  },
+  {
+    "codigo": 9629002,
+    "ocupación": "Reparador de llantas de vehículos"
+  },
+  {
+    "codigo": 8321002,
+    "ocupación": "Repartidor   de periódicos en moto"
+  },
+  {
+    "codigo": 9621002,
+    "ocupación": "Repartidor de alimentos preparados"
+  },
+  {
+    "codigo": 8321001,
+    "ocupación": "Repartidor de comida rápida en moto"
+  },
+  {
+    "codigo": 8321003,
+    "ocupación": "Repartidor de repuestos de vehículos en moto"
+  },
+  {
+    "codigo": 2642006,
+    "ocupación": "Reportero escrito"
+  },
+  {
+    "codigo": 2642004,
+    "ocupación": "Reportero gráfico"
+  },
+  {
+    "codigo": 7512003,
+    "ocupación": "Repostero"
+  },
+  {
+    "codigo": 3339004,
+    "ocupación": "Representant artísticos"
+  },
+  {
+    "codigo": 3322001,
+    "ocupación": "Representante comercial"
+  },
+  {
+    "codigo": 8132003,
+    "ocupación": "Restaurador de fotografías"
+  },
+  {
+    "codigo": 7319001,
+    "ocupación": "Restaurador de imágenes religiosas"
+  },
+  {
+    "codigo": 7319002,
+    "ocupación": "Restaurador de muebles antiguos"
+  },
+  {
+    "codigo": 8132002,
+    "ocupación": "Revelador negativos/color (fotografía)"
+  },
+  {
+    "codigo": 4413003,
+    "ocupación": "Revisor de forma y estilo"
+  },
+  {
+    "codigo": 5112001,
+    "ocupación": "Revisor de ticket de transporte"
+  },
+  {
+    "codigo": 2636004,
+    "ocupación": "Sacerdote cristiano"
+  },
+  {
+    "codigo": 2636011,
+    "ocupación": "Sacerdote maya"
+  },
+  {
+    "codigo": 7531002,
+    "ocupación": "Sastre"
+  },
+  {
+    "codigo": 4120001,
+    "ocupación": "Secretaria"
+  },
+  {
+    "codigo": 4120004,
+    "ocupación": "Secretaría administrativa"
+  },
+  {
+    "codigo": 4120002,
+    "ocupación": "Secretaria bilingüe"
+  },
+  {
+    "codigo": 4120003,
+    "ocupación": "Secretaria comercial"
+  },
+  {
+    "codigo": 4120007,
+    "ocupación": "Secretaria contadora"
+  },
+  {
+    "codigo": 4120006,
+    "ocupación": "Secretaria de gerencia"
+  },
+  {
+    "codigo": 4120005,
+    "ocupación": "Secretaria ejecutiva"
+  },
+  {
+    "codigo": 3411003,
+    "ocupación": "Secretario de juzgado"
+  },
+  {
+    "codigo": 3343001,
+    "ocupación": "Secretario de la administración pública"
+  },
+  {
+    "codigo": 1114005,
+    "ocupación": "Secretario general de sindicato de trabajadores "
+  },
+  {
+    "codigo": 3342001,
+    "ocupación": "Secretario jurídico"
+  },
+  {
+    "codigo": 3344001,
+    "ocupación": "Secretario Médico"
+  },
+  {
+    "codigo": 6123003,
+    "ocupación": "Sericultor"
+  },
+  {
+    "codigo": 2636006,
+    "ocupación": "Siervo ministerial"
+  },
+  {
+    "codigo": 5111003,
+    "ocupación": "Sobrecargo"
+  },
+  {
+    "codigo": 2632001,
+    "ocupación": "Sociólogo"
+  },
+  {
+    "codigo": 5411002,
+    "ocupación": "Socorrista"
+  },
+  {
+    "codigo": 7212007,
+    "ocupación": "Soldador con electrodo MIG-MAG"
+  },
+  {
+    "codigo": 7212008,
+    "ocupación": "Soldador con electrodo TIG"
+  },
+  {
+    "codigo": 7212009,
+    "ocupación": "Soldador con Oxiacetilénica SOA"
+  },
+  {
+    "codigo": 7212003,
+    "ocupación": "Soldador de estructuras metálicas"
+  },
+  {
+    "codigo": 7212005,
+    "ocupación": "Soldador de estructuras metálicas en aluminio"
+  },
+  {
+    "codigo": 7212004,
+    "ocupación": "Soldador de estructuras metálicas para viviendas"
+  },
+  {
+    "codigo": 7212006,
+    "ocupación": "Soldador del arco voltaico SEA"
+  },
+  {
+    "codigo": 7212001,
+    "ocupación": "Soldador industrial"
+  },
+  {
+    "codigo": 7531004,
+    "ocupación": "Sombrerero"
+  },
+  {
+    "codigo": 7317003,
+    "ocupación": "Sombrerero de fibras vegetales"
+  },
+  {
+    "codigo": 7315005,
+    "ocupación": "Soplador de vidrio"
+  },
+  {
+    "codigo": 3434001,
+    "ocupación": "Sour chef"
+  },
+  {
+    "codigo": 3315004,
+    "ocupación": "Subastador"
+  },
+  {
+    "codigo": 3122010,
+    "ocupación": "Supervisor  de ensambladores de productos de madera"
+  },
+  {
+    "codigo": 3122001,
+    "ocupación": "Supervisor de calidad de confección"
+  },
+  {
+    "codigo": 3121001,
+    "ocupación": "Supervisor de cantera "
+  },
+  {
+    "codigo": 3123003,
+    "ocupación": "Supervisor de construcción"
+  },
+  {
+    "codigo": 3123006,
+    "ocupación": "Supervisor de cuadrilla de obras públicas."
+  },
+  {
+    "codigo": 3122015,
+    "ocupación": "Supervisor de ensambladores de equipos eléctricos"
+  },
+  {
+    "codigo": 3122016,
+    "ocupación": "Supervisor de ensambladores de equipos electrónicos"
+  },
+  {
+    "codigo": 3122017,
+    "ocupación": "Supervisor de ensambladores de mecanismos y elementos mecánico"
+  },
+  {
+    "codigo": 3122018,
+    "ocupación": "Supervisor de ensambladores de productos de cartón, textiles y materiales afines"
+  },
+  {
+    "codigo": 3122014,
+    "ocupación": "Supervisor de ensambladores de productos metálicos, de caucho o de plástico"
+  },
+  {
+    "codigo": 3122002,
+    "ocupación": "Supervisor de envasado de alimentos"
+  },
+  {
+    "codigo": 3122003,
+    "ocupación": "Supervisor de evaporadores de azúcar"
+  },
+  {
+    "codigo": 6122004,
+    "ocupación": "Supervisor de granja avícola"
+  },
+  {
+    "codigo": 3123004,
+    "ocupación": "Supervisor de instalación de mármol"
+  },
+  {
+    "codigo": 3122004,
+    "ocupación": "Supervisor de líneas de producción de la industria de confección"
+  },
+  {
+    "codigo": 5151001,
+    "ocupación": "Supervisor de mantenimiento y limpieza en oficinas, hoteles y otros establecimientos"
+  },
+  {
+    "codigo": 3122005,
+    "ocupación": "Supervisor de molinos de azúcar"
+  },
+  {
+    "codigo": 3123002,
+    "ocupación": "Supervisor de obra civil"
+  },
+  {
+    "codigo": 8182004,
+    "ocupación": "Supervisor de Operador de hornos de cerámica y maquinas afines"
+  },
+  {
+    "codigo": 8182005,
+    "ocupación": "Supervisor de Operador de hornos de vidriería y maquinas afines"
+  },
+  {
+    "codigo": 3121002,
+    "ocupación": "Supervisor de operador de instalaciones mineras"
+  },
+  {
+    "codigo": 3122013,
+    "ocupación": "Supervisor de operador de máquina para elaborar productos de tabaco"
+  },
+  {
+    "codigo": 8172007,
+    "ocupación": "Supervisor de Operador de procesamiento de madera"
+  },
+  {
+    "codigo": 3139003,
+    "ocupación": "Supervisor de operadores  para la preparación de pasta para papel"
+  },
+  {
+    "codigo": 3122019,
+    "ocupación": "Supervisor de operadores de  máquina de preparación de fibras, hilado y devanado"
+  },
+  {
+    "codigo": 3132005,
+    "ocupación": "Supervisor de operadores de cadenas de montaje automatizadas"
+  },
+  {
+    "codigo": 3135007,
+    "ocupación": "Supervisor de operadores de hornos de primera fusión de metales"
+  },
+  {
+    "codigo": 3131006,
+    "ocupación": "Supervisor de operadores de instalaciones de productos de energía"
+  },
+  {
+    "codigo": 3134001,
+    "ocupación": "Supervisor de operadores de instalaciones de refinación de petróleo y gas natural"
+  },
+  {
+    "codigo": 3139001,
+    "ocupación": "Supervisor de operadores de instalaciones para la fabricación de papel"
+  },
+  {
+    "codigo": 3122020,
+    "ocupación": "Supervisor de operadores de máquina de blanqueo, teñido y tintura"
+  },
+  {
+    "codigo": 3122021,
+    "ocupación": "Supervisor de operadores de máquina de imprenta"
+  },
+  {
+    "codigo": 3122031,
+    "ocupación": "Supervisor de operadores de máquina de molienda de cereales o especias"
+  },
+  {
+    "codigo": 3122011,
+    "ocupación": "Supervisor de operadores de máquina de tratamiento de pieles y cueros"
+  },
+  {
+    "codigo": 3122022,
+    "ocupación": "Supervisor de operadores de máquina herramientas"
+  },
+  {
+    "codigo": 3122037,
+    "ocupación": "Supervisor de operadores de máquina para coser"
+  },
+  {
+    "codigo": 3122012,
+    "ocupación": "Supervisor de operadores de máquina para elaborar cereales, productos de panadería y repostería y artículos de chocolate"
+  },
+  {
+    "codigo": 3122035,
+    "ocupación": "Supervisor de operadores de máquina para elaborar frutos húmedos y secos y hortalizas"
+  },
+  {
+    "codigo": 3122023,
+    "ocupación": "Supervisor de operadores de máquina para elaborar productos lácteos"
+  },
+  {
+    "codigo": 3122024,
+    "ocupación": "Supervisor de operadores de máquina para elaborar té, café y cacao"
+  },
+  {
+    "codigo": 3122034,
+    "ocupación": "Supervisor de operadores de máquina para fabricar azúcares"
+  },
+  {
+    "codigo": 3122038,
+    "ocupación": "Supervisor de operadores de máquina para fabricar producto de caucho"
+  },
+  {
+    "codigo": 3122036,
+    "ocupación": "Supervisor de operadores de máquina para fabricar producto farmacéuticos y cosméticos"
+  },
+  {
+    "codigo": 3122032,
+    "ocupación": "Supervisor de operadores de máquina para fabricar productos de madera"
+  },
+  {
+    "codigo": 3122025,
+    "ocupación": "Supervisor de operadores de máquina para fabricar productos de papel"
+  },
+  {
+    "codigo": 3122026,
+    "ocupación": "Supervisor de operadores de máquina para la fabricación de calzado o de marroquinería"
+  },
+  {
+    "codigo": 3122027,
+    "ocupación": "Supervisor de operadores de máquina para preparar carne, pescado y mariscos"
+  },
+  {
+    "codigo": 3122028,
+    "ocupación": "Supervisor de operadores de máquina pulidoras, galvanizadoras y recubridoras de metales"
+  },
+  {
+    "codigo": 3122029,
+    "ocupación": "Supervisor de operadores de máquina tejedoras"
+  },
+  {
+    "codigo": 3135004,
+    "ocupación": "Supervisor de operadores de máquina trefiladoras y estiradoras de metales"
+  },
+  {
+    "codigo": 3122006,
+    "ocupación": "Supervisor de operadores de maquinas para elaborar bebidas (excepto vino y cerveza)"
+  },
+  {
+    "codigo": 3122033,
+    "ocupación": "Supervisor de operadores de maquinas para elaborar cerveza"
+  },
+  {
+    "codigo": 3122007,
+    "ocupación": "Supervisor de operadores de maquinas para elaborar vino"
+  },
+  {
+    "codigo": 3122030,
+    "ocupación": "Supervisor de operadores de robots industriales"
+  },
+  {
+    "codigo": 3122008,
+    "ocupación": "Supervisor de patio de caña de azúcar"
+  },
+  {
+    "codigo": 3123005,
+    "ocupación": "Supervisor de prefabricados"
+  },
+  {
+    "codigo": 3341001,
+    "ocupación": "Supervisor de secretaría"
+  },
+  {
+    "codigo": 3122009,
+    "ocupación": "Supervisor de tachos o recuperación de azúcar"
+  },
+  {
+    "codigo": 5222001,
+    "ocupación": "Supervisor de Vendedor de tiendas y almacenes"
+  },
+  {
+    "codigo": 2433003,
+    "ocupación": "Supervisor de ventas"
+  },
+  {
+    "codigo": 2351005,
+    "ocupación": "Supervisor docente"
+  },
+  {
+    "codigo": 7318005,
+    "ocupación": "Talabartero"
+  },
+  {
+    "codigo": 7522002,
+    "ocupación": "Tallador de maderas"
+  },
+  {
+    "codigo": 7522001,
+    "ocupación": "Tallador de muebles de madera"
+  },
+  {
+    "codigo": 7534001,
+    "ocupación": "Tapicero"
+  },
+  {
+    "codigo": 4211001,
+    "ocupación": "Taquillero"
+  },
+  {
+    "codigo": 3315003,
+    "ocupación": "Tasador de seguros"
+  },
+  {
+    "codigo": 8322002,
+    "ocupación": "Taxista"
+  },
+  {
+    "codigo": 7121002,
+    "ocupación": "Techador"
+  },
+  {
+    "codigo": 7121001,
+    "ocupación": "Techador con elementos prefabricados"
+  },
+  {
+    "codigo": 3511005,
+    "ocupación": "Técnico analista de sistemas"
+  },
+  {
+    "codigo": 2519002,
+    "ocupación": "Técnico de hardware"
+  },
+  {
+    "codigo": 3514001,
+    "ocupación": "Técnico de la web"
+  },
+  {
+    "codigo": 3212001,
+    "ocupación": "Técnico de laboratorio "
+  },
+  {
+    "codigo": 3212002,
+    "ocupación": "Técnico de laboratorio especialista en bacteriología"
+  },
+  {
+    "codigo": 3212003,
+    "ocupación": "Técnico de laboratorio especialista en hepatología"
+  },
+  {
+    "codigo": 3117003,
+    "ocupación": "Técnico de tratamientos térmicos"
+  },
+  {
+    "codigo": 3118007,
+    "ocupación": "Técnico diseñador de piezas metal mecánicas"
+  },
+  {
+    "codigo": 3115002,
+    "ocupación": "Técnico en  construcción mecánica"
+  },
+  {
+    "codigo": 3112006,
+    "ocupación": "Técnico en acueductos y saneamiento rural"
+  },
+  {
+    "codigo": 3141001,
+    "ocupación": "Técnico en ciencias biológicas"
+  },
+  {
+    "codigo": 3111001,
+    "ocupación": "Técnico en ciencias físicas"
+  },
+  {
+    "codigo": 3111002,
+    "ocupación": "Técnico en ciencias químicas"
+  },
+  {
+    "codigo": 3139011,
+    "ocupación": "Técnico en control de procesos corte de papel"
+  },
+  {
+    "codigo": 3139014,
+    "ocupación": "Técnico en control de procesos de bobinar papel"
+  },
+  {
+    "codigo": 3139006,
+    "ocupación": "Técnico en control de procesos de electricidad industrial con especialización en automatización"
+  },
+  {
+    "codigo": 3139002,
+    "ocupación": "Técnico en control de procesos de equipo automatizado"
+  },
+  {
+    "codigo": 3139012,
+    "ocupación": "Técnico en control de procesos de instalaciones de preparación o elaboración de pasta para papel"
+  },
+  {
+    "codigo": 3139004,
+    "ocupación": "Técnico en control de procesos de máquina aprestadora de papel"
+  },
+  {
+    "codigo": 3139009,
+    "ocupación": "Técnico en control de procesos de maquina batidora o refinadora de pasta para papel"
+  },
+  {
+    "codigo": 3139007,
+    "ocupación": "Técnico en control de procesos de máquina de fabricación de papel o cartón"
+  },
+  {
+    "codigo": 3139010,
+    "ocupación": "Técnico en control de procesos de máquina de tratamiento de papel"
+  },
+  {
+    "codigo": 3139005,
+    "ocupación": "Técnico en control de procesos de máquina para la preparación de pasta para papel"
+  },
+  {
+    "codigo": 3139008,
+    "ocupación": "Técnico en control de procesos de máquina trituradora, desfibradora o tamizadora para pasta para papel"
+  },
+  {
+    "codigo": 3139013,
+    "ocupación": "Técnico en control de procesos de prensar papel"
+  },
+  {
+    "codigo": 7231001,
+    "ocupación": "Técnico en diagnóstico computarizado de vehículos"
+  },
+  {
+    "codigo": 3118006,
+    "ocupación": "Técnico en diseño gráfico"
+  },
+  {
+    "codigo": 3118002,
+    "ocupación": "Técnico en diseño textil"
+  },
+  {
+    "codigo": 3252001,
+    "ocupación": "Técnico en documentación sanitaria"
+  },
+  {
+    "codigo": 3256002,
+    "ocupación": "Técnico en educación especial"
+  },
+  {
+    "codigo": 3115009,
+    "ocupación": "Técnico en electricidad industrial"
+  },
+  {
+    "codigo": 3114001,
+    "ocupación": "Técnico en electrónica"
+  },
+  {
+    "codigo": 3114002,
+    "ocupación": "Técnico en electrónica industrial"
+  },
+  {
+    "codigo": 3116002,
+    "ocupación": "Técnico en ensayos de materiales"
+  },
+  {
+    "codigo": 3213001,
+    "ocupación": "Técnico en Farmacología"
+  },
+  {
+    "codigo": 3212004,
+    "ocupación": "Técnico en Fisiología"
+  },
+  {
+    "codigo": 3433001,
+    "ocupación": "Técnico en galería  de arte, museo y biblioteca"
+  },
+  {
+    "codigo": 3113001,
+    "ocupación": "Técnico en generación y transporte de energía"
+  },
+  {
+    "codigo": 3117002,
+    "ocupación": "Técnico en ingeniería  metalúrgica"
+  },
+  {
+    "codigo": 3112001,
+    "ocupación": "Técnico en ingeniería civil"
+  },
+  {
+    "codigo": 3514002,
+    "ocupación": "Técnico en ingeniería de las telecomunicaciones"
+  },
+  {
+    "codigo": 3117001,
+    "ocupación": "Técnico en ingeniería de minas"
+  },
+  {
+    "codigo": 3141002,
+    "ocupación": "Técnico en Insectología"
+  },
+  {
+    "codigo": 6121010,
+    "ocupación": "Técnico en la cría de cerdos especializado en inseminación"
+  },
+  {
+    "codigo": 3113003,
+    "ocupación": "Técnico en mantenimiento de equipos electrónicos"
+  },
+  {
+    "codigo": 3115010,
+    "ocupación": "Técnico en mantenimiento industrial"
+  },
+  {
+    "codigo": 3115001,
+    "ocupación": "Técnico en mecánica"
+  },
+  {
+    "codigo": 3115011,
+    "ocupación": "Técnico en mecánica industrial"
+  },
+  {
+    "codigo": 3113002,
+    "ocupación": "Técnico en operación de máquina CNC"
+  },
+  {
+    "codigo": 2412002,
+    "ocupación": "Técnico en operaciones bancarias"
+  },
+  {
+    "codigo": 3254001,
+    "ocupación": "Técnico en optometría"
+  },
+  {
+    "codigo": 3355003,
+    "ocupación": "Técnico en poligrafía"
+  },
+  {
+    "codigo": 3511008,
+    "ocupación": "Técnico en programación y Diseño de Páginas Web"
+  },
+  {
+    "codigo": 3116001,
+    "ocupación": "Técnico en química industrial"
+  },
+  {
+    "codigo": 3513001,
+    "ocupación": "Técnico en redes informáticas"
+  },
+  {
+    "codigo": 3257001,
+    "ocupación": "Técnico en salud laboral o ambiental"
+  },
+  {
+    "codigo": 3155001,
+    "ocupación": "Técnico en seguridad aeronáutica"
+  },
+  {
+    "codigo": 3321004,
+    "ocupación": "Técnico en seguros y fianzas"
+  },
+  {
+    "codigo": 3511007,
+    "ocupación": "Técnico en servicios informáticos"
+  },
+  {
+    "codigo": 3142003,
+    "ocupación": "Técnico en silvicultura"
+  },
+  {
+    "codigo": 3513002,
+    "ocupación": "Técnico en sistemas de computadores"
+  },
+  {
+    "codigo": 3522001,
+    "ocupación": "Técnico en telecomunicaciones"
+  },
+  {
+    "codigo": 3522002,
+    "ocupación": "Técnico en transmisiones"
+  },
+  {
+    "codigo": 7412007,
+    "ocupación": "Técnico instalador de elevadores"
+  },
+  {
+    "codigo": 7232001,
+    "ocupación": "Técnico instrumentalista en aviones"
+  },
+  {
+    "codigo": 7232002,
+    "ocupación": "Técnico mecánico de aviones"
+  },
+  {
+    "codigo": 3115007,
+    "ocupación": "Técnico mecánico de equipo industrial"
+  },
+  {
+    "codigo": 3115003,
+    "ocupación": "Técnico mecánico en refrigeración, calefacción y aire acondicionado"
+  },
+  {
+    "codigo": 3115005,
+    "ocupación": "Técnico mecánico en reparación aeronáutica"
+  },
+  {
+    "codigo": 3115004,
+    "ocupación": "Técnico mecánico en reparación automotriz"
+  },
+  {
+    "codigo": 3115008,
+    "ocupación": "Técnico mecánico en reparación de herramienta agrícolas"
+  },
+  {
+    "codigo": 3115006,
+    "ocupación": "Técnico mecánico en reparación naval"
+  },
+  {
+    "codigo": 3256005,
+    "ocupación": "Técnico o auxiliar de dietólogo"
+  },
+  {
+    "codigo": 3256006,
+    "ocupación": "Técnico o auxiliar de nutricionista"
+  },
+  {
+    "codigo": 3254003,
+    "ocupación": "Técnico o auxiliar de oftalmología"
+  },
+  {
+    "codigo": 3511004,
+    "ocupación": "Técnico operador de PC"
+  },
+  {
+    "codigo": 3214001,
+    "ocupación": "Técnico ortopedista y prótesis"
+  },
+  {
+    "codigo": 3142002,
+    "ocupación": "Técnico pecuario"
+  },
+  {
+    "codigo": 3511006,
+    "ocupación": "Técnico programador de computadoras"
+  },
+  {
+    "codigo": 3254002,
+    "ocupación": "Técnico refaccionista"
+  },
+  {
+    "codigo": 7318002,
+    "ocupación": "Tejedor con telar artesanal (cintura)"
+  },
+  {
+    "codigo": 7318004,
+    "ocupación": "Tejedor con telar semindustrializado."
+  },
+  {
+    "codigo": 4223001,
+    "ocupación": "Telefonista"
+  },
+  {
+    "codigo": 3313001,
+    "ocupación": "Tenedores de libros "
+  },
+  {
+    "codigo": 2634007,
+    "ocupación": "Terapeuta ocupacional"
+  },
+  {
+    "codigo": 3255001,
+    "ocupación": "Terapista del lenguaje"
+  },
+  {
+    "codigo": 7321007,
+    "ocupación": "Tipógrafo"
+  },
+  {
+    "codigo": 3112003,
+    "ocupación": "Topógrafo"
+  },
+  {
+    "codigo": 7523003,
+    "ocupación": "Tornero de madera"
+  },
+  {
+    "codigo": 9312012,
+    "ocupación": "Tornillero (pavimentación de carreteras)"
+  },
+  {
+    "codigo": 6111007,
+    "ocupación": "Trabajador agrícola de cultivos de palma africana "
+  },
+  {
+    "codigo": 6111001,
+    "ocupación": "Trabajador agrícola de cultivos extensivos en general"
+  },
+  {
+    "codigo": 6112005,
+    "ocupación": "Trabajador agrícola de explotaciones de caucho (hule)"
+  },
+  {
+    "codigo": 6112004,
+    "ocupación": "Trabajador agrícola de plantaciones de árboles o arbustos en general"
+  },
+  {
+    "codigo": 6310001,
+    "ocupación": "Trabajador agrícola de subsistencia "
+  },
+  {
+    "codigo": 6112002,
+    "ocupación": "Trabajador agrícola del cultivo de aguacate de exportación"
+  },
+  {
+    "codigo": 6112001,
+    "ocupación": "Trabajador agrícola del cultivo de café"
+  },
+  {
+    "codigo": 6111003,
+    "ocupación": "Trabajador agrícola del cultivo de caña de azúcar"
+  },
+  {
+    "codigo": 6111002,
+    "ocupación": "Trabajador agrícola del cultivo de cardamomo"
+  },
+  {
+    "codigo": 6113007,
+    "ocupación": "Trabajador agrícola del cultivo de flores "
+  },
+  {
+    "codigo": 6112006,
+    "ocupación": "Trabajador agrícola del cultivo de frutales en general"
+  },
+  {
+    "codigo": 6111005,
+    "ocupación": "Trabajador agrícola del cultivo de granos básicos (maíz, fríjol, arroz)"
+  },
+  {
+    "codigo": 6113002,
+    "ocupación": "Trabajador agrícola del cultivo de hortalizas"
+  },
+  {
+    "codigo": 6112009,
+    "ocupación": "Trabajador agrícola del cultivo de la piña"
+  },
+  {
+    "codigo": 6111004,
+    "ocupación": "Trabajador agrícola del cultivo de tabaco"
+  },
+  {
+    "codigo": 6113006,
+    "ocupación": "Trabajador agrícola del cultivo de tubérculos y raíces"
+  },
+  {
+    "codigo": 6112008,
+    "ocupación": "Trabajador agrícola del cultivo del melón"
+  },
+  {
+    "codigo": 6112007,
+    "ocupación": "Trabajador agrícola del cultivo del plátano y banano"
+  },
+  {
+    "codigo": 6114001,
+    "ocupación": "Trabajador agrícolas de cultivos mixtos"
+  },
+  {
+    "codigo": 6130001,
+    "ocupación": "Trabajador agropecuario con destino al mercado"
+  },
+  {
+    "codigo": 6330001,
+    "ocupación": "Trabajador agropecuario de subsistencia"
+  },
+  {
+    "codigo": 3253001,
+    "ocupación": "Trabajador comunitario de la salud"
+  },
+  {
+    "codigo": 6221003,
+    "ocupación": "Trabajador de  reproducción de camarones"
+  },
+  {
+    "codigo": 6112003,
+    "ocupación": "Trabajador de beneficio de café"
+  },
+  {
+    "codigo": 6113008,
+    "ocupación": "Trabajador de conservación de parques urbanos"
+  },
+  {
+    "codigo": 6121003,
+    "ocupación": "Trabajador de ganado bovino producción de leche"
+  },
+  {
+    "codigo": 6121013,
+    "ocupación": "Trabajador de ganado caprino "
+  },
+  {
+    "codigo": 6121008,
+    "ocupación": "Trabajador de ganado ovino de lana"
+  },
+  {
+    "codigo": 6121011,
+    "ocupación": "Trabajador de ganado ovino de producción de carne"
+  },
+  {
+    "codigo": 6122009,
+    "ocupación": "Trabajador de granja avícola (destazador)"
+  },
+  {
+    "codigo": 6122008,
+    "ocupación": "Trabajador de granja avícola (gallinas ponedoras)"
+  },
+  {
+    "codigo": 6122003,
+    "ocupación": "Trabajador de granja avícola (pollos de engorde)"
+  },
+  {
+    "codigo": 6113003,
+    "ocupación": "Trabajador de invernadero en general"
+  },
+  {
+    "codigo": 6221001,
+    "ocupación": "Trabajador de la acuicultura en general"
+  },
+  {
+    "codigo": 6129002,
+    "ocupación": "Trabajador de la cría canina"
+  },
+  {
+    "codigo": 6121017,
+    "ocupación": "Trabajador de la cría de caballos"
+  },
+  {
+    "codigo": 6121002,
+    "ocupación": "Trabajador de la cría de cerdos"
+  },
+  {
+    "codigo": 6121007,
+    "ocupación": "Trabajador de la cría de cerdos especializado en desarrollo"
+  },
+  {
+    "codigo": 6121005,
+    "ocupación": "Trabajador de la cría de cerdos especializado en destete"
+  },
+  {
+    "codigo": 6121009,
+    "ocupación": "Trabajador de la cría de cerdos especializado en engorde"
+  },
+  {
+    "codigo": 6121006,
+    "ocupación": "Trabajador de la cría de cerdos especializado en gestación"
+  },
+  {
+    "codigo": 6121004,
+    "ocupación": "Trabajador de la cría de cerdos especializado en maternidad"
+  },
+  {
+    "codigo": 6121015,
+    "ocupación": "Trabajador de la cría de conejos"
+  },
+  {
+    "codigo": 5321001,
+    "ocupación": "Trabajador de los cuidados personales en instituciones"
+  },
+  {
+    "codigo": 5329001,
+    "ocupación": "Trabajador de los cuidados personales en servicios de salud no clasificados bajo otros epígrafes"
+  },
+  {
+    "codigo": 6221004,
+    "ocupación": "Trabajador de reproducción de otros crustáceos o moluscos"
+  },
+  {
+    "codigo": 6221002,
+    "ocupación": "Trabajador de reproducción de peces"
+  },
+  {
+    "codigo": 9321003,
+    "ocupación": "Trabajador de salas de empaque de flores"
+  },
+  {
+    "codigo": 6113004,
+    "ocupación": "Trabajador de vivero en general"
+  },
+  {
+    "codigo": 7313003,
+    "ocupación": "Trabajador del jade y piedras preciosas  propias de la región"
+  },
+  {
+    "codigo": 9111002,
+    "ocupación": "Trabajador doméstico a domicilio"
+  },
+  {
+    "codigo": 9111001,
+    "ocupación": "Trabajador doméstico residente"
+  },
+  {
+    "codigo": 7516002,
+    "ocupación": "Trabajador en la elaboración del tabaco"
+  },
+  {
+    "codigo": 6210006,
+    "ocupación": "Trabajador forestal en general"
+  },
+  {
+    "codigo": 6320001,
+    "ocupación": "Trabajador pecuario de subsistencia"
+  },
+  {
+    "codigo": 6310002,
+    "ocupación": "Trabajador pesquero de subsistencia (artesanal)"
+  },
+  {
+    "codigo": 2635001,
+    "ocupación": "Trabajador social"
+  },
+  {
+    "codigo": 8341001,
+    "ocupación": "Tractorista agrícola"
+  },
+  {
+    "codigo": 2643006,
+    "ocupación": "Traductor de idioma alemán"
+  },
+  {
+    "codigo": 2643005,
+    "ocupación": "Traductor de idioma francés- español"
+  },
+  {
+    "codigo": 2643004,
+    "ocupación": "Traductor de idioma ingles - español"
+  },
+  {
+    "codigo": 2643007,
+    "ocupación": "Traductor de idioma italiano"
+  },
+  {
+    "codigo": 2643008,
+    "ocupación": "Traductor de idiomas extranjeros"
+  },
+  {
+    "codigo": 2643003,
+    "ocupación": "Traductor de lenguas mayas"
+  },
+  {
+    "codigo": 2643009,
+    "ocupación": "Traductor de otros idiomas"
+  },
+  {
+    "codigo": 2643002,
+    "ocupación": "Traductor jurado"
+  },
+  {
+    "codigo": 3359009,
+    "ocupación": "Tramitador autorizados"
+  },
+  {
+    "codigo": 3359010,
+    "ocupación": "Tramitador financieros"
+  },
+  {
+    "codigo": 7214002,
+    "ocupación": "Trazador de estructuras"
+  },
+  {
+    "codigo": 7321004,
+    "ocupación": "Troquelador"
+  },
+  {
+    "codigo": 2164001,
+    "ocupación": "Urbanista e Ingeniero de tránsito"
+  },
+  {
+    "codigo": 6122006,
+    "ocupación": "Vacunador en granja avícola"
+  },
+  {
+    "codigo": 5243001,
+    "ocupación": "Vendedor a domicilio"
+  },
+  {
+    "codigo": 5249001,
+    "ocupación": "Vendedor al mayoreo"
+  },
+  {
+    "codigo": 9520007,
+    "ocupación": "Vendedor ambulante de artículos de recreación"
+  },
+  {
+    "codigo": 5212002,
+    "ocupación": "Vendedor ambulante de comida preparada"
+  },
+  {
+    "codigo": 5212003,
+    "ocupación": "Vendedor ambulante de frutas y verduras"
+  },
+  {
+    "codigo": 5212001,
+    "ocupación": "Vendedor ambulante de productos comestibles en general"
+  },
+  {
+    "codigo": 9520006,
+    "ocupación": "Vendedor ambulante de productos de consumo no comestibles"
+  },
+  {
+    "codigo": 9520005,
+    "ocupación": "Vendedor ambulantes de productos de artesanía"
+  },
+  {
+    "codigo": 5221001,
+    "ocupación": "Vendedor de almacén"
+  },
+  {
+    "codigo": 9520003,
+    "ocupación": "Vendedor de artesanías en la vía pública"
+  },
+  {
+    "codigo": 2434002,
+    "ocupación": "Vendedor de hardware"
+  },
+  {
+    "codigo": 5211002,
+    "ocupación": "Vendedor de mercado cantonal"
+  },
+  {
+    "codigo": 9520001,
+    "ocupación": "Vendedor de periódicos"
+  },
+  {
+    "codigo": 5211001,
+    "ocupación": "Vendedor de quioscos"
+  },
+  {
+    "codigo": 5212004,
+    "ocupación": "Vendedor de refrescos"
+  },
+  {
+    "codigo": 2434001,
+    "ocupación": "Vendedor de software"
+  },
+  {
+    "codigo": 9520004,
+    "ocupación": "Vendedor en el transporte público y urbano"
+  },
+  {
+    "codigo": 5211003,
+    "ocupación": "Vendedor en puestos callejeros ( alimentos, ropa, productos varios )"
+  },
+  {
+    "codigo": 5244001,
+    "ocupación": "Vendedor por teléfono (tele marketing)"
+  },
+  {
+    "codigo": 9520002,
+    "ocupación": "Vendedor promocional en la vía pública"
+  },
+  {
+    "codigo": 3322002,
+    "ocupación": "Vendedor viajero y rutero"
+  },
+  {
+    "codigo": 7125001,
+    "ocupación": "Ventanero"
+  },
+  {
+    "codigo": 2433004,
+    "ocupación": "Visitador Médico"
+  },
+  {
+    "codigo": 3412002,
+    "ocupación": "Visitador social"
+  },
+  {
+    "codigo": 6210004,
+    "ocupación": "Viverista forestal"
+  },
+  {
+    "codigo": 5169003,
+    "ocupación": "Xamán"
+  },
+  {
+    "codigo": 7536001,
+    "ocupación": "Zapatero"
+  },
+  {
+    "codigo": 2131003,
+    "ocupación": "Zoólogo"
+  },
+  {
+    "codigo": 2250002,
+    "ocupación": "Zootecnista"
+  }
+]

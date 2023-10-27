@@ -1,0 +1,54 @@
+[
+  {
+    "codigo": 1,
+    "nivel": "Ninguno"
+  },
+  {
+    "codigo": 2,
+    "nivel": "Primaria incompleta"
+  },
+  {
+    "codigo": 3,
+    "nivel": "Primaria completa"
+  },
+  {
+    "codigo": 4,
+    "nivel": "Básico incompleto"
+  },
+  {
+    "codigo": 5,
+    "nivel": "Básico completo"
+  },
+  {
+    "codigo": 6,
+    "nivel": "Diversificado incompleto"
+  },
+  {
+    "codigo": 7,
+    "nivel": "Diversificado completo"
+  },
+  {
+    "codigo": 8,
+    "nivel": "Estudiante universitario"
+  },
+  {
+    "codigo": 9,
+    "nivel": "Técnico universitario "
+  },
+  {
+    "codigo": 10,
+    "nivel": "Licenciatura "
+  },
+  {
+    "codigo": 11,
+    "nivel": "Postgrado"
+  },
+  {
+    "codigo": 12,
+    "nivel": "Maestría "
+  },
+  {
+    "codigo": 13,
+    "nivel": "Doctorado"
+  }
+]

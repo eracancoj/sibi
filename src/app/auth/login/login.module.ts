@@ -3,7 +3,6 @@ import { CommonModule } from '@angular/common';
 
 import { LoginRoutingModule } from './login-routing.module';
 import { LoginComponent } from './login.component';
-import { IonicModule } from '@ionic/angular';
 
 
 @NgModule({
@@ -13,7 +12,6 @@ import { IonicModule } from '@ionic/angular';
   imports: [
     CommonModule,
     LoginRoutingModule,
-    IonicModule
   ]
 })
 export class LoginModule { }

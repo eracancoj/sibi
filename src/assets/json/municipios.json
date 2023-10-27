@@ -1,0 +1,1362 @@
+[
+  {
+    "codigo": 411,
+    "municipio": "Acatenango"
+  },
+  {
+    "codigo": 2204,
+    "municipio": "Agua Blanca"
+  },
+  {
+    "codigo": 1327,
+    "municipio": "Aguacatán"
+  },
+  {
+    "codigo": 913,
+    "municipio": "Almolonga"
+  },
+  {
+    "codigo": 114,
+    "municipio": "Amatitlán"
+  },
+  {
+    "codigo": 301,
+    "municipio": "Antigua Guatemala"
+  },
+  {
+    "codigo": 2205,
+    "municipio": "Asunción Mita"
+  },
+  {
+    "codigo": 2207,
+    "municipio": "Atescatempa"
+  },
+  {
+    "codigo": 1217,
+    "municipio": "Ayutla"
+  },
+  {
+    "codigo": 602,
+    "municipio": "Barberena"
+  },
+  {
+    "codigo": 1907,
+    "municipio": "Cabañas"
+  },
+  {
+    "codigo": 906,
+    "municipio": "Cabricán"
+  },
+  {
+    "codigo": 907,
+    "municipio": "Cajolá"
+  },
+  {
+    "codigo": 2005,
+    "municipio": "Camotán"
+  },
+  {
+    "codigo": 1418,
+    "municipio": "Canillá"
+  },
+  {
+    "codigo": 914,
+    "municipio": "Cantel"
+  },
+  {
+    "codigo": 604,
+    "municipio": "Casillas"
+  },
+  {
+    "codigo": 1216,
+    "municipio": "Catarina"
+  },
+  {
+    "codigo": 1614,
+    "municipio": "Chahal"
+  },
+  {
+    "codigo": 1405,
+    "municipio": "Chajul"
+  },
+  {
+    "codigo": 1107,
+    "municipio": "Champerico"
+  },
+  {
+    "codigo": 1302,
+    "municipio": "Chiantla"
+  },
+  {
+    "codigo": 1013,
+    "municipio": "Chicacao"
+  },
+  {
+    "codigo": 1419,
+    "municipio": "Chicamán"
+  },
+  {
+    "codigo": 1402,
+    "municipio": "Chiché"
+  },
+  {
+    "codigo": 401,
+    "municipio": "Chimaltenango"
+  },
+  {
+    "codigo": 106,
+    "municipio": "Chinautla"
+  },
+  {
+    "codigo": 1403,
+    "municipio": "Chinique"
+  },
+  {
+    "codigo": 2001,
+    "municipio": "Chiquimula"
+  },
+  {
+    "codigo": 608,
+    "municipio": "Chiquimulilla"
+  },
+  {
+    "codigo": 1613,
+    "municipio": "Chisec"
+  },
+  {
+    "codigo": 112,
+    "municipio": "Chuarrancho"
+  },
+  {
+    "codigo": 312,
+    "municipio": "Ciudad Vieja"
+  },
+  {
+    "codigo": 920,
+    "municipio": "Coatepeque"
+  },
+  {
+    "codigo": 1601,
+    "municipio": "Cobán"
+  },
+  {
+    "codigo": 917,
+    "municipio": "Colomba Costa Cuca"
+  },
+  {
+    "codigo": 1319,
+    "municipio": "Colotenango"
+  },
+  {
+    "codigo": 404,
+    "municipio": "Comalapa"
+  },
+  {
+    "codigo": 2211,
+    "municipio": "Comapa"
+  },
+  {
+    "codigo": 1204,
+    "municipio": "Comitancillo"
+  },
+  {
+    "codigo": 708,
+    "municipio": "Concepción"
+  },
+  {
+    "codigo": 911,
+    "municipio": "Concepción Chiquirichapa"
+  },
+  {
+    "codigo": 1322,
+    "municipio": "Concepción Huista"
+  },
+  {
+    "codigo": 2008,
+    "municipio": "Concepción las Minas"
+  },
+  {
+    "codigo": 1206,
+    "municipio": "Concepción Tutuapa"
+  },
+  {
+    "codigo": 2213,
+    "municipio": "Conguaco"
+  },
+  {
+    "codigo": 1504,
+    "municipio": "Cubulco"
+  },
+  {
+    "codigo": 601,
+    "municipio": "Cuilapa"
+  },
+  {
+    "codigo": 1304,
+    "municipio": "Cuilco"
+  },
+  {
+    "codigo": 1410,
+    "municipio": "Cunén"
+  },
+  {
+    "codigo": 1002,
+    "municipio": "Cuyotenango"
+  },
+  {
+    "codigo": 1708,
+    "municipio": "Dolores"
+  },
+  {
+    "codigo": 2209,
+    "municipio": "El Adelanto"
+  },
+  {
+    "codigo": 1109,
+    "municipio": "El Asintal"
+  },
+  {
+    "codigo": 1714,
+    "municipio": "El Chal"
+  },
+  {
+    "codigo": 1506,
+    "municipio": "El Chol"
+  },
+  {
+    "codigo": 1803,
+    "municipio": "El Estor"
+  },
+  {
+    "codigo": 205,
+    "municipio": "El Jícaro"
+  },
+  {
+    "codigo": 919,
+    "municipio": "El Palmar"
+  },
+  {
+    "codigo": 2202,
+    "municipio": "El Progreso"
+  },
+  {
+    "codigo": 1220,
+    "municipio": "El Quetzal"
+  },
+  {
+    "codigo": 416,
+    "municipio": "El Tejar"
+  },
+  {
+    "codigo": 1213,
+    "municipio": "El Tumbador"
+  },
+  {
+    "codigo": 501,
+    "municipio": "Escuintla"
+  },
+  {
+    "codigo": 2007,
+    "municipio": "Esquipulas"
+  },
+  {
+    "codigo": 1227,
+    "municipio": "Esquipulas Palo Gordo"
+  },
+  {
+    "codigo": 1902,
+    "municipio": "Estanzuela"
+  },
+  {
+    "codigo": 1701,
+    "municipio": "Flores"
+  },
+  {
+    "codigo": 922,
+    "municipio": "Flores Costa Cuca"
+  },
+  {
+    "codigo": 113,
+    "municipio": "Fraijanes"
+  },
+  {
+    "codigo": 1615,
+    "municipio": "Fray Bartolomé de Las Casas"
+  },
+  {
+    "codigo": 921,
+    "municipio": "Génova"
+  },
+  {
+    "codigo": 1505,
+    "municipio": "Granados"
+  },
+  {
+    "codigo": 1904,
+    "municipio": "Gualán"
+  },
+  {
+    "codigo": 508,
+    "municipio": "Guanagazapa"
+  },
+  {
+    "codigo": 201,
+    "municipio": "Guastatoya"
+  },
+  {
+    "codigo": 101,
+    "municipio": "Guatemala"
+  },
+  {
+    "codigo": 611,
+    "municipio": "Guazacapán"
+  },
+  {
+    "codigo": 1301,
+    "municipio": "Huehuetenango"
+  },
+  {
+    "codigo": 915,
+    "municipio": "Huitán"
+  },
+  {
+    "codigo": 1910,
+    "municipio": "Huité"
+  },
+  {
+    "codigo": 2011,
+    "municipio": "Ipala"
+  },
+  {
+    "codigo": 1420,
+    "municipio": "Ixcán"
+  },
+  {
+    "codigo": 1223,
+    "municipio": "Ixchiguán"
+  },
+  {
+    "codigo": 510,
+    "municipio": "Iztapa"
+  },
+  {
+    "codigo": 1307,
+    "municipio": "Jacaltenango"
+  },
+  {
+    "codigo": 2101,
+    "municipio": "Jalapa"
+  },
+  {
+    "codigo": 2212,
+    "municipio": "Jalpatagua"
+  },
+  {
+    "codigo": 2208,
+    "municipio": "Jerez"
+  },
+  {
+    "codigo": 2004,
+    "municipio": "Jocotán"
+  },
+  {
+    "codigo": 302,
+    "municipio": "Jocotenango"
+  },
+  {
+    "codigo": 1412,
+    "municipio": "Joyabaj"
+  },
+  {
+    "codigo": 2201,
+    "municipio": "Jutiapa"
+  },
+  {
+    "codigo": 1230,
+    "municipio": "La Blanca"
+  },
+  {
+    "codigo": 503,
+    "municipio": "La Democracia"
+  },
+  {
+    "codigo": 1312,
+    "municipio": "La Democracia"
+  },
+  {
+    "codigo": 923,
+    "municipio": "La Esperanza"
+  },
+  {
+    "codigo": 507,
+    "municipio": "La Gomera"
+  },
+  {
+    "codigo": 1311,
+    "municipio": "La Libertad"
+  },
+  {
+    "codigo": 1705,
+    "municipio": "La Libertad"
+  },
+  {
+    "codigo": 1221,
+    "municipio": "La Reforma"
+  },
+  {
+    "codigo": 1909,
+    "municipio": "La Unión"
+  },
+  {
+    "codigo": 1713,
+    "municipio": "Las Cruces"
+  },
+  {
+    "codigo": 1802,
+    "municipio": "Livingston"
+  },
+  {
+    "codigo": 1805,
+    "municipio": "Los Amates"
+  },
+  {
+    "codigo": 310,
+    "municipio": "Magdalena Milpas Altas"
+  },
+  {
+    "codigo": 1215,
+    "municipio": "Malacatán"
+  },
+  {
+    "codigo": 1303,
+    "municipio": "Malacatancito"
+  },
+  {
+    "codigo": 505,
+    "municipio": "Masagua"
+  },
+  {
+    "codigo": 2107,
+    "municipio": "Mataquescuintla"
+  },
+  {
+    "codigo": 1001,
+    "municipio": "Mazatenango"
+  },
+  {
+    "codigo": 1711,
+    "municipio": "Melchor de Mencos"
+  },
+  {
+    "codigo": 108,
+    "municipio": "Mixco"
+  },
+  {
+    "codigo": 805,
+    "municipio": "Momostenango"
+  },
+  {
+    "codigo": 2106,
+    "municipio": "Monjas"
+  },
+  {
+    "codigo": 1804,
+    "municipio": "Morales"
+  },
+  {
+    "codigo": 202,
+    "municipio": "Morazán"
+  },
+  {
+    "codigo": 2214,
+    "municipio": "Moyuta"
+  },
+  {
+    "codigo": 705,
+    "municipio": "Nahualá"
+  },
+  {
+    "codigo": 1305,
+    "municipio": "Nentón"
+  },
+  {
+    "codigo": 513,
+    "municipio": "Nueva Concepción"
+  },
+  {
+    "codigo": 614,
+    "municipio": "Nueva Santa Rosa"
+  },
+  {
+    "codigo": 1212,
+    "municipio": "Nuevo Progreso"
+  },
+  {
+    "codigo": 1108,
+    "municipio": "Nuevo San Carlos"
+  },
+  {
+    "codigo": 1218,
+    "municipio": "Ocós"
+  },
+  {
+    "codigo": 2006,
+    "municipio": "Olopa"
+  },
+  {
+    "codigo": 606,
+    "municipio": "Oratorio"
+  },
+  {
+    "codigo": 1421,
+    "municipio": "Pachalum"
+  },
+  {
+    "codigo": 1222,
+    "municipio": "Pajapita"
+  },
+  {
+    "codigo": 105,
+    "municipio": "Palencia"
+  },
+  {
+    "codigo": 924,
+    "municipio": "Palestina de Los Altos"
+  },
+  {
+    "codigo": 511,
+    "municipio": "Palín"
+  },
+  {
+    "codigo": 710,
+    "municipio": "Panajachel"
+  },
+  {
+    "codigo": 1607,
+    "municipio": "Panzós"
+  },
+  {
+    "codigo": 414,
+    "municipio": "Parramos"
+  },
+  {
+    "codigo": 2215,
+    "municipio": "Pasaco"
+  },
+  {
+    "codigo": 303,
+    "municipio": "Pastores"
+  },
+  {
+    "codigo": 1014,
+    "municipio": "Patulul"
+  },
+  {
+    "codigo": 409,
+    "municipio": "Patzicía"
+  },
+  {
+    "codigo": 1407,
+    "municipio": "Patzité"
+  },
+  {
+    "codigo": 407,
+    "municipio": "Patzún"
+  },
+  {
+    "codigo": 117,
+    "municipio": "Petapa"
+  },
+  {
+    "codigo": 1333,
+    "municipio": "Petatán"
+  },
+  {
+    "codigo": 1712,
+    "municipio": "Poptún"
+  },
+  {
+    "codigo": 1019,
+    "municipio": "Pueblo Nuevo"
+  },
+  {
+    "codigo": 613,
+    "municipio": "Pueblo Nuevo Viñas"
+  },
+  {
+    "codigo": 1801,
+    "municipio": "Puerto Barrios"
+  },
+  {
+    "codigo": 1508,
+    "municipio": "Purulhá"
+  },
+  {
+    "codigo": 2217,
+    "municipio": "Quesada"
+  },
+  {
+    "codigo": 901,
+    "municipio": "Quetzaltenango"
+  },
+  {
+    "codigo": 2009,
+    "municipio": "Quezaltepeque"
+  },
+  {
+    "codigo": 1503,
+    "municipio": "Rabinal"
+  },
+  {
+    "codigo": 1617,
+    "municipio": "Raxruhá"
+  },
+  {
+    "codigo": 1101,
+    "municipio": "Retalhuleu"
+  },
+  {
+    "codigo": 1228,
+    "municipio": "Río Blanco"
+  },
+  {
+    "codigo": 1020,
+    "municipio": "Río Bravo"
+  },
+  {
+    "codigo": 1903,
+    "municipio": "Río Hondo"
+  },
+  {
+    "codigo": 1416,
+    "municipio": "Sacapulas"
+  },
+  {
+    "codigo": 1501,
+    "municipio": "Salamá"
+  },
+  {
+    "codigo": 902,
+    "municipio": "Salcajá"
+  },
+  {
+    "codigo": 1008,
+    "municipio": "Samayac"
+  },
+  {
+    "codigo": 203,
+    "municipio": "San Agustín Acasaguastlán"
+  },
+  {
+    "codigo": 1611,
+    "municipio": "San Agustín Lanquín"
+  },
+  {
+    "codigo": 1704,
+    "municipio": "San Andrés"
+  },
+  {
+    "codigo": 413,
+    "municipio": "San Andrés Itzapa"
+  },
+  {
+    "codigo": 1414,
+    "municipio": "San Andrés Sajcabajá"
+  },
+  {
+    "codigo": 709,
+    "municipio": "San Andrés Semetabaj"
+  },
+  {
+    "codigo": 1106,
+    "municipio": "San Andrés Villa Seca"
+  },
+  {
+    "codigo": 804,
+    "municipio": "San Andrés Xecul"
+  },
+  {
+    "codigo": 315,
+    "municipio": "San Antonio Aguas Calientes"
+  },
+  {
+    "codigo": 1324,
+    "municipio": "San Antonio Huista"
+  },
+  {
+    "codigo": 1408,
+    "municipio": "San Antonio Ilotenango"
+  },
+  {
+    "codigo": 208,
+    "municipio": "San Antonio la Paz"
+  },
+  {
+    "codigo": 712,
+    "municipio": "San Antonio Palopó"
+  },
+  {
+    "codigo": 1203,
+    "municipio": "San Antonio Sacatepéquez"
+  },
+  {
+    "codigo": 1010,
+    "municipio": "San Antonio Suchitepéquez"
+  },
+  {
+    "codigo": 808,
+    "municipio": "San Bartolo Aguas Calientes"
+  },
+  {
+    "codigo": 1417,
+    "municipio": "San Bartolomé Jocotenango"
+  },
+  {
+    "codigo": 307,
+    "municipio": "San Bartolomé Milpas Altas"
+  },
+  {
+    "codigo": 1703,
+    "municipio": "San Benito"
+  },
+  {
+    "codigo": 1004,
+    "municipio": "San Bernardino"
+  },
+  {
+    "codigo": 2105,
+    "municipio": "San Carlos Alzatate"
+  },
+  {
+    "codigo": 904,
+    "municipio": "San Carlos Sija"
+  },
+  {
+    "codigo": 204,
+    "municipio": "San Cristóbal Acasaguastlán"
+  },
+  {
+    "codigo": 1225,
+    "municipio": "San Cristóbal Cucho"
+  },
+  {
+    "codigo": 802,
+    "municipio": "San Cristóbal Totonicapán"
+  },
+  {
+    "codigo": 1603,
+    "municipio": "San Cristóbal Verapaz"
+  },
+  {
+    "codigo": 1908,
+    "municipio": "San Diego"
+  },
+  {
+    "codigo": 1105,
+    "municipio": "San Felipe"
+  },
+  {
+    "codigo": 1706,
+    "municipio": "San Francisco"
+  },
+  {
+    "codigo": 803,
+    "municipio": "San Francisco El Alto"
+  },
+  {
+    "codigo": 918,
+    "municipio": "San Francisco La Unión"
+  },
+  {
+    "codigo": 1003,
+    "municipio": "San Francisco Zapotitlán"
+  },
+  {
+    "codigo": 1012,
+    "municipio": "San Gabriel"
+  },
+  {
+    "codigo": 1329,
+    "municipio": "San Gaspar Ixchil"
+  },
+  {
+    "codigo": 1309,
+    "municipio": "San Ildefonso Ixtahuacán"
+  },
+  {
+    "codigo": 2010,
+    "municipio": "San Jacinto"
+  },
+  {
+    "codigo": 1507,
+    "municipio": "San Jerónimo"
+  },
+  {
+    "codigo": 1911,
+    "municipio": "San Jorge"
+  },
+  {
+    "codigo": 509,
+    "municipio": "San José"
+  },
+  {
+    "codigo": 1702,
+    "municipio": "San José"
+  },
+  {
+    "codigo": 402,
+    "municipio": "San José  Poaquil"
+  },
+  {
+    "codigo": 2216,
+    "municipio": "San José Acatempa"
+  },
+  {
+    "codigo": 702,
+    "municipio": "San José Chacayá"
+  },
+  {
+    "codigo": 104,
+    "municipio": "San José del Golfo"
+  },
+  {
+    "codigo": 1005,
+    "municipio": "San José el Ídolo"
+  },
+  {
+    "codigo": 1214,
+    "municipio": "San José el Rodeo"
+  },
+  {
+    "codigo": 2002,
+    "municipio": "San José La Arada"
+  },
+  {
+    "codigo": 1021,
+    "municipio": "San José La Máquina"
+  },
+  {
+    "codigo": 1224,
+    "municipio": "San José Ojetenam"
+  },
+  {
+    "codigo": 103,
+    "municipio": "San José Pinula"
+  },
+  {
+    "codigo": 314,
+    "municipio": "San Juan Alotenango"
+  },
+  {
+    "codigo": 1316,
+    "municipio": "San Juan Atitán"
+  },
+  {
+    "codigo": 1016,
+    "municipio": "San Juan Bautista"
+  },
+  {
+    "codigo": 1610,
+    "municipio": "San Juan Chamelco"
+  },
+  {
+    "codigo": 1411,
+    "municipio": "San Juan Cotzal"
+  },
+  {
+    "codigo": 2003,
+    "municipio": "San Juan Ermita"
+  },
+  {
+    "codigo": 1323,
+    "municipio": "San Juan Ixcoy"
+  },
+  {
+    "codigo": 717,
+    "municipio": "San Juan La Laguna"
+  },
+  {
+    "codigo": 903,
+    "municipio": "San Juan Olintepeque"
+  },
+  {
+    "codigo": 909,
+    "municipio": "San Juan Ostuncalco"
+  },
+  {
+    "codigo": 110,
+    "municipio": "San Juan Sacatepéquez"
+  },
+  {
+    "codigo": 607,
+    "municipio": "San Juan Tecuaco"
+  },
+  {
+    "codigo": 1007,
+    "municipio": "San Lorenzo"
+  },
+  {
+    "codigo": 1229,
+    "municipio": "San Lorenzo"
+  },
+  {
+    "codigo": 308,
+    "municipio": "San Lucas Sacatepéquez"
+  },
+  {
+    "codigo": 713,
+    "municipio": "San Lucas Tolimán"
+  },
+  {
+    "codigo": 1709,
+    "municipio": "San Luis"
+  },
+  {
+    "codigo": 2103,
+    "municipio": "San Luis Jilotepeque"
+  },
+  {
+    "codigo": 2104,
+    "municipio": "San Manuel Chaparrón"
+  },
+  {
+    "codigo": 1201,
+    "municipio": "San Marcos"
+  },
+  {
+    "codigo": 716,
+    "municipio": "San Marcos La Laguna"
+  },
+  {
+    "codigo": 403,
+    "municipio": "San Martín Jilotepeque"
+  },
+  {
+    "codigo": 912,
+    "municipio": "San Martín Sacatepéquez"
+  },
+  {
+    "codigo": 1104,
+    "municipio": "San Martín Zapotitlán"
+  },
+  {
+    "codigo": 910,
+    "municipio": "San Mateo"
+  },
+  {
+    "codigo": 1318,
+    "municipio": "San Mateo Ixtatán"
+  },
+  {
+    "codigo": 1313,
+    "municipio": "San Miguel Acatán"
+  },
+  {
+    "codigo": 1502,
+    "municipio": "San Miguel Chicaj"
+  },
+  {
+    "codigo": 313,
+    "municipio": "San Miguel Dueñas"
+  },
+  {
+    "codigo": 1205,
+    "municipio": "San Miguel Ixtahuacán"
+  },
+  {
+    "codigo": 1011,
+    "municipio": "San Miguel Panán"
+  },
+  {
+    "codigo": 408,
+    "municipio": "San Miguel Pochuta"
+  },
+  {
+    "codigo": 908,
+    "municipio": "San Miguel Siguilá"
+  },
+  {
+    "codigo": 1415,
+    "municipio": "San Miguel Uspantán"
+  },
+  {
+    "codigo": 1219,
+    "municipio": "San Pablo"
+  },
+  {
+    "codigo": 1009,
+    "municipio": "San Pablo Jocopilas"
+  },
+  {
+    "codigo": 715,
+    "municipio": "San Pablo La Laguna"
+  },
+  {
+    "codigo": 107,
+    "municipio": "San Pedro Ayampuc"
+  },
+  {
+    "codigo": 1609,
+    "municipio": "San Pedro Carchá"
+  },
+  {
+    "codigo": 1409,
+    "municipio": "San Pedro Jocopilas"
+  },
+  {
+    "codigo": 718,
+    "municipio": "San Pedro La Laguna"
+  },
+  {
+    "codigo": 1306,
+    "municipio": "San Pedro Necta"
+  },
+  {
+    "codigo": 2102,
+    "municipio": "San Pedro Pinula"
+  },
+  {
+    "codigo": 109,
+    "municipio": "San Pedro Sacatepéquez"
+  },
+  {
+    "codigo": 1202,
+    "municipio": "San Pedro Sacatepéquez"
+  },
+  {
+    "codigo": 1308,
+    "municipio": "San Pedro Soloma"
+  },
+  {
+    "codigo": 412,
+    "municipio": "San Pedro Yepocapa"
+  },
+  {
+    "codigo": 1314,
+    "municipio": "San Rafael La Independencia"
+  },
+  {
+    "codigo": 605,
+    "municipio": "San Rafael Las Flores"
+  },
+  {
+    "codigo": 1328,
+    "municipio": "San Rafael Petzal"
+  },
+  {
+    "codigo": 1211,
+    "municipio": "San Rafael Pie de la Cuesta"
+  },
+  {
+    "codigo": 111,
+    "municipio": "San Raymundo"
+  },
+  {
+    "codigo": 1102,
+    "municipio": "San Sebastián"
+  },
+  {
+    "codigo": 1325,
+    "municipio": "San Sebastián Coatán"
+  },
+  {
+    "codigo": 1320,
+    "municipio": "San Sebastián Huehuetenango"
+  },
+  {
+    "codigo": 512,
+    "municipio": "San Vicente Pacaya"
+  },
+  {
+    "codigo": 207,
+    "municipio": "Sanarate"
+  },
+  {
+    "codigo": 206,
+    "municipio": "Sansare"
+  },
+  {
+    "codigo": 1707,
+    "municipio": "Santa Ana"
+  },
+  {
+    "codigo": 1331,
+    "municipio": "Santa Ana Huista"
+  },
+  {
+    "codigo": 405,
+    "municipio": "Santa Apolonia"
+  },
+  {
+    "codigo": 1015,
+    "municipio": "Santa Bárbara"
+  },
+  {
+    "codigo": 1310,
+    "municipio": "Santa Bárbara"
+  },
+  {
+    "codigo": 316,
+    "municipio": "Santa Catarina Barahona"
+  },
+  {
+    "codigo": 706,
+    "municipio": "Santa Catarina Ixtahuacán"
+  },
+  {
+    "codigo": 1616,
+    "municipio": "Santa Catarina La Tinta"
+  },
+  {
+    "codigo": 2203,
+    "municipio": "Santa Catarina Mita"
+  },
+  {
+    "codigo": 711,
+    "municipio": "Santa Catarina Palopó"
+  },
+  {
+    "codigo": 102,
+    "municipio": "Santa Catarina Pinula"
+  },
+  {
+    "codigo": 707,
+    "municipio": "Santa Clara La Laguna"
+  },
+  {
+    "codigo": 410,
+    "municipio": "Santa Cruz Balanyá"
+  },
+  {
+    "codigo": 1326,
+    "municipio": "Santa Cruz Barrillas"
+  },
+  {
+    "codigo": 1401,
+    "municipio": "Santa Cruz del Quiché"
+  },
+  {
+    "codigo": 714,
+    "municipio": "Santa Cruz La Laguna"
+  },
+  {
+    "codigo": 1103,
+    "municipio": "Santa Cruz Muluá"
+  },
+  {
+    "codigo": 612,
+    "municipio": "Santa Cruz Naranjo"
+  },
+  {
+    "codigo": 1602,
+    "municipio": "Santa Cruz Verapaz"
+  },
+  {
+    "codigo": 1317,
+    "municipio": "Santa Eulalia"
+  },
+  {
+    "codigo": 502,
+    "municipio": "Santa Lucía Cotzumalguapa"
+  },
+  {
+    "codigo": 807,
+    "municipio": "Santa Lucía La Reforma"
+  },
+  {
+    "codigo": 309,
+    "municipio": "Santa Lucía Milpas Altas"
+  },
+  {
+    "codigo": 704,
+    "municipio": "Santa Lucía Utatlán"
+  },
+  {
+    "codigo": 1612,
+    "municipio": "Santa María Cahabón"
+  },
+  {
+    "codigo": 806,
+    "municipio": "Santa María Chiquimula"
+  },
+  {
+    "codigo": 311,
+    "municipio": "Santa María de Jesús"
+  },
+  {
+    "codigo": 610,
+    "municipio": "Santa María Ixhuatán"
+  },
+  {
+    "codigo": 1413,
+    "municipio": "Santa María Nebaj"
+  },
+  {
+    "codigo": 703,
+    "municipio": "Santa María Visitación"
+  },
+  {
+    "codigo": 603,
+    "municipio": "Santa Rosa de Lima"
+  },
+  {
+    "codigo": 719,
+    "municipio": "Santiago Atitlán"
+  },
+  {
+    "codigo": 1330,
+    "municipio": "Santiago Chimaltenango"
+  },
+  {
+    "codigo": 306,
+    "municipio": "Santiago Sacatepéquez"
+  },
+  {
+    "codigo": 1006,
+    "municipio": "Santo Domingo Suchitepéquez"
+  },
+  {
+    "codigo": 305,
+    "municipio": "Santo Domingo Xenacoj"
+  },
+  {
+    "codigo": 1017,
+    "municipio": "Santo Tomas la Unión"
+  },
+  {
+    "codigo": 1406,
+    "municipio": "Santo TomásChichicastenango"
+  },
+  {
+    "codigo": 1710,
+    "municipio": "Sayaxché"
+  },
+  {
+    "codigo": 1608,
+    "municipio": "Senahú"
+  },
+  {
+    "codigo": 905,
+    "municipio": "Sibilia"
+  },
+  {
+    "codigo": 1208,
+    "municipio": "Sibinal"
+  },
+  {
+    "codigo": 1226,
+    "municipio": "Sipacapa"
+  },
+  {
+    "codigo": 514,
+    "municipio": "Sipacate"
+  },
+  {
+    "codigo": 504,
+    "municipio": "Siquinalá"
+  },
+  {
+    "codigo": 701,
+    "municipio": "Sololá"
+  },
+  {
+    "codigo": 304,
+    "municipio": "Sumpango"
+  },
+  {
+    "codigo": 1207,
+    "municipio": "Tacaná"
+  },
+  {
+    "codigo": 1604,
+    "municipio": "Tactic"
+  },
+  {
+    "codigo": 1209,
+    "municipio": "Tajumulco"
+  },
+  {
+    "codigo": 1605,
+    "municipio": "Tamahú"
+  },
+  {
+    "codigo": 609,
+    "municipio": "Taxisco"
+  },
+  {
+    "codigo": 406,
+    "municipio": "Tecpán Guatemala"
+  },
+  {
+    "codigo": 1321,
+    "municipio": "Tectitán"
+  },
+  {
+    "codigo": 1905,
+    "municipio": "Teculután"
+  },
+  {
+    "codigo": 1210,
+    "municipio": "Tejutla"
+  },
+  {
+    "codigo": 506,
+    "municipio": "Tiquisate"
+  },
+  {
+    "codigo": 1315,
+    "municipio": "Todos Santos Cuchumatán"
+  },
+  {
+    "codigo": 801,
+    "municipio": "Totonicapán"
+  },
+  {
+    "codigo": 1606,
+    "municipio": "Tucurú"
+  },
+  {
+    "codigo": 1332,
+    "municipio": "Unión Cantinil"
+  },
+  {
+    "codigo": 1906,
+    "municipio": "Usumatlán"
+  },
+  {
+    "codigo": 116,
+    "municipio": "Villa Canales"
+  },
+  {
+    "codigo": 115,
+    "municipio": "Villa Nueva"
+  },
+  {
+    "codigo": 2206,
+    "municipio": "Yupiltepeque"
+  },
+  {
+    "codigo": 1901,
+    "municipio": "Zacapa"
+  },
+  {
+    "codigo": 1404,
+    "municipio": "Zacualpa"
+  },
+  {
+    "codigo": 2210,
+    "municipio": "Zapotitlán"
+  },
+  {
+    "codigo": 415,
+    "municipio": "Zaragoza"
+  },
+  {
+    "codigo": 916,
+    "municipio": "Zunil"
+  },
+  {
+    "codigo": 1018,
+    "municipio": "Zunilito"
+  }
+]

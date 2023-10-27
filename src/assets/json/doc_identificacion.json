@@ -1,0 +1,14 @@
+[
+  {
+    "codigo": 1,
+    "documento": " DPI"
+  },
+  {
+    "codigo": 2,
+    "documento": "Certificado de Nacimiento"
+  },
+  {
+    "codigo": 3,
+    "documento": "Pasaporte"
+  }
+]

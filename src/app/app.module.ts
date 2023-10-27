@@ -5,14 +5,15 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { initializeApp, provideFirebaseApp } from '@angular/fire/app';
 import { getFirestore, provideFirestore } from '@angular/fire/firestore';
-import { IonicModule } from '@ionic/angular';
+import { HttpClientModule } from '@angular/common/http';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [AppComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    IonicModule.forRoot(),
+    HttpClientModule,
     provideFirebaseApp(() =>
       initializeApp({
         projectId: 'sibipies',
@@ -24,6 +25,7 @@ import { IonicModule } from '@ionic/angular';
       })
     ),
     provideFirestore(() => getFirestore()),
+    BrowserAnimationsModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

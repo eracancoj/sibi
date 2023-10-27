@@ -1,0 +1,30 @@
+[
+  {
+    "codigo": 1,
+    "discapacidad": "Ninguna"
+  },
+  {
+    "codigo": 2,
+    "discapacidad": "discapacidad auditiva"
+  },
+  {
+    "codigo": 3,
+    "discapacidad": "discapacidad visual"
+  },
+  {
+    "codigo": 4,
+    "discapacidad": "discapacidad múltiple"
+  },
+  {
+    "codigo": 5,
+    "discapacidad": "discapacidad física o motora"
+  },
+  {
+    "codigo": 6,
+    "discapacidad": "discapacidad intelectual"
+  },
+  {
+    "codigo": 7,
+    "discapacidad": "Otra"
+  }
+]

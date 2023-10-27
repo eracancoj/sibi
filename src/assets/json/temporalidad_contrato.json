@@ -1,0 +1,10 @@
+[
+  {
+    "codigo": 1,
+    "temporalidad": "Indefinido"
+  },
+  {
+    "codigo": 2,
+    "temporalidad": "Definido"
+  }
+]
