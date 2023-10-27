@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+
+// TailwindCSS
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+:root {
+  --ion-color-primary: red; /* Cambia este valor al color deseado */
+}
+
+// FORMS
+ion-input {
+  --padding-bottom: 1px;
+}

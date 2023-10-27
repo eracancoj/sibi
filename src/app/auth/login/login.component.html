@@ -1,1 +1,30 @@
-<p>login works!</p>
+<ion-card
+  class="max-w-xs h-screen flex flex-wrap justify-center content-center m-auto px-4"
+>
+  <ion-card-header class="w-full text-center">
+    <ion-card-title>Inicia sesión</ion-card-title>
+  </ion-card-header>
+
+  <ion-card-content class="w-full">
+    <form class="flex flex-wrap justify-center">
+      <ion-input
+        type="text"
+        label="Usuario"
+        label-placement="floating"
+        fill="outline"
+        placeholder="Contraseña"
+      ></ion-input>
+      <ion-input
+        type="password"
+        label="Contraseña"
+        label-placement="floating"
+        fill="outline"
+        placeholder="Contraseña"
+        class="mt-4"
+      ></ion-input>
+      <ion-button type="button" (click)="login()" class="w-full mx-auto mt-4"
+        >Iniciar sesión</ion-button
+      >
+    </form>
+  </ion-card-content>
+</ion-card>
