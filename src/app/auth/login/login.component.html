@@ -1,33 +1,29 @@
-<!-- <ion-card
-  class="max-w-xs h-screen flex flex-wrap justify-center content-center m-auto px-4"
->
-  <ion-card-header class="w-full text-center">
-    <ion-card-title>Inicia sesión</ion-card-title>
-  </ion-card-header>
+<mat-card class="max-w-xs h-screen flex flex-wrap justify-center content-center m-auto px-4">
+  <form (ngSubmit)="login()" [formGroup]="form">
+    <mat-card-title class="text-center"> Iniciar Sesión </mat-card-title>
 
-  <ion-card-content class="w-full">
-    <form class="flex flex-wrap justify-center">
-      <ion-input
-        type="text"
-        label="Usuario"
-        label-placement="floating"
-        fill="outline"
-        placeholder="Contraseña"
-      ></ion-input>
-      <ion-input
-        type="password"
-        label="Contraseña"
-        label-placement="floating"
-        fill="outline"
-        placeholder="Contraseña"
-        class="mt-4"
-      ></ion-input>
-      <ion-button type="button" (click)="login()" class="w-full mx-auto mt-4"
-        >Iniciar sesión</ion-button
-      >
-    </form>
-  </ion-card-content>
-</ion-card> -->
+    <mat-card-content class="mt-8">
+      <div class="example-container">
+        <mat-form-field>
+          <mat-label>Ingresa tu usuario</mat-label>
+          <input matInput formControlName="nombre" required />
+          <!-- <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error> -->
+        </mat-form-field>
+      </div>
 
+      <div class="example-container">
+        <mat-form-field class="w-full">
+          <mat-label>Ingresa tu contraseña</mat-label>
+          <input matInput formControlName="password" type="password" required />
+          <!-- <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error> -->
+        </mat-form-field>
+      </div>
+    </mat-card-content>
 
-<button (click)="login()">Login</button>
+    <mat-card-footer>
+      <button mat-button cdkFocusInitial color="primary" type="submit" class="w-full">
+        Login
+      </button>
+    </mat-card-footer>
+  </form>
+</mat-card>

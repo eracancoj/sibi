@@ -1,6 +1,17 @@
-import { Component, OnInit, inject } from '@angular/core';
+import { Component, OnInit, ViewChild, inject } from '@angular/core';
 import { FirebaseService } from '@core';
 import { HttpClient } from '@angular/common/http';
+import { MatDialog } from '@angular/material/dialog'
+import { AddEmployeeComponent } from './components';
+// import {MatDialog, MAT_DIALOG_DATA, MatDialogRef, MatDialogModule} from '@angular/material/dialog'
+
+// export interface PeriodicElement {
+//   name: string;
+//   position: number;
+//   weight: number;
+//   symbol: string;
+// }
+
 
 @Component({
   selector: 'app-employees',
@@ -9,10 +20,14 @@ import { HttpClient } from '@angular/common/http';
 })
 export class EmployeesComponent implements OnInit {
 
+  displayedColumns: string[] = ['id', 'name'];
+  dataSource: any;
+
   employees: object[] = [];
 
   private firebaseService = inject(FirebaseService);
   private http = inject(HttpClient);
+  private dialog = inject(MatDialog);
 
   ngOnInit(): void {
     this.getEmployees();
@@ -38,12 +53,34 @@ export class EmployeesComponent implements OnInit {
     this.firebaseService.getEmployees().subscribe({
       next: (resp) => {
         this.employees = resp;
-        console.log(typeof this.employees);
-        console.log(this.employees);
+        this.dataSource = resp;
       },
       error: (error) => {
         console.log(error);
       },
+    });
+  }
+
+  addEmployee(){
+    this.firebaseService.getEmployees().subscribe({
+      next: (resp) => {
+        this.employees = resp;
+        this.dataSource = resp;
+      },
+      error: (error) => {
+        console.log(error);
+      },
+    });
+  }
+  
+  openAddEmployeeModal(): void {
+    const dialogRef = this.dialog.open(AddEmployeeComponent, {
+      data: {id: '1', nombre: 'juanita'},
+    });
+
+    dialogRef.afterClosed().subscribe(result => {
+      console.log('The dialog was closed');
+      console.log(result);
     });
   }
 
@@ -61,4 +98,5 @@ export class EmployeesComponent implements OnInit {
         });
     });
   }
+
 }

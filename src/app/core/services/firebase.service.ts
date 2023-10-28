@@ -22,6 +22,11 @@ export class FirebaseService {
     return collectionData(employeesRef, { idField: "id" }) as Observable<any[]>;
   }
 
+  addEmployee(employee: any) {
+    const employeesCollection = collection(this.firestore, "empleados");
+    return addDoc(employeesCollection, employee);
+  }
+
   async addDocs(collectionName: string, docs: any[]) {
     const employeesCollection = collection(this.firestore, collectionName);
 

@@ -6,7 +6,8 @@ import { AppComponent } from './app.component';
 import { initializeApp, provideFirebaseApp } from '@angular/fire/app';
 import { getFirestore, provideFirestore } from '@angular/fire/firestore';
 import { HttpClientModule } from '@angular/common/http';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { materialModules } from 'src/assets/material-imports';
+
 
 @NgModule({
   declarations: [AppComponent],
@@ -14,6 +15,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
+    materialModules,
     provideFirebaseApp(() =>
       initializeApp({
         projectId: 'sibipies',
@@ -25,7 +27,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
       })
     ),
     provideFirestore(() => getFirestore()),
-    BrowserAnimationsModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
