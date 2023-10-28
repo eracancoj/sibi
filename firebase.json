@@ -1,6 +1,7 @@
 {
   "hosting": [
     {
+      "site": "sibipies",
       "public": "/dist/sibi",
       "ignore": [
         "firebase.json",
