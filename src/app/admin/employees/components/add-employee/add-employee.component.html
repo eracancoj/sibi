@@ -2,18 +2,66 @@
   <h1 mat-dialog-title>Agregar empleado</h1>
   <!-- <h1 mat-dialog-title>Hi {{ data.nombre }}</h1> -->
 
-  <div mat-dialog-content>
-    <div class="example-container">
-      <mat-form-field>
-        <mat-label>Ingresa tu nombre</mat-label>
-        <input matInput formControlName="nombre" required>
-        <!-- <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error> -->
-      </mat-form-field>
+  <div class="grid grid-cols-3 gap-4">
+    <div mat-dialog-content>
+      <div class="example-container">
+        <mat-form-field>
+          <mat-label>Ingresa tu nombre</mat-label>
+          <input matInput formControlName="nombre" required />
+          <!-- <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error> -->
+        </mat-form-field>
+      </div>
     </div>
-
-  </div>
-  <div mat-dialog-actions>
-    <button mat-button (click)="onNoClick()">Cancelar</button>
-    <button mat-button cdkFocusInitial type="submit" class="ml-8">Guardar</button>
+    <div mat-dialog-actions>
+      <button mat-button (click)="onNoClick()">Cancelar</button>
+      <button mat-button cdkFocusInitial type="submit" class="ml-8">
+        Guardar
+      </button>
+    </div>
   </div>
 </form>
+
+
+<mat-stepper [linear]="isLinear" #stepper>
+
+  <form (ngSubmit)="createEmployee()" [formGroup]="form">
+  
+  <mat-step [stepControl]="firstFormGroup" label="Información básica">
+    <mat-form-field>
+      <mat-label>Name</mat-label>
+      <input matInput placeholder="Last name, First name" formControlName="firstCtrl" required>
+    </mat-form-field>
+    <div>
+      <button mat-button matStepperNext>Next</button>
+    </div>
+  </mat-step>
+
+  <mat-step [stepControl]="secondFormGroup">
+    <div mat-dialog-content>
+      <div class="example-container">
+        <mat-form-field>
+          <mat-label>Ingresa tu nombre</mat-label>
+          <input matInput formControlName="nombre" required />
+          <!-- <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error> -->
+        </mat-form-field>
+      </div>
+      <div>
+        <button mat-button matStepperPrevious>Back</button>
+        <button mat-button matStepperNext>Next</button>
+      </div>
+    </div>
+  </mat-step>
+  <mat-step>
+    <ng-template matStepLabel>Done</ng-template>
+    <p>You are now done.</p>
+    <div>
+      <button mat-button matStepperPrevious>Back</button>
+      <button mat-button (click)="stepper.reset()">Reset</button>
+    </div>
+  </mat-step>
+  
+  </form>
+
+
+
+</mat-stepper>

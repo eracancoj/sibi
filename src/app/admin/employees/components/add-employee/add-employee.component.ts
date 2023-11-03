@@ -42,4 +42,14 @@ export class AddEmployeeComponent {
   onNoClick(): void {
     this.dialogRef.close();
   }
+
+
+  firstFormGroup = this.fb.group({
+    firstCtrl: ['', Validators.required],
+  });
+  secondFormGroup = this.fb.group({
+    secondCtrl: ['', Validators.required],
+  });
+  isLinear = false;
+
 }

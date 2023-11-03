@@ -9,6 +9,9 @@
   --ion-color-primary: red; /* Cambia este valor al color deseado */
 }
 
+.container {
+  @apply  max-w-4xl mx-auto;
+}
 // FORMS
 ion-input {
   --padding-bottom: 1px;

@@ -3,6 +3,7 @@ import { FirebaseService } from '@core';
 import { HttpClient } from '@angular/common/http';
 import { MatDialog } from '@angular/material/dialog'
 import { AddEmployeeComponent } from './components';
+import { FormBuilder, Validators } from '@angular/forms';
 // import {MatDialog, MAT_DIALOG_DATA, MatDialogRef, MatDialogModule} from '@angular/material/dialog'
 
 // export interface PeriodicElement {
@@ -28,6 +29,7 @@ export class EmployeesComponent implements OnInit {
   private firebaseService = inject(FirebaseService);
   private http = inject(HttpClient);
   private dialog = inject(MatDialog);
+  private fb: FormBuilder = inject(FormBuilder);
 
   ngOnInit(): void {
     this.getEmployees();
@@ -61,15 +63,15 @@ export class EmployeesComponent implements OnInit {
     });
   }
 
-  addEmployee(){
-    this.firebaseService.getEmployees().subscribe({
-      next: (resp) => {
-        this.employees = resp;
-        this.dataSource = resp;
-      },
-      error: (error) => {
-        console.log(error);
-      },
+
+  viewEmployee(id:string){
+    const dialogRef = this.dialog.open(AddEmployeeComponent, {
+      data: {id: id},
+    });
+
+    dialogRef.afterClosed().subscribe(result => {
+      console.log('The dialog was closed');
+      console.log(result);
     });
   }
   

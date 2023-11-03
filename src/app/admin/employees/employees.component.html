@@ -1,20 +1,35 @@
-<button mat-button color="primary" (click)="openAddEmployeeModal()">Agregar Empleado</button>
+<section class="container">
+  <div class="flex justify-end mt-12">
+    <button
+      mat-fab
+      color="primary"
+      aria-label="Add Employee"
+      (click)="openAddEmployeeModal()"
+    >
+      <mat-icon>person_add</mat-icon>
+    </button>
+  </div>
 
-<table mat-table [dataSource]="dataSource" class="mat-elevation-z8">
+  <table mat-table [dataSource]="dataSource" class="mat-elevation-z8 mt-4">
+    <!-- Position Column -->
+    <ng-container matColumnDef="id">
+      <th mat-header-cell *matHeaderCellDef>ID</th>
+      <td mat-cell *matCellDef="let element">{{ element.id }}</td>
+    </ng-container>
 
-  <!-- Position Column -->
-  <ng-container matColumnDef="id">
-    <th mat-header-cell *matHeaderCellDef> ID </th>
-    <td mat-cell *matCellDef="let element"> {{element.id}} </td>
-  </ng-container>
+    <!-- Name Column -->
+    <ng-container matColumnDef="name">
+      <th mat-header-cell *matHeaderCellDef>Nombre</th>
+      <td mat-cell *matCellDef="let element">{{ element.nombre }}</td>
+    </ng-container>
 
-  <!-- Name Column -->
-  <ng-container matColumnDef="name">
-    <th mat-header-cell *matHeaderCellDef> Nombre </th>
-    <td mat-cell *matCellDef="let element"> {{element.nombre}} </td>
-  </ng-container>
-
-  <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
-  <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
-</table>
-
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr
+      mat-row
+      *matRowDef="let row; columns: displayedColumns"
+      class="cursor-pointer transition ease-in-out hover:-translate-y-1 hover:!bg-gray-200 duration-300"
+      (click)="viewEmployee(row.id)"
+      style="transition-timing-function: cubic-bezier(0.4, 0, 1, 1);transition-duration: 200ms;"
+    ></tr>
+  </table>
+</section>
