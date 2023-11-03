@@ -2,7 +2,7 @@ import { Component, OnInit, ViewChild, inject } from '@angular/core';
 import { FirebaseService } from '@core';
 import { HttpClient } from '@angular/common/http';
 import { MatDialog } from '@angular/material/dialog'
-import { AddEmployeeComponent } from './components';
+import { AddEmployeeComponent, ViewEmployeeComponent } from './components';
 import { FormBuilder, Validators } from '@angular/forms';
 // import {MatDialog, MAT_DIALOG_DATA, MatDialogRef, MatDialogModule} from '@angular/material/dialog'
 
@@ -64,9 +64,9 @@ export class EmployeesComponent implements OnInit {
   }
 
 
-  viewEmployee(id:string){
-    const dialogRef = this.dialog.open(AddEmployeeComponent, {
-      data: {id: id},
+  viewEmployee(employee:object){
+    const dialogRef = this.dialog.open(ViewEmployeeComponent, {
+      data: employee,
     });
 
     dialogRef.afterClosed().subscribe(result => {

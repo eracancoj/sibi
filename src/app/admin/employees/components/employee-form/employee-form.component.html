@@ -1,0 +1,59 @@
+<mat-stepper #stepper>
+  <form (ngSubmit)="createEmployee()" [formGroup]="form">
+    <mat-step>
+      <ng-template matStepLabel>Información</ng-template>
+      <div class="grid grid-cols-3 gap-5"> <!-- mat-dialog-content -->
+        <mat-form-field>
+          <mat-label>Primer nombre:</mat-label>
+          <input matInput formControlName="primer_nombre" />
+        </mat-form-field>
+
+        <mat-form-field>
+          <mat-label>Segundo nombre:</mat-label>
+          <input matInput formControlName="segundo_nombre" />
+        </mat-form-field>
+
+        <mat-form-field>
+          <mat-label>Tercer nombre:</mat-label>
+          <input matInput formControlName="tercer_nombre" />
+        </mat-form-field>
+
+        <mat-form-field>
+          <mat-label>Primer apellido:</mat-label>
+          <input matInput formControlName="primer_apellido" />
+        </mat-form-field>
+
+        <mat-form-field>
+          <mat-label>Segundo apellido:</mat-label>
+          <input matInput formControlName="segundo_apellido" />
+        </mat-form-field>
+
+        <mat-form-field>
+          <mat-label>Apellido de casada:</mat-label>
+          <input matInput formControlName="apellido_de_casada" />
+        </mat-form-field>
+
+        <mat-form-field>
+          <mat-label>Fecha de nacimiento:</mat-label>
+          <input matInput [matDatepicker]="picker" formControlName="fecha_de_nacimiento">
+          <mat-hint>MM/DD/YYYY</mat-hint>
+          <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+          <mat-datepicker #picker startView="multi-year" [startAt]="startDate"></mat-datepicker>
+        </mat-form-field>
+
+        <div class="col-span-3">
+          <button mat-button matStepperPrevious>Back</button>
+          <button mat-button matStepperNext (click)="createEmployee()">Next</button>
+        </div>
+      </div>
+    </mat-step>
+    <mat-step>
+      <ng-template matStepLabel>Done</ng-template>
+      <p>You are now done.</p>
+      <div>
+        <button mat-button matStepperPrevious>Back</button>
+        <button mat-button (click)="stepper.reset()">Reset</button>
+      </div>
+    </mat-step>
+  </form>
+</mat-stepper>

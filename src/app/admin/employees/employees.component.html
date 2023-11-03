@@ -28,7 +28,7 @@
       mat-row
       *matRowDef="let row; columns: displayedColumns"
       class="cursor-pointer transition ease-in-out hover:-translate-y-1 hover:!bg-gray-200 duration-300"
-      (click)="viewEmployee(row.id)"
+      (click)="viewEmployee(row)"
       style="transition-timing-function: cubic-bezier(0.4, 0, 1, 1);transition-duration: 200ms;"
     ></tr>
   </table>

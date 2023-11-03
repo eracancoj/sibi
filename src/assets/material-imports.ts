@@ -14,6 +14,9 @@ import { MatStepperModule } from '@angular/material/stepper';
 import { MatTabsModule } from '@angular/material/tabs';
 import { MatMenuModule } from '@angular/material/menu';
 import { MatExpansionModule } from '@angular/material/expansion';
+import { MatNativeDateModule } from '@angular/material/core';
+import { MatDatepickerModule } from '@angular/material/datepicker';
+import { MatSnackBarModule } from '@angular/material/snack-bar';
 
 export const materialModules = [
   MatTableModule,
@@ -33,4 +36,7 @@ export const materialModules = [
   MatTabsModule,
   MatMenuModule,
   MatExpansionModule,
+  MatDatepickerModule,
+  MatNativeDateModule,
+  MatSnackBarModule,
 ];

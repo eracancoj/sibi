@@ -3,6 +3,8 @@ import {
   Firestore,
   collection,
   addDoc,
+  setDoc,
+  doc,
   collectionData,
 } from "@angular/fire/firestore";
 import { Observable } from 'rxjs';
@@ -26,6 +28,17 @@ export class FirebaseService {
     const employeesCollection = collection(this.firestore, "empleados");
     return addDoc(employeesCollection, employee);
   }
+
+  editEmployee(employee: any){
+    const managementsRef = doc(this.firestore, `employees/${employee.id}`);
+    return setDoc(managementsRef, employee);
+  }
+
+
+  // updateManagement(management: Managements) {
+  //   const managementsRef = doc(this.firestore, `managements/${management.id}`);
+  //   return setDoc(managementsRef, management);
+  // }
 
   async addDocs(collectionName: string, docs: any[]) {
     const employeesCollection = collection(this.firestore, collectionName);

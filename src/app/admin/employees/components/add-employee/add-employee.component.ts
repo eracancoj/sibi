@@ -3,10 +3,11 @@ import {MAT_DIALOG_DATA, MatDialogRef} from '@angular/material/dialog';
 import { materialModules } from 'src/assets/material-imports';
 import { FormBuilder, FormGroup, ReactiveFormsModule, Validators } from '@angular/forms';
 import { FirebaseService } from '../../../../core/services/firebase.service';
+import { EmployeeFormComponent } from '../employee-form';
 
 @Component({
   standalone: true,
-  imports: [materialModules, ReactiveFormsModule],
+  imports: [materialModules, ReactiveFormsModule, EmployeeFormComponent],
   selector: 'app-add-employee',
   templateUrl: './add-employee.component.html',
   styleUrls: ['./add-employee.component.scss']

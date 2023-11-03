@@ -1,0 +1,18 @@
+<mat-card>
+  <mat-card-header class="flex justify-between">
+    <h1 class="w-full text-left">
+      {{ employee.nombre }}
+    </h1>
+
+    <button mat-mini-fab color="primary" aria-label="Edit employee">
+      <mat-icon>edit</mat-icon>
+    </button>
+  </mat-card-header>
+  <mat-card-content>
+    <mat-tab-group>
+      <mat-tab label="Información"> Content 1 </mat-tab>
+      <mat-tab label="Documentos"> Content 2 </mat-tab>
+    </mat-tab-group>
+  </mat-card-content>
+  <mat-card-footer></mat-card-footer>
+</mat-card>
