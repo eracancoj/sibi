@@ -1,29 +1,26 @@
 import { Component, Inject } from '@angular/core';
 import { ReactiveFormsModule } from '@angular/forms';
 import { materialModules } from 'src/assets/material-imports';
-import {MAT_DIALOG_DATA, MatDialogRef} from '@angular/material/dialog';
-
+import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dialog';
+import { EmployeeFormComponent } from '../employee-form';
 
 @Component({
   standalone: true,
-  imports: [materialModules, ReactiveFormsModule],
+  imports: [materialModules, ReactiveFormsModule, EmployeeFormComponent],
   selector: 'app-view-employee',
   templateUrl: './view-employee.component.html',
-  styleUrls: ['./view-employee.component.scss']
+  styleUrls: ['./view-employee.component.scss'],
 })
 export class ViewEmployeeComponent {
-
   employee: any;
+  edit: boolean = false;
 
   constructor(
     public dialogRef: MatDialogRef<ViewEmployeeComponent>,
-    @Inject(MAT_DIALOG_DATA) public data: any,
+    @Inject(MAT_DIALOG_DATA) public data: any
   ) {
     this.employee = data;
-    console.log( this.employee);
-
   }
-
 
   close(): void {
     this.dialogRef.close();

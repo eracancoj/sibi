@@ -1,58 +1,350 @@
 <mat-stepper #stepper>
   <form (ngSubmit)="createEmployee()" [formGroup]="form">
     <mat-step>
-      <ng-template matStepLabel>Información</ng-template>
-      <div class="grid grid-cols-3 gap-5"> <!-- mat-dialog-content -->
+      <ng-template matStepLabel>Datos personales</ng-template>
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-5 mt-4">
+        <!-- mat-dialog-content -->
         <mat-form-field>
-          <mat-label>Primer nombre:</mat-label>
+          <mat-label>Primer nombre</mat-label>
           <input matInput formControlName="primer_nombre" />
         </mat-form-field>
 
         <mat-form-field>
-          <mat-label>Segundo nombre:</mat-label>
+          <mat-label>Segundo nombre</mat-label>
           <input matInput formControlName="segundo_nombre" />
         </mat-form-field>
 
         <mat-form-field>
-          <mat-label>Tercer nombre:</mat-label>
+          <mat-label>Tercer nombre</mat-label>
           <input matInput formControlName="tercer_nombre" />
         </mat-form-field>
 
         <mat-form-field>
-          <mat-label>Primer apellido:</mat-label>
+          <mat-label>Primer apellido</mat-label>
           <input matInput formControlName="primer_apellido" />
         </mat-form-field>
 
         <mat-form-field>
-          <mat-label>Segundo apellido:</mat-label>
+          <mat-label>Segundo apellido</mat-label>
           <input matInput formControlName="segundo_apellido" />
         </mat-form-field>
 
         <mat-form-field>
-          <mat-label>Apellido de casada:</mat-label>
+          <mat-label>Apellido de casada</mat-label>
           <input matInput formControlName="apellido_de_casada" />
         </mat-form-field>
 
         <mat-form-field>
-          <mat-label>Fecha de nacimiento:</mat-label>
-          <input matInput [matDatepicker]="picker" formControlName="fecha_de_nacimiento">
+          <mat-label>Fecha de nacimiento</mat-label>
+          <input
+            matInput
+            [matDatepicker]="picker"
+            formControlName="fecha_de_nacimiento"
+          />
           <mat-hint>MM/DD/YYYY</mat-hint>
-          <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
-          <mat-datepicker #picker startView="multi-year" [startAt]="startDate"></mat-datepicker>
+          <mat-datepicker-toggle
+            matIconSuffix
+            [for]="picker"
+          ></mat-datepicker-toggle>
+          <mat-datepicker
+            #picker
+            startView="multi-year"
+            [startAt]="startDate"
+          ></mat-datepicker>
         </mat-form-field>
 
-        <div class="col-span-3">
+        <mat-form-field>
+          <mat-label>Sexo</mat-label>
+          <mat-select formControlName="id_sexo">
+            <mat-option *ngFor="let element of sexo" [value]="element.id">
+              {{ element.sexo }}
+            </mat-option>
+          </mat-select>
+        </mat-form-field>
+
+        <mat-form-field>
+          <mat-label>Género</mat-label>
+          <mat-select formControlName="id_genero">
+            <mat-option *ngFor="let element of genero" [value]="element.id">
+              {{ element.genero }}
+            </mat-option>
+          </mat-select>
+        </mat-form-field>
+
+        <mat-form-field>
+          <mat-label>Estado civil</mat-label>
+          <mat-select formControlName="id_estado_civil">
+            <mat-option
+              *ngFor="let element of estado_civil"
+              [value]="element.id"
+            >
+              {{ element.estadoCivil }}
+            </mat-option>
+          </mat-select>
+        </mat-form-field>
+
+        <mat-form-field>
+          <mat-label>No. de hijos</mat-label>
+          <input matInput type="number" formControlName="numero_de_hijos" />
+        </mat-form-field>
+
+        <div class="md:col-span-4">
           <button mat-button matStepperPrevious>Back</button>
-          <button mat-button matStepperNext (click)="createEmployee()">Next</button>
+          <button mat-button matStepperNext (click)="createEmployee()">
+            Next
+          </button>
         </div>
       </div>
     </mat-step>
+
     <mat-step>
-      <ng-template matStepLabel>Done</ng-template>
-      <p>You are now done.</p>
-      <div>
-        <button mat-button matStepperPrevious>Back</button>
-        <button mat-button (click)="stepper.reset()">Reset</button>
+      <ng-template matStepLabel>Información adicional</ng-template>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-5 mt-4">
+        <mat-form-field>
+          <mat-label>País de origen</mat-label>
+          <mat-select formControlName="id_pais_origen">
+            <mat-option
+              *ngFor="let element of nacionalidad_pais"
+              [value]="element.id"
+            >
+              {{ element.nacionalidad }}
+            </mat-option>
+          </mat-select>
+        </mat-form-field>
+
+        <mat-form-field>
+          <mat-label>Nacionalidad</mat-label>
+          <mat-select formControlName="id_nacionalidad_pais">
+            <mat-option
+              *ngFor="let element of nacionalidad_pais"
+              [value]="element.id"
+            >
+              {{ element.nacionalidad }}
+            </mat-option>
+          </mat-select>
+        </mat-form-field>
+
+        <mat-form-field>
+          <mat-label>Municipio</mat-label>
+          <mat-select formControlName="id_municipio">
+            <mat-option *ngFor="let element of municipio" [value]="element.id">
+              {{ element.municipio }}
+            </mat-option>
+          </mat-select>
+        </mat-form-field>
+
+        <mat-form-field>
+          <mat-label>Tipo de identificación</mat-label>
+          <mat-select formControlName="id_doc_identificacion">
+            <mat-option
+              *ngFor="let element of doc_identificacion"
+              [value]="element.id"
+            >
+              {{ element.documento }}
+            </mat-option>
+          </mat-select>
+        </mat-form-field>
+
+        <mat-form-field>
+          <mat-label>No. Identificación</mat-label>
+          <input matInput formControlName="numero_de_identificacion" />
+        </mat-form-field>
+
+        <mat-form-field>
+          <mat-label>Identificación extranjera</mat-label>
+          <input
+            matInput
+            formControlName="numero_de_identificacion_extranjera"
+          />
+        </mat-form-field>
+
+        <mat-form-field>
+          <mat-label>Pueblo</mat-label>
+          <mat-select formControlName="id_pueblo_pertenencia">
+            <mat-option
+              *ngFor="let element of pueblo_pertenencia"
+              [value]="element.id"
+            >
+              {{ element.pueblo }}
+            </mat-option>
+          </mat-select>
+        </mat-form-field>
+
+        <mat-form-field>
+          <mat-label>Comunidad linguistica</mat-label>
+          <mat-select formControlName="id_comunidad_linguistica">
+            <mat-option
+              *ngFor="let element of comunidad_linguistica"
+              [value]="element.id"
+            >
+              {{ element.comunidad }}
+            </mat-option>
+          </mat-select>
+        </mat-form-field>
+
+        <div class="md:col-span-3">
+          <button mat-button matStepperPrevious>Back</button>
+          <button mat-button matStepperNext (click)="createEmployee()">
+            Next
+          </button>
+        </div>
+      </div>
+    </mat-step>
+
+    <mat-step>
+      <ng-template matStepLabel>Información laboral</ng-template>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-5 mt-4">
+        <mat-form-field>
+          <mat-label>NIT</mat-label>
+          <input matInput type="number" formControlName="nit" />
+        </mat-form-field>
+
+        <mat-form-field>
+          <mat-label>IGSS</mat-label>
+          <input matInput type="number" formControlName="igss" />
+        </mat-form-field>
+
+        <mat-form-field>
+          <mat-label>Nivel educativo</mat-label>
+          <mat-select formControlName="id_nivel_educativo">
+            <mat-option
+              *ngFor="let element of nivel_educativo"
+              [value]="element.id"
+            >
+              {{ element.nivel }}
+            </mat-option>
+          </mat-select>
+        </mat-form-field>
+
+        <mat-form-field>
+          <mat-label>Profesión</mat-label>
+          <input matInput formControlName="profesion" />
+        </mat-form-field>
+
+        <mat-form-field>
+          <mat-label>Temporalidad contrato</mat-label>
+          <mat-select formControlName="id_temporalidad_contrato">
+            <mat-option
+              *ngFor="let element of temporalidad_contrato"
+              [value]="element.id"
+            >
+              {{ element.temporalidad }}
+            </mat-option>
+          </mat-select>
+        </mat-form-field>
+
+        <mat-form-field>
+          <mat-label>Tipo contrato</mat-label>
+          <mat-select formControlName="id_tipo_contrato">
+            <mat-option
+              *ngFor="let element of tipo_contrato"
+              [value]="element.id"
+            >
+              {{ element.tipo }}
+            </mat-option>
+          </mat-select>
+        </mat-form-field>
+
+        <mat-form-field>
+          <mat-label>Ocupación</mat-label>
+          <mat-select formControlName="id_ocupacion">
+            <mat-option *ngFor="let element of ocupacion" [value]="element.id">
+              {{ element["ocupación"] }}
+            </mat-option>
+          </mat-select>
+        </mat-form-field>
+
+        <mat-form-field>
+          <mat-label>Jornada</mat-label>
+          <mat-select formControlName="id_jornada_trabajo">
+            <mat-option
+              *ngFor="let element of jornada_trabajo"
+              [value]="element.id"
+            >
+              {{ element.jornada }}
+            </mat-option>
+          </mat-select>
+        </mat-form-field>
+
+        <mat-form-field>
+          <mat-label>Discapacidad</mat-label>
+          <mat-select formControlName="id_tipo_discapacidad">
+            <mat-option
+              *ngFor="let element of tipo_discapacidad"
+              [value]="element.id"
+            >
+              {{ element.discapacidad }}
+            </mat-option>
+          </mat-select>
+        </mat-form-field>
+
+        <mat-form-field>
+          <mat-label>Proyecto</mat-label>
+          <mat-select formControlName="id_proyecto">
+            <mat-option *ngFor="let element of proyectos" [value]="element.id">
+              {{ element.nombre }}
+            </mat-option>
+          </mat-select>
+        </mat-form-field>
+
+        <div class="md:col-span-3">
+          <button mat-button matStepperPrevious>Back</button>
+          <button mat-button matStepperNext (click)="createEmployee()">
+            Next
+          </button>
+        </div>
+      </div>
+    </mat-step>
+
+    <mat-step>
+      <ng-template matStepLabel>Información financiera</ng-template>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-5 mt-4">
+        <div class="md:col-span-2">
+          <mat-form-field>
+            <mat-label>No. de cuenta</mat-label>
+            <input matInput type="number" formControlName="numero_de_cuenta" />
+          </mat-form-field>
+
+          <mat-form-field class="w-full">
+            <mat-label>IGSS Ocupación</mat-label>
+            <mat-select formControlName="id_igss_ocupacion">
+              <mat-option
+                *ngFor="let element of igss_ocupacion"
+                [value]="element.id"
+              >
+                {{ element.descripcion }}
+              </mat-option>
+            </mat-select>
+          </mat-form-field>
+
+          <mat-form-field class="w-full">
+            <mat-label>IGSS tipo de salario</mat-label>
+            <mat-select formControlName="id_igss_tipo_salario">
+              <mat-option
+                *ngFor="let element of igss_tipo_salario"
+                [value]="element.id"
+              >
+                {{ element.descripcion }}
+              </mat-option>
+            </mat-select>
+          </mat-form-field>
+        </div>
+
+        <section class="col-span-1 example-section">
+          <span class="example-list-section">
+            <ul class="grid grid-cols-2 gap-x-3">
+              <li *ngFor="let element of documentos">
+                <mat-checkbox color="primary">
+                  {{ element.descripcion }}
+                </mat-checkbox>
+              </li>
+            </ul>
+          </span>
+        </section>
+
+        <div class="md:col-span-3">
+          <button mat-button matStepperPrevious>Back</button>
+        </div>
       </div>
     </mat-step>
   </form>

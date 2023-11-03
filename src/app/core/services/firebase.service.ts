@@ -17,10 +17,13 @@ export class FirebaseService {
 
   constructor() { }
 
-  
+  getCollection(collectionName: string): Observable<any[]> {
+    const collectionRef = collection(this.firestore, collectionName);
+    return collectionData(collectionRef, { idField: "id" }) as Observable<any[]>;
+  }
+
   getEmployees(): Observable<any[]> {
     const employeesRef = collection(this.firestore, "empleados");
-
     return collectionData(employeesRef, { idField: "id" }) as Observable<any[]>;
   }
 
@@ -29,16 +32,12 @@ export class FirebaseService {
     return addDoc(employeesCollection, employee);
   }
 
-  editEmployee(employee: any){
-    const managementsRef = doc(this.firestore, `employees/${employee.id}`);
-    return setDoc(managementsRef, employee);
+  udpateEmployee(employee: any){
+    console.log('udpateEmployee');
+    console.log(employee);
+    const employeesRef = doc(this.firestore, `empleados/${employee.id}`);
+    return setDoc(employeesRef, employee);
   }
-
-
-  // updateManagement(management: Managements) {
-  //   const managementsRef = doc(this.firestore, `managements/${management.id}`);
-  //   return setDoc(managementsRef, management);
-  // }
 
   async addDocs(collectionName: string, docs: any[]) {
     const employeesCollection = collection(this.firestore, collectionName);

@@ -17,6 +17,8 @@ import { MatExpansionModule } from '@angular/material/expansion';
 import { MatNativeDateModule } from '@angular/material/core';
 import { MatDatepickerModule } from '@angular/material/datepicker';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
+import { MatSelectModule } from '@angular/material/select';
+import { MatCheckboxModule } from '@angular/material/checkbox';
 
 export const materialModules = [
   MatTableModule,
@@ -39,4 +41,6 @@ export const materialModules = [
   MatDatepickerModule,
   MatNativeDateModule,
   MatSnackBarModule,
+  MatSelectModule,
+  MatCheckboxModule,
 ];
