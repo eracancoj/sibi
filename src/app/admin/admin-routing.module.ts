@@ -9,12 +9,16 @@ const routes: Routes = [
   },
   {
     path: 'app',
-    loadChildren: () => import('@admin').then( m => m.EmployeesModule)
-  }
+    loadChildren: () => import('@admin').then((m) => m.EmployeesModule),
+  },
+  {
+    path: 'reportes',
+    loadChildren: () => import('@admin').then((m) => m.ReportsModule),
+  },
 ];
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class AdminRoutingModule { }
+export class AdminRoutingModule {}

@@ -1,5 +1,5 @@
 <mat-toolbar color="primary">
-  <div class="w-full flex justify-between container">
+  <div class="w-full flex justify-between items-center container">
     <!-- <button
     mat-icon-button
     class="example-icon"
@@ -14,13 +14,13 @@
       aria-label="Example icon-button with heart icon"
     >
       <mat-icon>favorite</mat-icon>
-    </button>
-    <button
-      mat-icon-button
-      class="example-icon"
-      aria-label="Example icon-button with share icon"
-    >
-      <mat-icon>share</mat-icon>
-    </button> -->
+    </button>-->
+
+    <div class="flex items-center gap-x-5 pt-3">
+      <p (click)="goToEmployees()" class="cursor-pointer text-base">
+        Empleados
+      </p>
+      <p (click)="goToReports()" class="cursor-pointer text-base">Reportes</p>
+    </div>
   </div>
 </mat-toolbar>

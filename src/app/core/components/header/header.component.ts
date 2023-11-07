@@ -1,5 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { materialModules } from 'src/assets/material-imports';
+import { Router } from '@angular/router';
 
 @Component({
   standalone: true,
@@ -8,4 +9,13 @@ import { materialModules } from 'src/assets/material-imports';
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.scss'],
 })
-export class HeaderComponent {}
+export class HeaderComponent {
+  router: Router = inject(Router);
+
+  goToEmployees() {
+    this.router.navigateByUrl('/admin/app', { replaceUrl: true });
+  }
+  goToReports() {
+    this.router.navigateByUrl('/admin/reportes', { replaceUrl: true });
+  }
+}
