@@ -16,7 +16,10 @@ export class EmployeeFormComponent implements OnInit {
   @Input() employee: any;
   @Input() edit: boolean = false;
 
-  form: FormGroup;
+  contract: any;
+
+  formEmployee: FormGroup;
+  formContract: FormGroup;
   startDate = new Date(1995, 0, 1);
 
   sexo: any;
@@ -41,12 +44,52 @@ export class EmployeeFormComponent implements OnInit {
   igss_tipo_salario: any;
   documentos: any;
 
+  employeeExample = {
+    id_genero: 'qRpib5fA30WxH9m0LHO9',
+    apellido_de_casada: '',
+    profesion: 'Computación',
+    id_doc_identificacion: 'xNFDtUk5IHpTvHh9akzp',
+    numero_de_identificacion: '335989120901',
+    primer_nombre: 'Emerson',
+    numero_de_identificacion_extranjera: '',
+    igss: null,
+    segundo_apellido: 'López',
+    id_municipio: 'y4m0LPScm1O8dOBYf2sI',
+    id_igss_ocupacion: 'bqNjUrCvmtl96q4YSPlJ',
+    id_comunidad_linguistica: 'lnIt1YliZc60LEdqU2Cq',
+    id_estado_civil: 'a5GmRfCf9qDLHYlp9n6D',
+    id_documentos: '',
+    id_pueblo_pertenencia: 'CrsHP4sVri89R3n49Iv1',
+    tercer_nombre: '',
+    id_nivel_educativo: '8kEXHoQCoAl5wtZL8Hbl',
+    id_tipo_discapacidad: 'lbEZUxrWiTKQTv4r4759',
+    id_temporalidad_contrato: '7z76rLLg3kO09uwT0U5b',
+    id_igss_tipo_salario: 'C5XJO6VGAmcsUtRU4Os5',
+    fecha_de_nacimiento: {
+      seconds: 930376800,
+      nanoseconds: 0,
+    },
+    id_proyecto: 'HUFelaxzNYTgrnXsnUlA',
+    id_nacionalidad_pais: '1BD5lXWZr181u9wKVkCC',
+    segundo_nombre: 'Fernando',
+    id_pais_origen: '1BD5lXWZr181u9wKVkCC',
+    numero_de_cuenta: 1,
+    id_sexo: '8UlU6AY1v4KK0Bsycns2',
+    primer_apellido: 'Racancoj',
+    id_jornada_trabajo: 'jXCeQIs5PNZehI2Zxkps',
+    numero_de_hijos: 0,
+    id_ocupacion: 'eZxEm0RfnGPQG8AQrlp2',
+    id: 'zCnUufw3VsbXsvwLoEZS',
+    nit: 97802255,
+    id_tipo_contrato: 'ce880hdt40Yb4CqpGKGU',
+  };
+
   private fb: FormBuilder = inject(FormBuilder);
   private fbService: FirebaseService = inject(FirebaseService);
   private snackBar: MatSnackBar = inject(MatSnackBar);
 
   constructor() {
-    this.form = this.fb.group({
+    this.formEmployee = this.fb.group({
       id: [''],
 
       primer_nombre: [''],
@@ -70,6 +113,10 @@ export class EmployeeFormComponent implements OnInit {
       numero_de_identificacion_extranjera: [''],
       id_pueblo_pertenencia: [''],
       id_comunidad_linguistica: [''],
+    });
+
+    this.formContract = this.fb.group({
+      id: [''],
 
       nit: [null],
       igss: [null],
@@ -81,15 +128,113 @@ export class EmployeeFormComponent implements OnInit {
       id_jornada_trabajo: [''],
       id_tipo_discapacidad: [''],
       id_proyecto: [''],
+      fecha_inicio: [''],
+      fecha_fin: [''],
 
       numero_de_cuenta: [null],
+      salario: [null],
       id_igss_ocupacion: [''],
       id_igss_tipo_salario: [''],
       id_documentos: [''],
+      empleado: [
+        {
+          primer_nombre: '',
+          primer_apellido: '',
+          id_empleado: '',
+        },
+      ],
     });
   }
 
   ngOnInit() {
+    if (this.employee) {
+      this.setEmployeeInfo();
+      this.enabledFields(false);
+      this.getContract();
+    }
+
+    this.getSelects();
+  }
+
+  async createEmployee() {
+    try {
+      if (this.employee) {
+        const response = await this.fbService.udpate(
+          'empleados',
+          this.formEmployee.value
+        );
+        this.openSnackBar('Empleado actualizado');
+      } else {
+        if (this.primer_nombre?.value) {
+          const resp = await this.fbService.create(
+            'empleados',
+            this.formEmployee.value
+          );
+          this.id?.setValue(resp.id);
+          this.employee = this.formEmployee.value;
+          this.openSnackBar('Empleado creado');
+        } else {
+          this.openSnackBar('Llene almenos el nombre');
+        }
+      }
+    } catch (error) {
+      console.log(error);
+      this.openSnackBar(error);
+    }
+  }
+
+  async createContract() {
+    try {
+      this.empleado?.setValue({
+        primer_nombre: this.primer_nombre?.value,
+        primer_apellido: this.primer_apellido?.value,
+        id_empleado: this.id?.value,
+      });
+
+      if (!this.contract) {
+        const response = await this.fbService.create(
+          'contratos',
+          this.formContract.value
+        );
+        this.openSnackBar('Contrato creado');
+      } else {
+        const response = await this.fbService.udpate(
+          'contratos',
+          this.formContract.value
+        );
+        this.openSnackBar('Contrato actualizado');
+      }
+    } catch (error) {
+      console.log(error);
+      this.openSnackBar(error);
+    }
+  }
+
+  async getContract() {
+    const response = await this.fbService
+      .getQuery('contratos', 'empleado.id_empleado', '==', this.id?.value)
+      .subscribe({
+        next: (resp) => {
+          if (Object.keys(resp).length !== 0) {
+            this.contract = resp[0];
+            this.setContractInfo();
+          }
+        },
+        error: (error) => {
+          console.log(error);
+        },
+      });
+  }
+
+  ngOnChanges(changes: any): void {
+    if (changes.edit && !changes.edit.firstChange) {
+      if (this.edit) {
+        this.enabledFields(true);
+      }
+    }
+  }
+
+  setEmployeeInfo() {
     if (this.employee) {
       this.id?.setValue(this.employee.id);
 
@@ -120,25 +265,216 @@ export class EmployeeFormComponent implements OnInit {
         this.employee.numero_de_identificacion_extranjera
       );
       this.id_pueblo_pertenencia?.setValue(this.employee.id_pueblo_pertenencia);
-      this.id_comunidad_linguistica?.setValue(this.employee.id_comunidad_linguistica);
+      this.id_comunidad_linguistica?.setValue(
+        this.employee.id_comunidad_linguistica
+      );
+    }
+  }
 
-      this.nit?.setValue(this.employee.nit);
-      this.igss?.setValue(this.employee.igss);
-      this.id_nivel_educativo?.setValue(this.employee.id_nivel_educativo);
-      this.profesion?.setValue(this.employee.profesion);
-      this.id_temporalidad_contrato?.setValue(this.employee.id_temporalidad_contrato);
-      this.id_tipo_contrato?.setValue(this.employee.id_tipo_contrato);
-      this.id_ocupacion?.setValue(this.employee.id_ocupacion);
-      this.id_jornada_trabajo?.setValue(this.employee.id_jornada_trabajo);
-      this.id_tipo_discapacidad?.setValue(this.employee.id_tipo_discapacidad);
-      this.id_proyecto?.setValue(this.employee.id_proyecto);
-      
-      this.numero_de_cuenta?.setValue(this.employee.numero_de_cuenta);
-      this.id_igss_ocupacion?.setValue(this.employee.id_igss_ocupacion);
-      this.id_igss_tipo_salario?.setValue(this.employee.id_igss_tipo_salario);
-      this.id_documentos?.setValue(this.employee.id_documentos);
+  setContractInfo() {
+    this.id_contract?.setValue(this.contract.id);
+    this.nit?.setValue(this.contract.nit);
+    this.igss?.setValue(this.contract.igss);
+    this.id_nivel_educativo?.setValue(this.contract.id_nivel_educativo);
+    this.profesion?.setValue(this.contract.profesion);
+    this.id_temporalidad_contrato?.setValue(
+      this.contract.id_temporalidad_contrato
+    );
+    this.id_tipo_contrato?.setValue(this.contract.id_tipo_contrato);
+    this.id_ocupacion?.setValue(this.contract.id_ocupacion);
+    this.id_jornada_trabajo?.setValue(this.contract.id_jornada_trabajo);
+    this.id_tipo_discapacidad?.setValue(this.contract.id_tipo_discapacidad);
+    this.id_proyecto?.setValue(this.contract.id_proyecto);
+    this.fecha_inicio?.setValue(
+      new Date(this.contract.fecha_inicio.seconds * 1000)
+    );
+    this.fecha_fin?.setValue(new Date(this.contract.fecha_fin.seconds * 1000));
 
+    this.numero_de_cuenta?.setValue(this.contract.numero_de_cuenta);
+    this.salario?.setValue(this.contract.salario);
+    this.id_igss_ocupacion?.setValue(this.contract.id_igss_ocupacion);
+    this.id_igss_tipo_salario?.setValue(this.contract.id_igss_tipo_salario);
+    this.id_documentos?.setValue(this.contract.id_documentos);
+  }
 
+  getSelects() {
+    this.fbService.get('sexo').subscribe({
+      next: (resp) => {
+        this.sexo = resp;
+      },
+      error: (error) => {
+        console.log(error);
+      },
+    });
+    this.fbService.get('genero').subscribe({
+      next: (resp) => {
+        this.genero = resp;
+      },
+      error: (error) => {
+        console.log(error);
+      },
+    });
+    this.fbService.get('estado_civil').subscribe({
+      next: (resp) => {
+        this.estado_civil = resp;
+      },
+      error: (error) => {
+        console.log(error);
+      },
+    });
+
+    this.fbService.get('nacionalidad_pais').subscribe({
+      next: (resp) => {
+        this.nacionalidad_pais = resp.sort((a, b) =>
+          a.nacionalidad.localeCompare(b.nacionalidad)
+        );
+      },
+      error: (error) => {
+        console.log(error);
+      },
+    });
+    this.fbService.get('municipios').subscribe({
+      next: (resp) => {
+        this.municipio = resp.sort((a, b) =>
+          a.municipio.localeCompare(b.municipio)
+        );
+      },
+      error: (error) => {
+        console.log(error);
+      },
+    });
+    this.fbService.get('doc_identificacion').subscribe({
+      next: (resp) => {
+        this.doc_identificacion = resp;
+      },
+      error: (error) => {
+        console.log(error);
+      },
+    });
+    this.fbService.get('pueblo_pertenencia').subscribe({
+      next: (resp) => {
+        this.pueblo_pertenencia = resp.sort((a, b) =>
+          a.pueblo.localeCompare(b.pueblo)
+        );
+      },
+      error: (error) => {
+        console.log(error);
+      },
+    });
+    this.fbService.get('comunidad_linguistica').subscribe({
+      next: (resp) => {
+        this.comunidad_linguistica = resp.sort((a, b) =>
+          a.comunidad.localeCompare(b.comunidad)
+        );
+      },
+      error: (error) => {
+        console.log(error);
+      },
+    });
+
+    this.fbService.get('nivel_educativo').subscribe({
+      next: (resp) => {
+        this.nivel_educativo = resp.sort((a, b) =>
+          a.nivel.localeCompare(b.nivel)
+        );
+      },
+      error: (error) => {
+        console.log(error);
+      },
+    });
+    this.fbService.get('temporalidad_contrato').subscribe({
+      next: (resp) => {
+        this.temporalidad_contrato = resp;
+      },
+      error: (error) => {
+        console.log(error);
+      },
+    });
+    this.fbService.get('tipo_contrato').subscribe({
+      next: (resp) => {
+        this.tipo_contrato = resp;
+      },
+      error: (error) => {
+        console.log(error);
+      },
+    });
+    this.fbService.get('ocupacion').subscribe({
+      next: (resp) => {
+        this.ocupacion = resp.sort((a, b) =>
+          a.ocupación.localeCompare(b.ocupación)
+        );
+      },
+      error: (error) => {
+        console.log(error);
+      },
+    });
+    this.fbService.get('jornada_trabajo').subscribe({
+      next: (resp) => {
+        this.jornada_trabajo = resp.sort((a, b) =>
+          a.jornada.localeCompare(b.jornada)
+        );
+      },
+      error: (error) => {
+        console.log(error);
+      },
+    });
+    this.fbService.get('tipo_discapacidad').subscribe({
+      next: (resp) => {
+        this.tipo_discapacidad = resp.sort((a, b) =>
+          a.discapacidad.localeCompare(b.discapacidad)
+        );
+      },
+      error: (error) => {
+        console.log(error);
+      },
+    });
+    this.fbService.get('proyectos').subscribe({
+      next: (resp) => {
+        this.proyectos = resp.sort((a, b) => a.nombre.localeCompare(b.nombre));
+      },
+      error: (error) => {
+        console.log(error);
+      },
+    });
+
+    this.fbService.get('igss_ocupacion').subscribe({
+      next: (resp) => {
+        this.igss_ocupacion = resp.sort((a, b) =>
+          a.descripcion.localeCompare(b.descripcion)
+        );
+      },
+      error: (error) => {
+        console.log(error);
+      },
+    });
+    this.fbService.get('igss_tipo_salario').subscribe({
+      next: (resp) => {
+        this.igss_tipo_salario = resp.sort((a, b) =>
+          a.descripcion.localeCompare(b.descripcion)
+        );
+      },
+      error: (error) => {
+        console.log(error);
+      },
+    });
+    this.fbService.get('documentos').subscribe({
+      next: (resp) => {
+        this.documentos = resp.sort((a, b) =>
+          a.descripcion.localeCompare(b.descripcion)
+        );
+      },
+      error: (error) => {
+        console.log(error);
+      },
+    });
+  }
+
+  openSnackBar(message: any, action: string = 'ok') {
+    this.snackBar.open(message, action, { duration: 2000 });
+  }
+
+  enabledFields(status: boolean) {
+    if (!status) {
       this.primer_nombre?.disable();
       this.segundo_nombre?.disable();
       this.tercer_nombre?.disable();
@@ -170,358 +506,177 @@ export class EmployeeFormComponent implements OnInit {
       this.id_jornada_trabajo?.disable();
       this.id_tipo_discapacidad?.disable();
       this.id_proyecto?.disable();
+      this.fecha_inicio?.disable();
+      this.fecha_fin?.disable();
       this.numero_de_cuenta?.disable();
+      this.salario?.disable();
       this.id_igss_ocupacion?.disable();
       this.id_igss_tipo_salario?.disable();
       this.id_documentos?.disable();
-    }
+    } else {
+      this.primer_nombre?.enable();
+      this.segundo_nombre?.enable();
+      this.tercer_nombre?.enable();
+      this.primer_apellido?.enable();
+      this.segundo_apellido?.enable();
+      this.apellido_de_casada?.enable();
+      this.fecha_de_nacimiento?.enable();
+      this.id_sexo?.enable();
+      this.id_genero?.enable();
+      this.id_estado_civil?.enable();
+      this.numero_de_hijos?.enable();
 
-    this.getSelects();
+      this.id_pais_origen?.enable();
+      this.id_nacionalidad_pais?.enable();
+      this.id_municipio?.enable();
+      this.id_doc_identificacion?.enable();
+      this.numero_de_identificacion?.enable();
+      this.numero_de_identificacion_extranjera?.enable();
+      this.id_pueblo_pertenencia?.enable();
+      this.id_comunidad_linguistica?.enable();
+
+      this.nit?.enable();
+      this.igss?.enable();
+      this.id_nivel_educativo?.enable();
+      this.profesion?.enable();
+      this.id_temporalidad_contrato?.enable();
+      this.id_tipo_contrato?.enable();
+      this.id_ocupacion?.enable();
+      this.id_jornada_trabajo?.enable();
+      this.id_tipo_discapacidad?.enable();
+      this.id_proyecto?.enable();
+      this.fecha_inicio?.enable();
+      this.fecha_fin?.enable();
+
+      this.numero_de_cuenta?.enable();
+      this.salario?.enable();
+      this.id_igss_ocupacion?.enable();
+      this.id_igss_tipo_salario?.enable();
+      this.id_documentos?.enable();
+    }
   }
 
+  // EMPLOYEE GETS
   get id() {
-    return this.form.get('id');
+    return this.formEmployee.get('id');
   }
 
   get primer_nombre() {
-    return this.form.get('primer_nombre');
+    return this.formEmployee.get('primer_nombre');
   }
   get segundo_nombre() {
-    return this.form.get('segundo_nombre');
+    return this.formEmployee.get('segundo_nombre');
   }
   get tercer_nombre() {
-    return this.form.get('tercer_nombre');
+    return this.formEmployee.get('tercer_nombre');
   }
   get primer_apellido() {
-    return this.form.get('primer_apellido');
+    return this.formEmployee.get('primer_apellido');
   }
   get segundo_apellido() {
-    return this.form.get('segundo_apellido');
+    return this.formEmployee.get('segundo_apellido');
   }
   get apellido_de_casada() {
-    return this.form.get('apellido_de_casada');
+    return this.formEmployee.get('apellido_de_casada');
   }
   get fecha_de_nacimiento() {
-    return this.form.get('fecha_de_nacimiento');
+    return this.formEmployee.get('fecha_de_nacimiento');
   }
   get id_sexo() {
-    return this.form.get('id_sexo');
+    return this.formEmployee.get('id_sexo');
   }
   get id_genero() {
-    return this.form.get('id_genero');
+    return this.formEmployee.get('id_genero');
   }
   get id_estado_civil() {
-    return this.form.get('id_estado_civil');
+    return this.formEmployee.get('id_estado_civil');
   }
   get numero_de_hijos() {
-    return this.form.get('numero_de_hijos');
+    return this.formEmployee.get('numero_de_hijos');
   }
 
   get id_pais_origen() {
-    return this.form.get('id_pais_origen');
+    return this.formEmployee.get('id_pais_origen');
   }
   get id_nacionalidad_pais() {
-    return this.form.get('id_nacionalidad_pais');
+    return this.formEmployee.get('id_nacionalidad_pais');
   }
   get id_municipio() {
-    return this.form.get('id_municipio');
+    return this.formEmployee.get('id_municipio');
   }
   get id_doc_identificacion() {
-    return this.form.get('id_doc_identificacion');
+    return this.formEmployee.get('id_doc_identificacion');
   }
   get numero_de_identificacion() {
-    return this.form.get('numero_de_identificacion');
+    return this.formEmployee.get('numero_de_identificacion');
   }
   get numero_de_identificacion_extranjera() {
-    return this.form.get('numero_de_identificacion_extranjera');
+    return this.formEmployee.get('numero_de_identificacion_extranjera');
   }
   get id_pueblo_pertenencia() {
-    return this.form.get('id_pueblo_pertenencia');
+    return this.formEmployee.get('id_pueblo_pertenencia');
   }
   get id_comunidad_linguistica() {
-    return this.form.get('id_comunidad_linguistica');
+    return this.formEmployee.get('id_comunidad_linguistica');
   }
 
+  // CONTRACT GETS
+  get id_contract() {
+    return this.formContract.get('id');
+  }
   get nit() {
-    return this.form.get('nit');
+    return this.formContract.get('nit');
   }
   get igss() {
-    return this.form.get('igss');
+    return this.formContract.get('igss');
   }
   get id_nivel_educativo() {
-    return this.form.get('id_nivel_educativo');
+    return this.formContract.get('id_nivel_educativo');
   }
   get profesion() {
-    return this.form.get('profesion');
+    return this.formContract.get('profesion');
   }
   get id_temporalidad_contrato() {
-    return this.form.get('id_temporalidad_contrato');
+    return this.formContract.get('id_temporalidad_contrato');
   }
   get id_tipo_contrato() {
-    return this.form.get('id_tipo_contrato');
+    return this.formContract.get('id_tipo_contrato');
   }
   get id_ocupacion() {
-    return this.form.get('id_ocupacion');
+    return this.formContract.get('id_ocupacion');
   }
   get id_jornada_trabajo() {
-    return this.form.get('id_jornada_trabajo');
+    return this.formContract.get('id_jornada_trabajo');
   }
   get id_tipo_discapacidad() {
-    return this.form.get('id_tipo_discapacidad');
+    return this.formContract.get('id_tipo_discapacidad');
   }
   get id_proyecto() {
-    return this.form.get('id_proyecto');
+    return this.formContract.get('id_proyecto');
+  }
+  get fecha_inicio() {
+    return this.formContract.get('fecha_inicio');
+  }
+  get fecha_fin() {
+    return this.formContract.get('fecha_fin');
   }
 
   get numero_de_cuenta() {
-    return this.form.get('numero_de_cuenta');
+    return this.formContract.get('numero_de_cuenta');
+  }
+  get salario() {
+    return this.formContract.get('salario');
   }
   get id_igss_ocupacion() {
-    return this.form.get('id_igss_ocupacion');
+    return this.formContract.get('id_igss_ocupacion');
   }
   get id_igss_tipo_salario() {
-    return this.form.get('id_igss_tipo_salario');
+    return this.formContract.get('id_igss_tipo_salario');
   }
   get id_documentos() {
-    return this.form.get('id_documentos');
+    return this.formContract.get('id_documentos');
   }
-
-  async createEmployee() {
-    try {
-      if (this.employee) {
-        const response = await this.fbService.udpateEmployee(this.form.value);
-        this.openSnackBar('Empleado editado con éxito');
-      } else {
-        if (this.primer_nombre?.value) {
-          const response = await this.fbService.addEmployee(this.form.value);
-          this.openSnackBar('Empleado creado con éxito');
-        } else {
-          this.openSnackBar('Llene almenos el nombre');
-        }
-      }
-    } catch (error) {
-      console.log(error);
-    }
-  }
-
-  getSelects() {
-    this.fbService.getCollection('sexo').subscribe({
-      next: (resp) => {
-        this.sexo = resp;
-      },
-      error: (error) => {
-        console.log(error);
-      },
-    });
-    this.fbService.getCollection('genero').subscribe({
-      next: (resp) => {
-        this.genero = resp;
-      },
-      error: (error) => {
-        console.log(error);
-      },
-    });
-    this.fbService.getCollection('estado_civil').subscribe({
-      next: (resp) => {
-        this.estado_civil = resp;
-      },
-      error: (error) => {
-        console.log(error);
-      },
-    });
-
-    this.fbService.getCollection('nacionalidad_pais').subscribe({
-      next: (resp) => {
-        this.nacionalidad_pais = resp.sort((a, b) =>
-          a.nacionalidad.localeCompare(b.nacionalidad)
-        );
-      },
-      error: (error) => {
-        console.log(error);
-      },
-    });
-    this.fbService.getCollection('municipios').subscribe({
-      next: (resp) => {
-        this.municipio = resp.sort((a, b) =>
-          a.municipio.localeCompare(b.municipio)
-        );
-      },
-      error: (error) => {
-        console.log(error);
-      },
-    });
-    this.fbService.getCollection('doc_identificacion').subscribe({
-      next: (resp) => {
-        this.doc_identificacion = resp;
-      },
-      error: (error) => {
-        console.log(error);
-      },
-    });
-    this.fbService.getCollection('pueblo_pertenencia').subscribe({
-      next: (resp) => {
-        this.pueblo_pertenencia = resp.sort((a, b) =>
-          a.pueblo.localeCompare(b.pueblo)
-        );
-      },
-      error: (error) => {
-        console.log(error);
-      },
-    });
-    this.fbService.getCollection('comunidad_linguistica').subscribe({
-      next: (resp) => {
-        this.comunidad_linguistica = resp.sort((a, b) =>
-          a.comunidad.localeCompare(b.comunidad)
-        );
-      },
-      error: (error) => {
-        console.log(error);
-      },
-    });
-
-    this.fbService.getCollection('nivel_educativo').subscribe({
-      next: (resp) => {
-        this.nivel_educativo = resp.sort((a, b) =>
-          a.nivel.localeCompare(b.nivel)
-        );
-      },
-      error: (error) => {
-        console.log(error);
-      },
-    });
-    this.fbService.getCollection('temporalidad_contrato').subscribe({
-      next: (resp) => {
-        this.temporalidad_contrato = resp;
-      },
-      error: (error) => {
-        console.log(error);
-      },
-    });
-    this.fbService.getCollection('tipo_contrato').subscribe({
-      next: (resp) => {
-        this.tipo_contrato = resp;
-      },
-      error: (error) => {
-        console.log(error);
-      },
-    });
-    this.fbService.getCollection('ocupacion').subscribe({
-      next: (resp) => {
-        this.ocupacion = resp.sort((a, b) =>
-        a.ocupación.localeCompare(b.ocupación)
-      );
-      },
-      error: (error) => {
-        console.log(error);
-      },
-    });
-    this.fbService.getCollection('jornada_trabajo').subscribe({
-      next: (resp) => {
-        this.jornada_trabajo = resp.sort((a, b) =>
-        a.jornada.localeCompare(b.jornada)
-      );
-      },
-      error: (error) => {
-        console.log(error);
-      },
-    });
-    this.fbService.getCollection('tipo_discapacidad').subscribe({
-      next: (resp) => {
-        this.tipo_discapacidad = resp.sort((a, b) =>
-        a.discapacidad.localeCompare(b.discapacidad)
-      );
-      },
-      error: (error) => {
-        console.log(error);
-      },
-    });
-    this.fbService.getCollection('proyectos').subscribe({
-      next: (resp) => {
-        this.proyectos = resp.sort((a, b) =>
-        a.nombre.localeCompare(b.nombre)
-      );
-      },
-      error: (error) => {
-        console.log(error);
-      },
-    });
-
-    this.fbService.getCollection('igss_ocupacion').subscribe({
-      next: (resp) => {
-        this.igss_ocupacion = resp.sort((a, b) =>
-        a.descripcion.localeCompare(b.descripcion)
-      );
-      },
-      error: (error) => {
-        console.log(error);
-      },
-    });
-    this.fbService.getCollection('igss_tipo_salario').subscribe({
-      next: (resp) => {
-        this.igss_tipo_salario = resp.sort((a, b) =>
-        a.descripcion.localeCompare(b.descripcion)
-      );
-      },
-      error: (error) => {
-        console.log(error);
-      },
-    });
-    this.fbService.getCollection('documentos').subscribe({
-      next: (resp) => {
-        this.documentos = resp.sort((a, b) =>
-        a.descripcion.localeCompare(b.descripcion)
-      );
-      },
-      error: (error) => {
-        console.log(error);
-      },
-    });
-  }
-
-  ngOnChanges(changes: any): void {
-    if (changes.edit && !changes.edit.firstChange) {
-      if (this.edit) {
-        this.primer_nombre?.enable();
-        this.segundo_nombre?.enable();
-        this.tercer_nombre?.enable();
-        this.primer_apellido?.enable();
-        this.segundo_apellido?.enable();
-        this.apellido_de_casada?.enable();
-        this.fecha_de_nacimiento?.enable();
-        this.id_sexo?.enable();
-        this.id_genero?.enable();
-        this.id_estado_civil?.enable();
-        this.numero_de_hijos?.enable();
-
-        this.id_pais_origen?.enable();
-        this.id_nacionalidad_pais?.enable();
-        this.id_municipio?.enable();
-        this.id_doc_identificacion?.enable();
-        this.numero_de_identificacion?.enable();
-        this.numero_de_identificacion_extranjera?.enable();
-        this.id_pueblo_pertenencia?.enable();
-        this.id_comunidad_linguistica?.enable();
-
-        this.nit?.enable();
-        this.igss?.enable();
-        this.id_nivel_educativo?.enable();
-        this.profesion?.enable();
-        this.id_temporalidad_contrato?.enable();
-        this.id_tipo_contrato?.enable();
-        this.id_ocupacion?.enable();
-        this.id_jornada_trabajo?.enable();
-        this.id_tipo_discapacidad?.enable();
-        this.id_proyecto?.enable();
-
-        this.numero_de_cuenta?.enable();
-        this.id_igss_ocupacion?.enable();
-        this.id_igss_tipo_salario?.enable();
-        this.id_documentos?.enable();
-      }
-    }
-  }
-
-  openSnackBar(message: string, action: string = 'ok') {
-    this.snackBar.open(message, action, { duration: 2000 });
+  get empleado() {
+    return this.formContract.get('empleado');
   }
 }

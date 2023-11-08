@@ -20,7 +20,7 @@ import { FormBuilder, Validators } from '@angular/forms';
 })
 export class EmployeesComponent implements OnInit {
   displayedColumns: string[] = ['id', 'name', 'project'];
-  dataSource: any;
+  // dataSource: any;
 
   employees: object[] = [];
 
@@ -31,50 +31,33 @@ export class EmployeesComponent implements OnInit {
 
   ngOnInit(): void {
     this.getEmployees();
-    this.dataSource = [
+    this.employees = [
       {
-        id_genero: 'qRpib5fA30WxH9m0LHO9',
-        apellido_de_casada: '',
-        profesion: 'Computación',
-        id_doc_identificacion: 'xNFDtUk5IHpTvHh9akzp',
-        numero_de_identificacion: '335989120901',
-        primer_nombre: 'Emerson',
-        numero_de_identificacion_extranjera: '',
-        igss: null,
-        segundo_apellido: 'López',
-        id_municipio: 'y4m0LPScm1O8dOBYf2sI',
-        id_igss_ocupacion: 'bqNjUrCvmtl96q4YSPlJ',
-        id_comunidad_linguistica: 'lnIt1YliZc60LEdqU2Cq',
-        id_estado_civil: 'a5GmRfCf9qDLHYlp9n6D',
-        id_documentos: '',
-        id_pueblo_pertenencia: 'CrsHP4sVri89R3n49Iv1',
+        numero_de_hijos: 0,
         tercer_nombre: '',
-        id_nivel_educativo: '8kEXHoQCoAl5wtZL8Hbl',
-        id_tipo_discapacidad: 'lbEZUxrWiTKQTv4r4759',
-        id_temporalidad_contrato: '7z76rLLg3kO09uwT0U5b',
-        id_igss_tipo_salario: 'C5XJO6VGAmcsUtRU4Os5',
+        segundo_nombre: 'Fernando',
+        primer_nombre: 'Emerson',
+        segundo_apellido: 'Lopez',
+        apellido_de_casada: '',
+        id_pueblo_pertenencia: 'GViWVLzZ77WOgK1V53GD',
+        id: 'tN2tVe66fm8ffHWAsqJQ',
+        id_municipio: 'zXbozToIRcPzWTEIRHAS',
+        id_nacionalidad_pais: 'Y15GtD4y0tPSCQuOhdn8',
+        numero_de_identificacion: '2222222222',
+        numero_de_identificacion_extranjera: '',
+        primer_apellido: 'Racancoj',
+        id_doc_identificacion: 'xNFDtUk5IHpTvHh9akzp',
+        id_sexo: '8UlU6AY1v4KK0Bsycns2',
+        id_genero: 'qRpib5fA30WxH9m0LHO9',
+        id_pais_origen: 'Y15GtD4y0tPSCQuOhdn8',
+        id_comunidad_linguistica: 'H3UNoCk0RIEfDQFJG6oC',
+        id_estado_civil: 'a5GmRfCf9qDLHYlp9n6D',
         fecha_de_nacimiento: {
-          seconds: 930376800,
+          seconds: 865317600,
           nanoseconds: 0,
         },
-        id_proyecto: 'HUFelaxzNYTgrnXsnUlA',
-        id_nacionalidad_pais: '1BD5lXWZr181u9wKVkCC',
-        segundo_nombre: 'Fernando',
-        id_pais_origen: '1BD5lXWZr181u9wKVkCC',
-        numero_de_cuenta: 1,
-        id_sexo: '8UlU6AY1v4KK0Bsycns2',
-        primer_apellido: 'Racancoj',
-        id_jornada_trabajo: 'jXCeQIs5PNZehI2Zxkps',
-        numero_de_hijos: 0,
-        id_ocupacion: 'eZxEm0RfnGPQG8AQrlp2',
-        id: 'zCnUufw3VsbXsvwLoEZS',
-        nit: 97802255,
-        id_tipo_contrato: 'ce880hdt40Yb4CqpGKGU',
       },
     ];
-
-    console.log('employees');
-    console.log(this.dataSource);
   }
 
   jsonNames = [
@@ -94,17 +77,14 @@ export class EmployeesComponent implements OnInit {
   ];
 
   getEmployees() {
-    // this.firebaseService.getEmployees().subscribe({
-    //   next: (resp) => {
-    //     this.employees = resp;
-    //     this.dataSource = resp;
-    //     console.log('this.employees');
-    //     console.log(this.employees);
-    //   },
-    //   error: (error) => {
-    //     console.log(error);
-    //   },
-    // });
+    this.firebaseService.get('empleados').subscribe({
+      next: (resp) => {
+        this.employees = resp;
+      },
+      error: (error) => {
+        console.log(error);
+      },
+    });
   }
 
   viewEmployee(employee: object) {

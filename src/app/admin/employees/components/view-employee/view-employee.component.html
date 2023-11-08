@@ -4,17 +4,17 @@
       {{ employee.primer_nombre + " " + employee.primer_apellido }}
     </h1>
 
-    <button mat-mini-fab color="primary" aria-label="Edit employee" (click)="edit = !edit">
+    <button
+      mat-mini-fab
+      color="primary"
+      aria-label="Edit employee"
+      (click)="edit = !edit"
+    >
       <mat-icon>edit</mat-icon>
     </button>
   </mat-card-header>
   <mat-card-content>
-    <mat-tab-group>
-      <mat-tab label="Información">
-        <app-employee-form [employee]="employee" [edit]="edit"></app-employee-form>
-      </mat-tab>
-      <mat-tab label="Documentos"> Content 2 </mat-tab>
-    </mat-tab-group>
+    <app-employee-form [employee]="employee" [edit]="edit"></app-employee-form>
   </mat-card-content>
   <mat-card-footer></mat-card-footer>
 </mat-card>

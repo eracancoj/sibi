@@ -1,9 +1,7 @@
-<mat-stepper #stepper>
-  <form [formGroup]="form">
-    <mat-step>
-      <ng-template matStepLabel>Datos personales</ng-template>
-      <div class="grid grid-cols-1 md:grid-cols-4 gap-5 mt-4">
-        <!-- mat-dialog-content -->
+<mat-tab-group>
+  <mat-tab label="Información">
+    <form [formGroup]="formEmployee" class="px-5 py-3">
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-2 mt-4">
         <mat-form-field>
           <mat-label>Primer nombre</mat-label>
           <input matInput formControlName="primer_nombre" />
@@ -88,16 +86,6 @@
           <input matInput type="number" formControlName="numero_de_hijos" />
         </mat-form-field>
 
-        <div class="md:col-span-4">
-          <button mat-button matStepperPrevious>Back</button>
-          <button mat-button matStepperNext>Next</button>
-        </div>
-      </div>
-    </mat-step>
-
-    <mat-step>
-      <ng-template matStepLabel>Información adicional</ng-template>
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-5 mt-4">
         <mat-form-field>
           <mat-label>País de origen</mat-label>
           <mat-select formControlName="id_pais_origen">
@@ -179,17 +167,18 @@
             </mat-option>
           </mat-select>
         </mat-form-field>
-
-        <div class="md:col-span-3">
-          <button mat-button matStepperPrevious>Back</button>
-          <button mat-button matStepperNext>Next</button>
-        </div>
       </div>
-    </mat-step>
+      <div class="w-full flex justify-center md:justify-end">
+        <button mat-raised-button color="primary" (click)="createEmployee()">
+          Guardar
+        </button>
+      </div>
+    </form>
+  </mat-tab>
 
-    <mat-step>
-      <ng-template matStepLabel>Información laboral</ng-template>
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-5 mt-4">
+  <mat-tab *ngIf="employee" label="Contrato">
+    <form [formGroup]="formContract" class="px-5 py-3">
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-5 mt-4">
         <mat-form-field>
           <mat-label>NIT</mat-label>
           <input matInput type="number" formControlName="nit" />
@@ -283,50 +272,73 @@
           </mat-select>
         </mat-form-field>
 
-        <div class="md:col-span-3">
-          <button mat-button matStepperPrevious>Back</button>
-          <button mat-button matStepperNext>Next</button>
-        </div>
-      </div>
-    </mat-step>
+        <mat-form-field>
+          <mat-label>Fecha de inicio</mat-label>
+          <input
+            matInput
+            [matDatepicker]="pickerFechaInicio"
+            formControlName="fecha_inicio"
+          />
+          <mat-hint>MM/DD/YYYY</mat-hint>
+          <mat-datepicker-toggle
+            matIconSuffix
+            [for]="pickerFechaInicio"
+          ></mat-datepicker-toggle>
+          <mat-datepicker #pickerFechaInicio></mat-datepicker>
+        </mat-form-field>
 
-    <mat-step>
-      <ng-template matStepLabel>Información financiera</ng-template>
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-5 mt-4">
-        <div class="md:col-span-2">
-          <mat-form-field>
-            <mat-label>No. de cuenta</mat-label>
-            <input matInput type="number" formControlName="numero_de_cuenta" />
-          </mat-form-field>
+        <mat-form-field>
+          <mat-label>Fecha final</mat-label>
+          <input
+            matInput
+            [matDatepicker]="pickerFechaFinal"
+            formControlName="fecha_fin"
+          />
+          <mat-hint>MM/DD/YYYY</mat-hint>
+          <mat-datepicker-toggle
+            matIconSuffix
+            [for]="pickerFechaFinal"
+          ></mat-datepicker-toggle>
+          <mat-datepicker #pickerFechaFinal></mat-datepicker>
+        </mat-form-field>
 
-          <mat-form-field class="w-full">
-            <mat-label>IGSS Ocupación</mat-label>
-            <mat-select formControlName="id_igss_ocupacion">
-              <mat-option
-                *ngFor="let element of igss_ocupacion"
-                [value]="element.id"
-              >
-                {{ element.descripcion }}
-              </mat-option>
-            </mat-select>
-          </mat-form-field>
+        <mat-form-field>
+          <mat-label>No. de cuenta</mat-label>
+          <input matInput type="number" formControlName="numero_de_cuenta" />
+        </mat-form-field>
 
-          <mat-form-field class="w-full">
-            <mat-label>IGSS tipo de salario</mat-label>
-            <mat-select formControlName="id_igss_tipo_salario">
-              <mat-option
-                *ngFor="let element of igss_tipo_salario"
-                [value]="element.id"
-              >
-                {{ element.descripcion }}
-              </mat-option>
-            </mat-select>
-          </mat-form-field>
-        </div>
+        <mat-form-field>
+          <mat-label>Salario</mat-label>
+          <input matInput type="number" formControlName="salario" />
+        </mat-form-field>
 
-        <section class="col-span-1 example-section">
-          <span class="example-list-section">
-            <ul class="grid grid-cols-2 gap-x-3">
+        <mat-form-field class="md:col-span-2 w-full">
+          <mat-label>IGSS Ocupación</mat-label>
+          <mat-select formControlName="id_igss_ocupacion">
+            <mat-option
+              *ngFor="let element of igss_ocupacion"
+              [value]="element.id"
+            >
+              {{ element.descripcion }}
+            </mat-option>
+          </mat-select>
+        </mat-form-field>
+
+        <mat-form-field class="md:col-span-2 w-full">
+          <mat-label>IGSS tipo de salario</mat-label>
+          <mat-select formControlName="id_igss_tipo_salario">
+            <mat-option
+              *ngFor="let element of igss_tipo_salario"
+              [value]="element.id"
+            >
+              {{ element.descripcion }}
+            </mat-option>
+          </mat-select>
+        </mat-form-field>
+
+        <section class="md:col-span-2">
+          <span>
+            <ul class="flex gap-x-3">
               <li *ngFor="let element of documentos">
                 <mat-checkbox color="primary">
                   {{ element.descripcion }}
@@ -335,14 +347,12 @@
             </ul>
           </span>
         </section>
-
-        <div class="md:col-span-3">
-          <button mat-button matStepperPrevious>Back</button>
-          <button mat-button matStepperPrevious (click)="createEmployee()">
-            Guardar
-          </button>
-        </div>
       </div>
-    </mat-step>
-  </form>
-</mat-stepper>
+      <div class="w-full flex justify-center md:justify-end">
+        <button mat-raised-button color="primary" (click)="createContract()">
+          Guardar
+        </button>
+      </div>
+    </form>
+  </mat-tab>
+</mat-tab-group>
