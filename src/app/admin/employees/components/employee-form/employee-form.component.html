@@ -265,8 +265,11 @@
 
         <mat-form-field>
           <mat-label>Proyecto</mat-label>
-          <mat-select formControlName="id_proyecto">
-            <mat-option *ngFor="let element of proyectos" [value]="element.id">
+          <mat-select formControlName="proyecto">
+            <mat-option
+              *ngFor="let element of proyectos"
+              [value]="element.nombre"
+            >
               {{ element.nombre }}
             </mat-option>
           </mat-select>
@@ -336,7 +339,19 @@
           </mat-select>
         </mat-form-field>
 
-        <section class="md:col-span-2">
+        <mat-form-field class="md:col-span-2 w-full">
+          <mat-label>Puesto</mat-label>
+          <mat-select formControlName="puesto">
+            <mat-option
+              *ngFor="let element of puestos"
+              [value]="element.nombre"
+            >
+              {{ element.nombre }}
+            </mat-option>
+          </mat-select>
+        </mat-form-field>
+
+        <!-- <section class="md:col-span-2">
           <span>
             <ul class="flex gap-x-3">
               <li *ngFor="let element of documentos">
@@ -346,7 +361,7 @@
               </li>
             </ul>
           </span>
-        </section>
+        </section> -->
       </div>
       <div class="w-full flex justify-center md:justify-end">
         <button mat-raised-button color="primary" (click)="createContract()">

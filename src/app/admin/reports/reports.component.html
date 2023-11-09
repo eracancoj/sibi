@@ -1,1 +1,106 @@
-<p>reports works!</p>
+<form (ngSubmit)="getContracts()" [formGroup]="form">
+  <mat-form-field>
+    <mat-label>Choose a date</mat-label>
+    <input matInput [matDatepicker]="init" formControlName="init" />
+    <mat-hint>MM/DD/YYYY</mat-hint>
+    <mat-datepicker-toggle matIconSuffix [for]="init"></mat-datepicker-toggle>
+    <mat-datepicker #init></mat-datepicker>
+  </mat-form-field>
+
+  <mat-form-field>
+    <mat-label>Choose a date</mat-label>
+    <input matInput [matDatepicker]="end" formControlName="end" />
+    <mat-hint>MM/DD/YYYY</mat-hint>
+    <mat-datepicker-toggle matIconSuffix [for]="end"></mat-datepicker-toggle>
+    <mat-datepicker #end></mat-datepicker>
+  </mat-form-field>
+
+  <button mat-raised-button color="primary" type="submit">Send</button>
+</form>
+
+<section>
+  <mat-form-field>
+    <mat-label>Filter</mat-label>
+    <input
+      matInput
+      (keyup)="applyFilter($event)"
+      placeholder="Ex. Mia"
+      #input
+    />
+  </mat-form-field>
+
+  <div class="mat-elevation-z8">
+    <table mat-table [dataSource]="employees" matSort>
+      <!-- Code Column -->
+      <ng-container matColumnDef="id">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header>ID</th>
+        <td mat-cell *matCellDef="let row">{{ row.id }}</td>
+      </ng-container>
+
+      <!-- Name Column -->
+      <ng-container matColumnDef="nombre">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header>Nombre</th>
+        <td mat-cell *matCellDef="let row">
+          {{ row.empleado.primer_nombre + " " + row.empleado.primer_apellido }}
+        </td>
+      </ng-container>
+
+      <!-- Puesto Column -->
+      <ng-container matColumnDef="puesto">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header>Puesto</th>
+        <td mat-cell *matCellDef="let row">{{ row.puesto }}</td>
+      </ng-container>
+
+      <!-- NIT Column -->
+      <ng-container matColumnDef="nit">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header>NIT</th>
+        <td mat-cell *matCellDef="let row">{{ row.nit }}</td>
+      </ng-container>
+
+      <!-- Proyecto Column -->
+      <ng-container matColumnDef="proyecto">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header>Proyecto</th>
+        <td mat-cell *matCellDef="let row">{{ row.proyecto }}</td>
+      </ng-container>
+
+      <!-- Cuenta Column -->
+      <ng-container matColumnDef="numero_de_cuenta">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header>No. de cuenta</th>
+        <td mat-cell *matCellDef="let row">{{ row.numero_de_cuenta }}</td>
+      </ng-container>
+
+      <!-- Fecha Inicio Column -->
+      <ng-container matColumnDef="fecha_inicio">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header>
+          Fecha de ingreso
+        </th>
+        <td mat-cell *matCellDef="let row">
+          {{ row.fecha_inicio.seconds * 1000 | date : "dd/MM/yyyy" }}
+        </td>
+      </ng-container>
+
+      <!-- Salario Column -->
+      <ng-container matColumnDef="salario">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header>Salario</th>
+        <td mat-cell *matCellDef="let row">
+          Q {{ row.salario | number : "1.2-2" }}
+        </td>
+      </ng-container>
+
+      <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+      <tr mat-row *matRowDef="let row; columns: displayedColumns"></tr>
+
+      <!-- Row shown when there is no matching data. -->
+      <!-- <tr class="mat-row" *matNoDataRow>
+        <td class="mat-cell" colspan="4">
+          No data matching the filter "{{ input.value }}"
+        </td>
+      </tr> -->
+    </table>
+
+    <!-- <mat-paginator
+      [pageSizeOptions]="[5, 10, 25, 100]"
+      aria-label="Select page of users"
+    ></mat-paginator> -->
+  </div>
+</section>

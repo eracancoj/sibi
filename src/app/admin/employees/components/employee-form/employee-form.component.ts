@@ -4,6 +4,7 @@ import { FormBuilder, FormGroup, ReactiveFormsModule } from '@angular/forms';
 import { materialModules } from 'src/assets/material-imports';
 import { MatSnackBar } from '@angular/material/snack-bar';
 import { FirebaseService } from '@core';
+import { puestos, proyectos } from '@assets';
 
 @Component({
   standalone: true,
@@ -38,51 +39,12 @@ export class EmployeeFormComponent implements OnInit {
   ocupacion: any;
   jornada_trabajo: any;
   tipo_discapacidad: any;
-  proyectos: any;
+  proyectos: any = proyectos;
 
   igss_ocupacion: any;
   igss_tipo_salario: any;
+  puestos: any = puestos;
   documentos: any;
-
-  employeeExample = {
-    id_genero: 'qRpib5fA30WxH9m0LHO9',
-    apellido_de_casada: '',
-    profesion: 'Computación',
-    id_doc_identificacion: 'xNFDtUk5IHpTvHh9akzp',
-    numero_de_identificacion: '335989120901',
-    primer_nombre: 'Emerson',
-    numero_de_identificacion_extranjera: '',
-    igss: null,
-    segundo_apellido: 'López',
-    id_municipio: 'y4m0LPScm1O8dOBYf2sI',
-    id_igss_ocupacion: 'bqNjUrCvmtl96q4YSPlJ',
-    id_comunidad_linguistica: 'lnIt1YliZc60LEdqU2Cq',
-    id_estado_civil: 'a5GmRfCf9qDLHYlp9n6D',
-    id_documentos: '',
-    id_pueblo_pertenencia: 'CrsHP4sVri89R3n49Iv1',
-    tercer_nombre: '',
-    id_nivel_educativo: '8kEXHoQCoAl5wtZL8Hbl',
-    id_tipo_discapacidad: 'lbEZUxrWiTKQTv4r4759',
-    id_temporalidad_contrato: '7z76rLLg3kO09uwT0U5b',
-    id_igss_tipo_salario: 'C5XJO6VGAmcsUtRU4Os5',
-    fecha_de_nacimiento: {
-      seconds: 930376800,
-      nanoseconds: 0,
-    },
-    id_proyecto: 'HUFelaxzNYTgrnXsnUlA',
-    id_nacionalidad_pais: '1BD5lXWZr181u9wKVkCC',
-    segundo_nombre: 'Fernando',
-    id_pais_origen: '1BD5lXWZr181u9wKVkCC',
-    numero_de_cuenta: 1,
-    id_sexo: '8UlU6AY1v4KK0Bsycns2',
-    primer_apellido: 'Racancoj',
-    id_jornada_trabajo: 'jXCeQIs5PNZehI2Zxkps',
-    numero_de_hijos: 0,
-    id_ocupacion: 'eZxEm0RfnGPQG8AQrlp2',
-    id: 'zCnUufw3VsbXsvwLoEZS',
-    nit: 97802255,
-    id_tipo_contrato: 'ce880hdt40Yb4CqpGKGU',
-  };
 
   private fb: FormBuilder = inject(FormBuilder);
   private fbService: FirebaseService = inject(FirebaseService);
@@ -127,7 +89,7 @@ export class EmployeeFormComponent implements OnInit {
       id_ocupacion: [''],
       id_jornada_trabajo: [''],
       id_tipo_discapacidad: [''],
-      id_proyecto: [''],
+      proyecto: [''],
       fecha_inicio: [''],
       fecha_fin: [''],
 
@@ -135,6 +97,7 @@ export class EmployeeFormComponent implements OnInit {
       salario: [null],
       id_igss_ocupacion: [''],
       id_igss_tipo_salario: [''],
+      puesto: [''],
       id_documentos: [''],
       empleado: [
         {
@@ -284,7 +247,7 @@ export class EmployeeFormComponent implements OnInit {
     this.id_ocupacion?.setValue(this.contract.id_ocupacion);
     this.id_jornada_trabajo?.setValue(this.contract.id_jornada_trabajo);
     this.id_tipo_discapacidad?.setValue(this.contract.id_tipo_discapacidad);
-    this.id_proyecto?.setValue(this.contract.id_proyecto);
+    this.proyecto?.setValue(this.contract.proyecto);
     this.fecha_inicio?.setValue(
       new Date(this.contract.fecha_inicio.seconds * 1000)
     );
@@ -294,6 +257,7 @@ export class EmployeeFormComponent implements OnInit {
     this.salario?.setValue(this.contract.salario);
     this.id_igss_ocupacion?.setValue(this.contract.id_igss_ocupacion);
     this.id_igss_tipo_salario?.setValue(this.contract.id_igss_tipo_salario);
+    this.puesto?.setValue(this.contract.puesto);
     this.id_documentos?.setValue(this.contract.id_documentos);
   }
 
@@ -428,14 +392,14 @@ export class EmployeeFormComponent implements OnInit {
         console.log(error);
       },
     });
-    this.fbService.get('proyectos').subscribe({
-      next: (resp) => {
-        this.proyectos = resp.sort((a, b) => a.nombre.localeCompare(b.nombre));
-      },
-      error: (error) => {
-        console.log(error);
-      },
-    });
+    // this.fbService.get('proyectos').subscribe({
+    //   next: (resp) => {
+    //     this.proyectos = resp.sort((a, b) => a.nombre.localeCompare(b.nombre));
+    //   },
+    //   error: (error) => {
+    //     console.log(error);
+    //   },
+    // });
 
     this.fbService.get('igss_ocupacion').subscribe({
       next: (resp) => {
@@ -457,6 +421,7 @@ export class EmployeeFormComponent implements OnInit {
         console.log(error);
       },
     });
+
     this.fbService.get('documentos').subscribe({
       next: (resp) => {
         this.documentos = resp.sort((a, b) =>
@@ -505,13 +470,14 @@ export class EmployeeFormComponent implements OnInit {
       this.id_ocupacion?.disable();
       this.id_jornada_trabajo?.disable();
       this.id_tipo_discapacidad?.disable();
-      this.id_proyecto?.disable();
+      this.proyecto?.disable();
       this.fecha_inicio?.disable();
       this.fecha_fin?.disable();
       this.numero_de_cuenta?.disable();
       this.salario?.disable();
       this.id_igss_ocupacion?.disable();
       this.id_igss_tipo_salario?.disable();
+      this.puesto?.disable();
       this.id_documentos?.disable();
     } else {
       this.primer_nombre?.enable();
@@ -544,7 +510,7 @@ export class EmployeeFormComponent implements OnInit {
       this.id_ocupacion?.enable();
       this.id_jornada_trabajo?.enable();
       this.id_tipo_discapacidad?.enable();
-      this.id_proyecto?.enable();
+      this.proyecto?.enable();
       this.fecha_inicio?.enable();
       this.fecha_fin?.enable();
 
@@ -552,6 +518,7 @@ export class EmployeeFormComponent implements OnInit {
       this.salario?.enable();
       this.id_igss_ocupacion?.enable();
       this.id_igss_tipo_salario?.enable();
+      this.puesto?.enable();
       this.id_documentos?.enable();
     }
   }
@@ -651,8 +618,8 @@ export class EmployeeFormComponent implements OnInit {
   get id_tipo_discapacidad() {
     return this.formContract.get('id_tipo_discapacidad');
   }
-  get id_proyecto() {
-    return this.formContract.get('id_proyecto');
+  get proyecto() {
+    return this.formContract.get('proyecto');
   }
   get fecha_inicio() {
     return this.formContract.get('fecha_inicio');
@@ -672,6 +639,9 @@ export class EmployeeFormComponent implements OnInit {
   }
   get id_igss_tipo_salario() {
     return this.formContract.get('id_igss_tipo_salario');
+  }
+  get puesto() {
+    return this.formContract.get('puesto');
   }
   get id_documentos() {
     return this.formContract.get('id_documentos');
