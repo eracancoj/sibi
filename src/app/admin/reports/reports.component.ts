@@ -1,8 +1,9 @@
 import { Component, inject } from '@angular/core';
-import { FormBuilder, FormGroup } from '@angular/forms';
+import { FormBuilder, FormControl, FormGroup } from '@angular/forms';
 import { FirebaseService } from '@core';
 import * as XLSX from 'xlsx';
 import { MatTableDataSource, MatTableModule } from '@angular/material/table';
+import { MatDatepicker } from '@angular/material/datepicker';
 
 @Component({
   selector: 'app-reports',
@@ -12,20 +13,17 @@ import { MatTableDataSource, MatTableModule } from '@angular/material/table';
 export class ReportsComponent {
   form: FormGroup;
 
-  displayedColumns: string[] = [
-    'nombre',
-    'puesto',
-    'nit',
-    'proyecto',
-    'numero_de_cuenta',
-    'fecha_inicio',
-    'salario',
-  ];
-  // dataSource: MatTableDataSource<any>;
-  employees: any;
+  reportType: string = '';
+
+  openSibReport: boolean = false;
+
+  reports: MatTableDataSource<any>;
+  displayedColumns: string[] = ['id', 'nombre'];
 
   fbService: FirebaseService = inject(FirebaseService);
   fb: FormBuilder = inject(FormBuilder);
+
+  date = new FormControl();
 
   constructor() {
     let i: Date = new Date();
@@ -34,7 +32,22 @@ export class ReportsComponent {
       end: [''],
     });
 
-    // this.dataSource = new MatTableDataSource();
+    this.reports = new MatTableDataSource();
+  }
+
+  setMonthAndYear(normalizedMonthAndYear: any, datepicker: MatDatepicker<any>) {
+    const ctrlValue = this.date.value!;
+
+    console.log(this.date.value.set());
+
+    // console.log(normalizedMonthAndYear.year());
+
+    // ctrlValue.month(normalizedMonthAndYear.month());
+    // ctrlValue.year(normalizedMonthAndYear.year());
+
+    // console.log(ctrlValue.year(normalizedMonthAndYear.year()));
+    // this.date.setValue(ctrlValue);
+    datepicker.close();
   }
 
   ngOnInit() {
@@ -56,26 +69,18 @@ export class ReportsComponent {
   }
 
   getContracts() {
-    this.fbService
-      .getDates('contratos', this.init?.value, this.end?.value)
-      .subscribe({
-        next: (resp) => {
-          console.log(resp);
-          this.employees = new MatTableDataSource(resp);
-          // this.dataSource = resp;
-        },
-        error: (error) => {
-          console.log(error);
-        },
-      });
+    this.fbService.get('reportes').subscribe({
+      next: (resp) => {
+        console.log(resp);
+        this.reports = new MatTableDataSource(resp);
+      },
+      error: (error) => {
+        console.log(error);
+      },
+    });
   }
 
-  applyFilter(event: Event) {
-    const filterValue = (event.target as HTMLInputElement).value;
-    this.employees.filter = filterValue.trim().toLowerCase();
-    console.log(this.employees.filter);
-  }
-
+  // GETS
   get init() {
     return this.form.get('init');
   }
