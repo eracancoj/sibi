@@ -5,6 +5,7 @@ import { ReportsRoutingModule } from './reports-routing.module';
 import { ReportsComponent } from './reports.component';
 import { materialModules } from 'src/assets/material-imports';
 import { ReactiveFormsModule } from '@angular/forms';
+import { NewReportComponent } from './components/new-report/new-report.component';
 
 @NgModule({
   declarations: [ReportsComponent],
@@ -13,6 +14,7 @@ import { ReactiveFormsModule } from '@angular/forms';
     ReportsRoutingModule,
     materialModules,
     ReactiveFormsModule,
+    NewReportComponent,
   ],
 })
 export class ReportsModule {}

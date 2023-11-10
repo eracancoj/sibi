@@ -1,0 +1,66 @@
+<mat-card class="mt-8">
+  <mat-card-content>
+    <div class="flex justify-between items-center gap-x-4">
+      <div class="flex items-center gap-x-4">
+        <h4
+          *ngIf="fecha_inicio?.value"
+          class="text-center whitespace-nowrap !m-0"
+        >
+          Fecha: <strong>{{ fecha_inicio?.value | date : "yyyy" }}</strong>
+        </h4>
+        <div *ngIf="yearSelect" class="relative w-full flex justify-center">
+          <mat-form-field class="!invisible absolute">
+            <mat-label></mat-label>
+            <input matInput [matDatepicker]="yearSelect" />
+            <mat-hint>YYYY</mat-hint>
+            <mat-datepicker-toggle
+              matIconSuffix
+              [for]="yearSelect"
+            ></mat-datepicker-toggle>
+            <mat-datepicker
+              #yearSelect
+              startView="multi-year"
+              (yearSelected)="setYear($event, yearSelect)"
+            >
+            </mat-datepicker>
+          </mat-form-field>
+
+          <button
+            mat-stroked-button
+            color="primary"
+            (click)="yearSelect.open()"
+            class="w-fit whitespace-nowrap"
+          >
+            Seleccionar Año
+          </button>
+        </div>
+      </div>
+
+      <div class="flex flex-wrap justify-center gap-x-4">
+        <button
+          *ngIf="fecha_fin?.value"
+          mat-stroked-button
+          color="acento"
+          class="w-fit"
+          (click)="newReport()"
+        >
+          Generar
+        </button>
+        <button
+          mat-stroked-button
+          color="warn"
+          class="w-fit"
+          (click)="cancel.emit(true)"
+        >
+          X
+        </button>
+      </div>
+    </div>
+  </mat-card-content>
+</mat-card>
+
+<app-sib-report
+  *ngIf="sibReport"
+  [reportForm]="reportForm.value"
+  #sibiReportComponent
+></app-sib-report>

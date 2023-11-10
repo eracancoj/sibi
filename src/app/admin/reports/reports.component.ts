@@ -5,6 +5,8 @@ import * as XLSX from 'xlsx';
 import { MatTableDataSource, MatTableModule } from '@angular/material/table';
 import { MatDatepicker } from '@angular/material/datepicker';
 
+import { tipos_reportes } from '@assets';
+
 @Component({
   selector: 'app-reports',
   templateUrl: './reports.component.html',
@@ -13,40 +15,31 @@ import { MatDatepicker } from '@angular/material/datepicker';
 export class ReportsComponent {
   form: FormGroup;
 
-  reportType: string = '';
+  displayedColumns: string[] = ['id', 'tipo'];
 
-  openSibReport: boolean = false;
+  reportType: string = '';
+  tipos_reportes = tipos_reportes;
+  sibReport: boolean = false;
+  yearSelect: boolean = false;
 
   reports: MatTableDataSource<any>;
-  displayedColumns: string[] = ['id', 'nombre'];
 
   fbService: FirebaseService = inject(FirebaseService);
   fb: FormBuilder = inject(FormBuilder);
 
-  date = new FormControl();
-
   constructor() {
-    let i: Date = new Date();
     this.form = this.fb.group({
-      init: [''],
-      end: [''],
+      fecha_inicio: [''],
+      fecha_fin: [''],
     });
 
     this.reports = new MatTableDataSource();
   }
 
-  setMonthAndYear(normalizedMonthAndYear: any, datepicker: MatDatepicker<any>) {
-    const ctrlValue = this.date.value!;
-
-    console.log(this.date.value.set());
-
-    // console.log(normalizedMonthAndYear.year());
-
-    // ctrlValue.month(normalizedMonthAndYear.month());
-    // ctrlValue.year(normalizedMonthAndYear.year());
-
-    // console.log(ctrlValue.year(normalizedMonthAndYear.year()));
-    // this.date.setValue(ctrlValue);
+  setYear(date: any, datepicker: MatDatepicker<any>) {
+    this.fecha_inicio?.setValue(date);
+    this.fecha_fin?.setValue(this.getLastDayOfYear(date));
+    console.log(this.form.value);
     datepicker.close();
   }
 
@@ -80,11 +73,37 @@ export class ReportsComponent {
     });
   }
 
-  // GETS
-  get init() {
-    return this.form.get('init');
+  openSibReport() {
+    this.sibReport = true;
+    this.yearSelect = true;
+    this.reportType = 'SIB';
   }
-  get end() {
-    return this.form.get('end');
+
+  openNewReport(reportType: string) {
+    this.reportType = reportType;
+    console.log(reportType);
+  }
+
+  onTipoReporteChange(event: any): void {
+    console.log(event);
+  }
+
+  getLastDayOfYear(date: Date): Date {
+    return new Date(date.getFullYear(), 11, 31);
+  }
+  getLastDayOfMonth(date: Date): Date {
+    const año = date.getFullYear();
+    const mes = date.getMonth();
+    const diasDelMes = new Date(año, mes + 1, 0).getDate();
+
+    return new Date(año, mes, diasDelMes);
+  }
+
+  // GETS
+  get fecha_inicio() {
+    return this.form.get('fecha_inicio');
+  }
+  get fecha_fin() {
+    return this.form.get('fecha_fin');
   }
 }

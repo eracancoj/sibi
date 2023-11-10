@@ -1,6 +1,14 @@
 import { CommonModule } from '@angular/common';
-import { Component, inject } from '@angular/core';
+import {
+  Component,
+  Input,
+  inject,
+  OnInit,
+  Output,
+  EventEmitter,
+} from '@angular/core';
 import { FormBuilder, FormGroup, ReactiveFormsModule } from '@angular/forms';
+import { MatTableDataSource } from '@angular/material/table';
 import { materialModules } from '@assets';
 import { FirebaseService } from '@core';
 
@@ -11,10 +19,13 @@ import { FirebaseService } from '@core';
   templateUrl: './sib-report.component.html',
   styleUrls: ['./sib-report.component.scss'],
 })
-export class SibReportComponent {
+export class SibReportComponent implements OnInit {
+  @Input() reportForm?: any;
+
   sibForm: FormGroup;
-  employees: any;
+  contracts: any;
   displayedColumns: string[] = [
+    // 'id',
     'nombre',
     'puesto',
     'nit',
@@ -22,6 +33,8 @@ export class SibReportComponent {
     'numero_de_cuenta',
     'fecha_inicio',
     'salario',
+    'boni_legal',
+    'boni_incentivo',
   ];
 
   fbService: FirebaseService = inject(FirebaseService);
@@ -50,10 +63,38 @@ export class SibReportComponent {
     });
   }
 
-  applyFilter(event: Event) {
-    const filterValue = (event.target as HTMLInputElement).value;
-    this.employees.filter = filterValue.trim().toLowerCase();
-    console.log(this.employees.filter);
+  ngOnInit() {
+    this.getContracts();
+  }
+
+  getContracts() {
+    this.fbService
+      .getDates(
+        'contratos',
+        this.reportForm.fecha_inicio,
+        this.reportForm.fecha_fin
+      )
+      .subscribe({
+        next: (resp) => {
+          console.log('getContracts');
+          console.log(resp);
+          this.contracts = new MatTableDataSource(resp);
+        },
+        error: (error) => {
+          console.log(error);
+        },
+      });
+  }
+
+  /** Gets the total cost of all transactions. */
+  getTotalCost() {
+    if (this.contracts) {
+      return this.contracts.data
+        .map((t: any) => t.salario)
+        .reduce((acc: any, value: any) => acc + value, 0);
+    } else {
+      return 0;
+    }
   }
 
   //GETS SIBFORM

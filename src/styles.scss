@@ -10,12 +10,24 @@
 }
 
 .container {
-  @apply  max-w-4xl mx-auto;
+  @apply max-w-4xl mx-auto;
+}
+td {
+  @apply whitespace-nowrap;
+}
+tr.mat-mdc-footer-row td {
+  font-weight: bold;
 }
 // FORMS
 ion-input {
   --padding-bottom: 1px;
 }
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}

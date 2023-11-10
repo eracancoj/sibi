@@ -58,29 +58,18 @@ export class FirebaseService {
     return collectionData(queryRef, { idField: 'id' }) as Observable<any[]>;
   }
 
-  // getDates(collectionName: string, init: Date, end: Date): Observable<any[]> {
-  //   const collectionRef = collection(this.firestore, collectionName);
-  //   const queryRef = query(
-  //     collectionRef,
-  //     where('fecha_inicio', '>=', init)
-  //     // where('fecha_final', '<=', end)
-  //   );
-
-  //   return collectionData(queryRef, { idField: 'id' }) as Observable<any[]>;
-  // }
-
   getDates(collectionName: string, init: Date, end: Date): Observable<any[]> {
     const ttInit = Timestamp.fromDate(init);
 
     const collectionRef = collection(this.firestore, collectionName);
-    const queryRef = query(collectionRef, where('fecha_inicio', '<=', ttInit));
+    const queryRef = query(collectionRef, where('fecha_inicio', '>=', ttInit));
 
     if (end) {
       const ttEnd = Timestamp.fromDate(end);
 
       return collectionData(queryRef, { idField: 'id' }).pipe(
         map((contratos) => {
-          return contratos.filter((contrato) => contrato['fecha_fin'] >= ttEnd);
+          return contratos.filter((contrato) => contrato['fecha_fin'] <= ttEnd);
         })
       );
     } else {
